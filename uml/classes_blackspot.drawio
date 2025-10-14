@@ -72,7 +72,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="8WsCB0yst2Cush3YmmSG-21" value="Produtor" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="350" y="610" width="190" height="120" as="geometry">
+          <mxGeometry x="290" y="610" width="190" height="120" as="geometry">
             <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -241,7 +241,7 @@
         <mxCell id="8WsCB0yst2Cush3YmmSG-68" value="1..*" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;direction=west;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="710" y="-90" as="geometry" />
         </mxCell>
-        <mxCell id="8WsCB0yst2Cush3YmmSG-69" value="Diagnóstico" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+        <mxCell id="8WsCB0yst2Cush3YmmSG-69" value="Diagnostico" style="swimlane;fontStyle=2;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="1120" y="-170" width="160" height="216" as="geometry">
             <mxRectangle x="550" y="140" width="160" height="26" as="alternateBounds" />
           </mxGeometry>
@@ -468,6 +468,23 @@
         </mxCell>
         <mxCell id="8WsCB0yst2Cush3YmmSG-145" value="1..*" style="resizable=0;align=left;verticalAlign=bottom;labelBackgroundColor=none;fontSize=12;" connectable="0" vertex="1" parent="1">
           <mxGeometry x="-160" y="-70" as="geometry" />
+        </mxCell>
+        <mxCell id="8WsCB0yst2Cush3YmmSG-147" value="Administrador" style="swimlane;fontStyle=0;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeLast=0;collapsible=1;marginBottom=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="610" width="190" height="90" as="geometry">
+            <mxRectangle x="340" y="380" width="170" height="26" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WsCB0yst2Cush3YmmSG-150" value="" style="line;html=1;strokeWidth=1;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="8WsCB0yst2Cush3YmmSG-147">
+          <mxGeometry y="26" width="190" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="8WsCB0yst2Cush3YmmSG-160" value="" style="endArrow=block;endSize=10;endFill=0;shadow=0;strokeWidth=1;rounded=0;curved=0;edgeStyle=elbowEdgeStyle;elbow=vertical;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="8WsCB0yst2Cush3YmmSG-147" target="8WsCB0yst2Cush3YmmSG-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="500" y="630" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WsCB0yst2Cush3YmmSG-161" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Notas&lt;/h1&gt;&lt;p&gt;foto.caso -&amp;gt; define se as fotos pertencem ao mesmo grupo (ao mesmo fruto) para serem classificadas juntas, resultando num único diagnóstico&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;foto.coletarCondicoes -&amp;gt; o grupo de fotos é relacionado a condições de tempo na hora da captura&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;classificacao -&amp;gt; classe alimentada diretamente da classificação feita pela rede neural, formatada em um diagnóstico&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;plano de acao -&amp;gt; composto por acoes que podem ser personalizadas segundo os dados do diagnóstico, usando regras com pesos diferentes&lt;/p&gt;&lt;p&gt;condicoes temporais -&amp;gt; separadas por temporalidade (histórico, hora da captura e previsão) sendo tudo armazenado numa tabela geral, alimentada por APIs climáticas&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-685" width="260" height="460" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
