@@ -1,0 +1,3 @@
+- digrama de caso de uso
+- diagrama de classe
+- diagrama de objetos
