@@ -68,7 +68,7 @@ create table classificacoes(
     pinta_preta varchar(50),
     saudavel varchar(50),
     man_preta varchar(50),
-    mna_virulenta varchar(50),
+    man_virulenta varchar(50),
     man_sardenta varchar(50),
     foreign key(foto_id) references fotos(id)
 );
@@ -249,4 +249,5 @@ begin
     insert into diagnosticos (classificacao_id, plano_id, problema, gravidade) values
     (v_classificacao_id, in_p_plano_id, in_p_problema, in_p_gravidade);
 end //
+
 delimiter ;
