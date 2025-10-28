@@ -1,0 +1,845 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{ANAC2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=209361b4c9a0085c179150cabf7931a9}{%
+           family={{Agência Nacional de Aviação Civil (ANAC)}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{209361b4c9a0085c179150cabf7931a9}
+      \strng{fullhash}{209361b4c9a0085c179150cabf7931a9}
+      \strng{fullhashraw}{209361b4c9a0085c179150cabf7931a9}
+      \strng{bibnamehash}{209361b4c9a0085c179150cabf7931a9}
+      \strng{authorbibnamehash}{209361b4c9a0085c179150cabf7931a9}
+      \strng{authornamehash}{209361b4c9a0085c179150cabf7931a9}
+      \strng{authorfullhash}{209361b4c9a0085c179150cabf7931a9}
+      \strng{authorfullhashraw}{209361b4c9a0085c179150cabf7931a9}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Painel de drones cadastrados}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gov.br/anac/pt-br/acesso-a-informacao/dados-abertos/areas-de-atuacao/aeronaves-1/drones-cadastrados/painel-drones
+      \endverb
+      \verb{url}
+      \verb https://www.gov.br/anac/pt-br/acesso-a-informacao/dados-abertos/areas-de-atuacao/aeronaves-1/drones-cadastrados/painel-drones
+      \endverb
+    \endentry
+    \entry{Alves2003}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e90c22f5172ecb91cd85964532b6cd96}{%
+           family={Alves},
+           familyi={A\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade de São Paulo}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{e90c22f5172ecb91cd85964532b6cd96}
+      \strng{fullhash}{e90c22f5172ecb91cd85964532b6cd96}
+      \strng{fullhashraw}{e90c22f5172ecb91cd85964532b6cd96}
+      \strng{bibnamehash}{e90c22f5172ecb91cd85964532b6cd96}
+      \strng{authorbibnamehash}{e90c22f5172ecb91cd85964532b6cd96}
+      \strng{authornamehash}{e90c22f5172ecb91cd85964532b6cd96}
+      \strng{authorfullhash}{e90c22f5172ecb91cd85964532b6cd96}
+      \strng{authorfullhashraw}{e90c22f5172ecb91cd85964532b6cd96}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{Xylella fastidiosa – Adesão e colonização em vasos do xilema de laranjeira doce, cafeeiro, ameixeira, fumo e espécies de cigarrinhas vetoras e formação de biofilme sobre película de poliestireno}
+      \field{type}{phdthesis}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2003}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.teses.usp.br/teses/disponiveis/11/11135/tde-09052003-141508/publico/eduardo.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.teses.usp.br/teses/disponiveis/11/11135/tde-09052003-141508/publico/eduardo.pdf
+      \endverb
+    \endentry
+    \entry{Beltrano2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e22ad2bb4d284f07f8551d5f248078e0}{%
+           family={Beltrano},
+           familyi={B\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=02bf2cf9f4c465de13bac806a7e8704c}{%
+           family={Sicrano},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{fullhash}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{fullhashraw}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{bibnamehash}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{authorbibnamehash}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{authornamehash}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{authorfullhash}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{authorfullhashraw}{e22ad2bb4d284f07f8551d5f248078e0}
+      \strng{editorbibnamehash}{02bf2cf9f4c465de13bac806a7e8704c}
+      \strng{editornamehash}{02bf2cf9f4c465de13bac806a7e8704c}
+      \strng{editorfullhash}{02bf2cf9f4c465de13bac806a7e8704c}
+      \strng{editorfullhashraw}{02bf2cf9f4c465de13bac806a7e8704c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Título do trabalho do Beltrano}
+      \field{year}{2021}
+    \endentry
+    \entry{Borges2021}{incollection}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=741e4209cf2e09eaf06fe2fd1025316b}{%
+           family={Borges},
+           familyi={B\bibinitperiod},
+           given={Ana\bibnamedelima Lúcia},
+           giveni={A\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2c96c5c9bcf98aff670a2b0459fcee}{%
+           family={Girardi},
+           familyi={G\bibinitperiod},
+           given={Eduardo\bibnamedelima Augusto},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=90c02ef37d2be498114aab05ea670780}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Luciano\bibnamedelimb da\bibnamedelima Silva},
+           giveni={L\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {EMBRAPA}%
+      }
+      \strng{namehash}{053df264d0e714209a9480df800b1e6d}
+      \strng{fullhash}{053df264d0e714209a9480df800b1e6d}
+      \strng{fullhashraw}{053df264d0e714209a9480df800b1e6d}
+      \strng{bibnamehash}{053df264d0e714209a9480df800b1e6d}
+      \strng{authorbibnamehash}{053df264d0e714209a9480df800b1e6d}
+      \strng{authornamehash}{053df264d0e714209a9480df800b1e6d}
+      \strng{authorfullhash}{053df264d0e714209a9480df800b1e6d}
+      \strng{authorfullhashraw}{053df264d0e714209a9480df800b1e6d}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Calagem e adubação para os citros (laranjeiras, limeiras-ácidas e tangerineiras)}
+      \field{title}{Recomendação de calagem e adubação}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1134672/1/cap9-livro-RecomendacaoCalagemAdubacao-AnaLuciaBorges-AINFO-1.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.infoteca.cnptia.embrapa.br/infoteca/bitstream/doc/1134672/1/cap9-livro-RecomendacaoCalagemAdubacao-AnaLuciaBorges-AINFO-1.pdf
+      \endverb
+    \endentry
+    \entry{boulic:91}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=635eb75ce15c9efd0bcb7a1f9fadc25f}{%
+           family={Boulic},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9c72253a8576c4f0b3cd2557ce36ec29}{%
+           family={Renault},
+           familyi={R\bibinitperiod},
+           given={O.},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=bb200d9cd161cb4b27f1fae4107113e3}{%
+           family={Magnenat-Thalmann},
+           familyi={M\bibinithyphendelim T\bibinitperiod},
+           given={Nadia},
+           giveni={N\bibinitperiod}}}%
+        {{hash=24f20de24938c18a3655f419579d0900}{%
+           family={Thalmann},
+           familyi={T\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley {\&} Sons ltd.}%
+      }
+      \strng{namehash}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{fullhash}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{fullhashraw}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{bibnamehash}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{authorbibnamehash}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{authornamehash}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{authorfullhash}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{authorfullhashraw}{c800dbeeec520cbf6d80c81896277f75}
+      \strng{editorbibnamehash}{42cbb8d5cd3d20e50bb8a1c3c15d7e8c}
+      \strng{editornamehash}{42cbb8d5cd3d20e50bb8a1c3c15d7e8c}
+      \strng{editorfullhash}{42cbb8d5cd3d20e50bb8a1c3c15d7e8c}
+      \strng{editorfullhashraw}{42cbb8d5cd3d20e50bb8a1c3c15d7e8c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{New Trends in Animation and Visualization}
+      \field{title}{3D Hierarchies for Animation}
+      \field{year}{1991}
+    \endentry
+    \entry{coelho2012turing}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d464874f3ce520d702447d4e695573d0}{%
+           family={Coelho},
+           familyi={C\bibinitperiod},
+           given={Helder},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Lisboa}%
+      }
+      \strng{namehash}{d464874f3ce520d702447d4e695573d0}
+      \strng{fullhash}{d464874f3ce520d702447d4e695573d0}
+      \strng{fullhashraw}{d464874f3ce520d702447d4e695573d0}
+      \strng{bibnamehash}{d464874f3ce520d702447d4e695573d0}
+      \strng{authorbibnamehash}{d464874f3ce520d702447d4e695573d0}
+      \strng{authornamehash}{d464874f3ce520d702447d4e695573d0}
+      \strng{authorfullhash}{d464874f3ce520d702447d4e695573d0}
+      \strng{authorfullhashraw}{d464874f3ce520d702447d4e695573d0}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Boletim da Sociedade Portuguesa de Matemática}
+      \field{month}{10}
+      \field{number}{67}
+      \field{title}{Turing, 100 anos depois do seu nascimento: já pode uma máquina pensar?}
+      \field{year}{2012}
+      \field{pages}{9\bibrangedash 21}
+      \range{pages}{13}
+    \endentry
+    \entry{Fundecitrus2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=14360e02915f3133bbe6f984081a45f2}{%
+           family={{FUNDECITRUS}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{14360e02915f3133bbe6f984081a45f2}
+      \strng{fullhash}{14360e02915f3133bbe6f984081a45f2}
+      \strng{fullhashraw}{14360e02915f3133bbe6f984081a45f2}
+      \strng{bibnamehash}{14360e02915f3133bbe6f984081a45f2}
+      \strng{authorbibnamehash}{14360e02915f3133bbe6f984081a45f2}
+      \strng{authornamehash}{14360e02915f3133bbe6f984081a45f2}
+      \strng{authorfullhash}{14360e02915f3133bbe6f984081a45f2}
+      \strng{authorfullhashraw}{14360e02915f3133bbe6f984081a45f2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Pinta preta}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fundecitrus.com.br/pragas-e-doencas/pinta-preta/#inicio
+      \endverb
+      \verb{url}
+      \verb https://www.fundecitrus.com.br/pragas-e-doencas/pinta-preta/#inicio
+      \endverb
+    \endentry
+    \entry{Parana2021}{report}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=54750bd49b519b224088b65502f4f303}{%
+           family={{Governo do Estado do Paraná}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Secretaria da Agricultura do Paraná}%
+      }
+      \list{location}{1}{%
+        {Curitiba}%
+      }
+      \strng{namehash}{54750bd49b519b224088b65502f4f303}
+      \strng{fullhash}{54750bd49b519b224088b65502f4f303}
+      \strng{fullhashraw}{54750bd49b519b224088b65502f4f303}
+      \strng{bibnamehash}{54750bd49b519b224088b65502f4f303}
+      \strng{authorbibnamehash}{54750bd49b519b224088b65502f4f303}
+      \strng{authornamehash}{54750bd49b519b224088b65502f4f303}
+      \strng{authorfullhash}{54750bd49b519b224088b65502f4f303}
+      \strng{authorfullhashraw}{54750bd49b519b224088b65502f4f303}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Valor Bruto da Produção (VBP)}
+      \field{type}{techreport}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.agricultura.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-09/vbp_1920_definitivo.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.agricultura.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-09/vbp_1920_definitivo.pdf
+      \endverb
+    \endentry
+    \entry{knuth:84}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ec08e6f01da5f3814f28a70c89c64656}{%
+           family={Knuth},
+           familyi={K\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{fullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{fullhashraw}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{bibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorbibnamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authornamehash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorfullhash}{ec08e6f01da5f3814f28a70c89c64656}
+      \strng{authorfullhashraw}{ec08e6f01da5f3814f28a70c89c64656}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{15th}
+      \field{title}{The {\TeX} Book}
+      \field{year}{1984}
+    \endentry
+    \entry{marengoni2009opencv}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b374897758a792de7514c513c39f17c4}{%
+           family={Marengoni},
+           familyi={M\bibinitperiod},
+           given={Maurício},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=57b23688fa712eb1f8b9eac53a453ed8}{%
+           family={Stringhini},
+           familyi={S\bibinitperiod},
+           given={Denise},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b5191c6338d730e770b1b15fd0b913d2}
+      \strng{fullhash}{b5191c6338d730e770b1b15fd0b913d2}
+      \strng{fullhashraw}{b5191c6338d730e770b1b15fd0b913d2}
+      \strng{bibnamehash}{b5191c6338d730e770b1b15fd0b913d2}
+      \strng{authorbibnamehash}{b5191c6338d730e770b1b15fd0b913d2}
+      \strng{authornamehash}{b5191c6338d730e770b1b15fd0b913d2}
+      \strng{authorfullhash}{b5191c6338d730e770b1b15fd0b913d2}
+      \strng{authorfullhashraw}{b5191c6338d730e770b1b15fd0b913d2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Informática Teórica e Aplicada}
+      \field{number}{1}
+      \field{title}{Tutorial: introdução à visão computacional usando OpenCV}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2009}
+      \field{urldateera}{ce}
+      \field{pages}{125\bibrangedash 160}
+      \range{pages}{36}
+      \verb{urlraw}
+      \verb https://seer.ufrgs.br/index.php/rita/article/view/rita_v16_n1_p125/7289
+      \endverb
+      \verb{url}
+      \verb https://seer.ufrgs.br/index.php/rita/article/view/rita_v16_n1_p125/7289
+      \endverb
+    \endentry
+    \entry{Momeny2022}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c12abb3bedd66cbeadfc525294a93584}{%
+           family={Momeny},
+           familyi={M\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{528e45bd12a95c02b576568a3648196f}
+      \strng{fullhash}{528e45bd12a95c02b576568a3648196f}
+      \strng{fullhashraw}{528e45bd12a95c02b576568a3648196f}
+      \strng{bibnamehash}{528e45bd12a95c02b576568a3648196f}
+      \strng{authorbibnamehash}{528e45bd12a95c02b576568a3648196f}
+      \strng{authornamehash}{528e45bd12a95c02b576568a3648196f}
+      \strng{authorfullhash}{528e45bd12a95c02b576568a3648196f}
+      \strng{authorfullhashraw}{528e45bd12a95c02b576568a3648196f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Ecological Informatics}
+      \field{title}{Detection of citrus black spot disease and ripeness level in orange fruit using learning-to-augment incorporated deep networks}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{71}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \field{pages}{101829}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S1574954122002795
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/abs/pii/S1574954122002795
+      \endverb
+    \endentry
+    \entry{ONU2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c453e9ef496a08f05179b7ca497a5bc3}{%
+           family={{Nações Unidas}},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{c453e9ef496a08f05179b7ca497a5bc3}
+      \strng{fullhash}{c453e9ef496a08f05179b7ca497a5bc3}
+      \strng{fullhashraw}{c453e9ef496a08f05179b7ca497a5bc3}
+      \strng{bibnamehash}{c453e9ef496a08f05179b7ca497a5bc3}
+      \strng{authorbibnamehash}{c453e9ef496a08f05179b7ca497a5bc3}
+      \strng{authornamehash}{c453e9ef496a08f05179b7ca497a5bc3}
+      \strng{authorfullhash}{c453e9ef496a08f05179b7ca497a5bc3}
+      \strng{authorfullhashraw}{c453e9ef496a08f05179b7ca497a5bc3}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Objetivos de Desenvolvimento Sustentável (ODS)}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://brasil.un.org/pt-br/sdgs
+      \endverb
+      \verb{url}
+      \verb https://brasil.un.org/pt-br/sdgs
+      \endverb
+    \endentry
+    \entry{Pazoti2005}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=77187cab8bf4610bcf2212ba7d941987}{%
+           family={Pazoti},
+           familyi={P\bibinitperiod},
+           given={Mário\bibnamedelima Augusto},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Universidade de São Paulo}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \strng{namehash}{77187cab8bf4610bcf2212ba7d941987}
+      \strng{fullhash}{77187cab8bf4610bcf2212ba7d941987}
+      \strng{fullhashraw}{77187cab8bf4610bcf2212ba7d941987}
+      \strng{bibnamehash}{77187cab8bf4610bcf2212ba7d941987}
+      \strng{authorbibnamehash}{77187cab8bf4610bcf2212ba7d941987}
+      \strng{authornamehash}{77187cab8bf4610bcf2212ba7d941987}
+      \strng{authorfullhash}{77187cab8bf4610bcf2212ba7d941987}
+      \strng{authorfullhashraw}{77187cab8bf4610bcf2212ba7d941987}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{title}{CITRUSVIS - Um sistema de visão computacional para a identificação do fungo Guignardia citricarpa, causador da mancha preta em citros}
+      \field{type}{mathesis}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2005}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.teses.usp.br/teses/disponiveis/55/55134/tde-15122017-145610/en.php
+      \endverb
+      \verb{url}
+      \verb https://www.teses.usp.br/teses/disponiveis/55/55134/tde-15122017-145610/en.php
+      \endverb
+    \endentry
+    \entry{Ribeiro2012}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=1b1b7b82629177e241a55083403f3435}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={P.\bibnamedelimi P.\bibnamedelimi E.},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=643f79b4cc802662f3dc9b83b23c8981}{%
+           family={Castro\bibnamedelima Jorge},
+           familyi={C\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70183229926c88a3afccf86b3d73de01}{%
+           family={Paiva},
+           familyi={P\bibinitperiod},
+           given={M.\bibnamedelimi S.\bibnamedelimi V.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{eb6866e328bf27c63aa6c601f56afdf9}
+      \strng{fullhash}{eb6866e328bf27c63aa6c601f56afdf9}
+      \strng{fullhashraw}{eb6866e328bf27c63aa6c601f56afdf9}
+      \strng{bibnamehash}{eb6866e328bf27c63aa6c601f56afdf9}
+      \strng{authorbibnamehash}{eb6866e328bf27c63aa6c601f56afdf9}
+      \strng{authornamehash}{eb6866e328bf27c63aa6c601f56afdf9}
+      \strng{authorfullhash}{eb6866e328bf27c63aa6c601f56afdf9}
+      \strng{authorfullhashraw}{eb6866e328bf27c63aa6c601f56afdf9}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Diferenciação do Greening de Outras Doenças Foliares em Citros Utilizando Técnicas de Processamento de Imagens}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://swfrec.ifas.ufl.edu/hlb/database/pdf/00002955.pdf
+      \endverb
+      \verb{url}
+      \verb https://swfrec.ifas.ufl.edu/hlb/database/pdf/00002955.pdf
+      \endverb
+    \endentry
+    \entry{rodrigues2016hlb}{report}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=2ed81b3c5c4ca29456cbb23c6c0c093e}{%
+           family={Rodrigues},
+           familyi={R\bibinitperiod},
+           given={Geraldo\bibnamedelima Stachetti},
+           giveni={G\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9661392cc15ba020a9ae568250dd4e84}{%
+           family={Stuchi},
+           familyi={S\bibinitperiod},
+           given={Eduardo\bibnamedelima Sanches},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ad2c96c5c9bcf98aff670a2b0459fcee}{%
+           family={Girardi},
+           familyi={G\bibinitperiod},
+           given={Eduardo\bibnamedelima Augusto},
+           giveni={E\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Embrapa Mandioca e Fruticultura}%
+      }
+      \list{location}{1}{%
+        {Cruz das Almas, BA}%
+      }
+      \strng{namehash}{e0c121baf0d461a76fbf5b672fe433e3}
+      \strng{fullhash}{e0c121baf0d461a76fbf5b672fe433e3}
+      \strng{fullhashraw}{e0c121baf0d461a76fbf5b672fe433e3}
+      \strng{bibnamehash}{e0c121baf0d461a76fbf5b672fe433e3}
+      \strng{authorbibnamehash}{e0c121baf0d461a76fbf5b672fe433e3}
+      \strng{authornamehash}{e0c121baf0d461a76fbf5b672fe433e3}
+      \strng{authorfullhash}{e0c121baf0d461a76fbf5b672fe433e3}
+      \strng{authorfullhashraw}{e0c121baf0d461a76fbf5b672fe433e3}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{number}{213}
+      \field{title}{Impactos ambientais e tecnologias de controle do huanglongbing (HLB) dos citros: visão dos consultores técnicos}
+      \field{type}{Circular Técnica}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1062857
+      \endverb
+      \verb{url}
+      \verb https://www.infoteca.cnptia.embrapa.br/infoteca/handle/doc/1062857
+      \endverb
+    \endentry
+    \entry{santos2020visao}{incollection}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=17a9a004cd9d1a3aaf81fe441057c1c9}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Thiago\bibnamedelima Teixeira},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=adae1e3970d5a38564d408cb71e91fa0}{%
+           family={Barbedo},
+           familyi={B\bibinitperiod},
+           given={Jayme\bibnamedelimb Garcia\bibnamedelima Arnal},
+           giveni={J\bibinitperiod\bibinitdelim G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f599ceac2a4002eabb42f43fe2a1c735}{%
+           family={Ternes},
+           familyi={T\bibinitperiod},
+           given={Sônia},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=dd3cc23ac5c8b4aec14827c787481734}{%
+           family={Camargo\bibnamedelima Neto},
+           familyi={C\bibinitperiod\bibinitdelim N\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=9ee20e369edc41d387e1a89d96f564cc}{%
+           family={Koenigkan},
+           familyi={K\bibinitperiod},
+           given={Luciano\bibnamedelima Vieira},
+           giveni={L\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e021ce3d07625a25faceae2093fe4eaf}{%
+           family={Souza},
+           familyi={S\bibinitperiod},
+           given={Kleber\bibnamedelimb Xavier\bibnamedelimb Sampaio\bibnamedelima de},
+           giveni={K\bibinitperiod\bibinitdelim X\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{3}{}{%
+        {{hash=6823817674e159a37a6414b1e667b886}{%
+           family={Fonseca},
+           familyi={F\bibinitperiod},
+           given={Silvia\bibnamedelima Maria},
+           giveni={S\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=593c790f9a8828a953360b4d9fa41c27}{%
+           family={Massruhá},
+           familyi={M\bibinitperiod},
+           given={Silveira},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5577d244b0e0f090fb16401226bfd8e4}{%
+           family={outros},
+           familyi={o\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Brasília, DF}%
+      }
+      \list{publisher}{1}{%
+        {Embrapa}%
+      }
+      \strng{namehash}{4d635edb16d63828151a299655010d4b}
+      \strng{fullhash}{7f9820a433944ef6b4196e2609e3ec2e}
+      \strng{fullhashraw}{7f9820a433944ef6b4196e2609e3ec2e}
+      \strng{bibnamehash}{4d635edb16d63828151a299655010d4b}
+      \strng{authorbibnamehash}{4d635edb16d63828151a299655010d4b}
+      \strng{authornamehash}{4d635edb16d63828151a299655010d4b}
+      \strng{authorfullhash}{7f9820a433944ef6b4196e2609e3ec2e}
+      \strng{authorfullhashraw}{7f9820a433944ef6b4196e2609e3ec2e}
+      \strng{editorbibnamehash}{8a296a7518bf6e0aee2d807184755fca}
+      \strng{editornamehash}{8a296a7518bf6e0aee2d807184755fca}
+      \strng{editorfullhash}{8a296a7518bf6e0aee2d807184755fca}
+      \strng{editorfullhashraw}{8a296a7518bf6e0aee2d807184755fca}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Agricultura Digital: Pesquisa, Desenvolvimento e Inovação nas Cadeias Produtivas}
+      \field{note}{Capítulo 6}
+      \field{title}{Visão computacional aplicada na agricultura}
+      \field{year}{2020}
+      \field{pages}{146\bibrangedash 164}
+      \range{pages}{19}
+      \verb{urlraw}
+      \verb https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1126261/1/LV-Agricultura-digital-2020-cap6.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.alice.cnptia.embrapa.br/alice/bitstream/doc/1126261/1/LV-Agricultura-digital-2020-cap6.pdf
+      \endverb
+    \endentry
+    \entry{SilvaJunior2016}{book}{}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=cb5ab7ea291189c0c4889d35d3c3bd30}{%
+           family={Silva-Junior},
+           familyi={S\bibinithyphendelim J\bibinitperiod},
+           given={Geraldo\bibnamedelima José},
+           giveni={G\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cd02879b5b4d20e79ba5698abf794c52}{%
+           family={Feichtenberger},
+           familyi={F\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f92acd52d1e4afe7a038edcbda698ae2}{%
+           family={Spósito},
+           familyi={S\bibinitperiod},
+           given={Marcel\bibnamedelima Bellato},
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a86ade8fdf36f538353cbf87c5e2f551}{%
+           family={Amorim},
+           familyi={A\bibinitperiod},
+           given={Lilian},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fdffacfaa43e9539837a9339b66c259b}{%
+           family={Bassanezi},
+           familyi={B\bibinitperiod},
+           given={Renato\bibnamedelima Beozzo},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f51ea32ec5116c316675a166a72d743d}{%
+           family={Goes},
+           familyi={G\bibinitperiod},
+           given={Antonio\bibnamedelima de},
+           giveni={A\bibinitperiod\bibinitdelim d\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Araraquara}%
+      }
+      \list{publisher}{1}{%
+        {Fundecitrus}%
+      }
+      \strng{namehash}{8a4d0d6c869954e9a5a22712c6844b27}
+      \strng{fullhash}{fd2cf4a531e0040a7e8f8a8b912db9f5}
+      \strng{fullhashraw}{fd2cf4a531e0040a7e8f8a8b912db9f5}
+      \strng{bibnamehash}{8a4d0d6c869954e9a5a22712c6844b27}
+      \strng{authorbibnamehash}{8a4d0d6c869954e9a5a22712c6844b27}
+      \strng{authornamehash}{8a4d0d6c869954e9a5a22712c6844b27}
+      \strng{authorfullhash}{fd2cf4a531e0040a7e8f8a8b912db9f5}
+      \strng{authorfullhashraw}{fd2cf4a531e0040a7e8f8a8b912db9f5}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Pinta preta dos citros: a doença e seu manejo}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \field{pages}{208}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://www.fundecitrus.com.br/wp-content/uploads/2025/07/Livro-Pinta-Preta.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.fundecitrus.com.br/wp-content/uploads/2025/07/Livro-Pinta-Preta.pdf
+      \endverb
+    \endentry
+    \entry{USDA2025}{online}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=96b6352f0feb7beef6ead98c27472286}{%
+           family={{USDA}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{96b6352f0feb7beef6ead98c27472286}
+      \strng{fullhash}{96b6352f0feb7beef6ead98c27472286}
+      \strng{fullhashraw}{96b6352f0feb7beef6ead98c27472286}
+      \strng{bibnamehash}{96b6352f0feb7beef6ead98c27472286}
+      \strng{authorbibnamehash}{96b6352f0feb7beef6ead98c27472286}
+      \strng{authornamehash}{96b6352f0feb7beef6ead98c27472286}
+      \strng{authorfullhash}{96b6352f0feb7beef6ead98c27472286}
+      \strng{authorfullhashraw}{96b6352f0feb7beef6ead98c27472286}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Citrus: circular técnica para citros}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://apps.fas.usda.gov/psdonline/circulars/citrus.pdf
+      \endverb
+      \verb{url}
+      \verb https://apps.fas.usda.gov/psdonline/circulars/citrus.pdf
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
