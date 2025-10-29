@@ -309,7 +309,7 @@
         <mxCell id="8WsCB0yst2Cush3YmmSG-5" value="- telefone : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8WsCB0yst2Cush3YmmSG-1" vertex="1">
           <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="8WsCB0yst2Cush3YmmSG-6" value="- data_nasc : int" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8WsCB0yst2Cush3YmmSG-1" vertex="1">
+        <mxCell id="8WsCB0yst2Cush3YmmSG-6" value="- data_nasc : date" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8WsCB0yst2Cush3YmmSG-1" vertex="1">
           <mxGeometry y="130" width="190" height="26" as="geometry" />
         </mxCell>
         <mxCell id="8WsCB0yst2Cush3YmmSG-7" value="- tipoAcesso: String" style="text;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rounded=0;shadow=0;html=0;" parent="8WsCB0yst2Cush3YmmSG-1" vertex="1">
