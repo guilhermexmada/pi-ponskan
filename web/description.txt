@@ -1,2 +1,2 @@
-Arquivos no meu github
-https://github.com/MatheusBertoldo1/PonSkan.git
+- landing page com apresentação da EQUIPE e do PROJETO
+- Projeto MVP Web
