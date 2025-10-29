@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.6)  28 OCT 2025 17:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.6)  28 OCT 2025 21:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/guilh/OneDrive/Área de Trabalho/estudando/class-09-latex-main/f299-template-pi-artifacts/fatec-template.tex"
-(c:/Users/guilh/OneDrive/Área de Trabalho/estudando/class-09-latex-main/f299-template-pi-artifacts/fatec-template.tex
+**"c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-artifacts/fatec-template.tex"
+(c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-artifacts/fatec-template.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (C:\Users\guilh\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -999,6 +999,18 @@ LaTeX Warning: Label `fig:diagrama-objetos' multiply defined.
 
 LaTeX Warning: Label `fig:diagrama-objetos@cref' multiply defined.
 
+
+LaTeX Warning: Label `fig:diagrama-objetos' multiply defined.
+
+
+LaTeX Warning: Label `fig:diagrama-objetos@cref' multiply defined.
+
+
+LaTeX Warning: Label `fig:diagrama-objetos' multiply defined.
+
+
+LaTeX Warning: Label `fig:diagrama-objetos@cref' multiply defined.
+
 )
 \openout1 = `fatec-template.aux'.
 
@@ -1290,7 +1302,7 @@ LaTeX Font Info:    Font shape `U/ntxexa/m/n' will be
 
 
 [2]
-<Logos/caso_de_uso_blackspot.png, id=44, 814.04124pt x 814.04124pt>
+<Logos/caso_de_uso_blackspot.png, id=54, 814.04124pt x 814.04124pt>
 File: Logos/caso_de_uso_blackspot.png Graphic file (type png)
 <use Logos/caso_de_uso_blackspot.png>
 Package pdftex.def Info: Logos/caso_de_uso_blackspot.png  used on input line 46.
@@ -1298,7 +1310,7 @@ Package pdftex.def Info: Logos/caso_de_uso_blackspot.png  used on input line 46.
 
 
 [3 <./Logos/caso_de_uso_blackspot.png>]
-<Logos/classes_blackspot.png, id=53, 1527.7075pt x 1145.27875pt>
+<Logos/classes_blackspot.png, id=63, 1527.7075pt x 1145.27875pt>
 File: Logos/classes_blackspot.png Graphic file (type png)
 <use Logos/classes_blackspot.png>
 Package pdftex.def Info: Logos/classes_blackspot.png  used on input line 70.
@@ -1308,7 +1320,7 @@ Package pdftex.def Info: Logos/classes_blackspot.png  used on input line 70.
 [4 <./Logos/classes_blackspot.png>]
 
 [5]
-<Logos/objetos_blackspot.png, id=64, 2211.26125pt x 1626.075pt>
+<Logos/objetos_blackspot.png, id=74, 2211.26125pt x 1626.075pt>
 File: Logos/objetos_blackspot.png Graphic file (type png)
 <use Logos/objetos_blackspot.png>
 Package pdftex.def Info: Logos/objetos_blackspot.png  used on input line 115.
@@ -1316,14 +1328,35 @@ Package pdftex.def Info: Logos/objetos_blackspot.png  used on input line 115.
 
 
 [6 <./Logos/objetos_blackspot.png>]
-<Logos/canvas.png, id=71, 1872.24469pt x 1112.65688pt>
+<Logos/canvas.png, id=81, 1872.24469pt x 1112.65688pt>
 File: Logos/canvas.png Graphic file (type png)
 <use Logos/canvas.png>
 Package pdftex.def Info: Logos/canvas.png  used on input line 144.
 (pdftex.def)             Requested size: 435.32422pt x 258.70703pt.
+<Logos/conceitual.png, id=82, 1242.44176pt x 501.67426pt>
+File: Logos/conceitual.png Graphic file (type png)
+<use Logos/conceitual.png>
+Package pdftex.def Info: Logos/conceitual.png  used on input line 169.
+(pdftex.def)             Requested size: 532.0695pt x 214.8354pt.
+
+Overfull \hbox (48.37263pt too wide) in paragraph at lines 169--170
+ [][] 
+ []
 
 
-[7 <./Logos/canvas.png (PNG copy)>] (fatec-template.aux
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+
+[7 <./Logos/canvas.png (PNG copy)>]
+<Logos/logico.png, id=89, 1662.21pt x 676.02562pt>
+File: Logos/logico.png Graphic file (type png)
+<use Logos/logico.png>
+Package pdftex.def Info: Logos/logico.png  used on input line 185.
+(pdftex.def)             Requested size: 483.69687pt x 196.71289pt.
+
+
+[8 <./Logos/conceitual.png> <./Logos/logico.png>] (fatec-template.aux
 Package cleveref Info: loaded `brazilian' language definitions on input line 9.
 Package cleveref Info: loaded `brazilian' language definitions on input line 10.
 Package cleveref Info: loaded `brazilian' language definitions on input line 11.
@@ -1339,23 +1372,23 @@ L3 programming layer <2020/03/25>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `fatec-template.out' has not changed.
-(rerunfilecheck)             Checksum: 4CCC6EF34BDEC127C4FAB614E1C4253D;816.
+(rerunfilecheck)             Checksum: 9934A2C6A93FCC5127F616ABFAE112F7;1274.
 Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 \openout1 = `fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 33888 strings out of 468130
- 613904 string characters out of 5430633
- 1615021 words of memory out of 5000000
- 61979 multiletter control sequences out of 15000+600000
- 663131 words of font info for 108 fonts, out of 8000000 for 9000
+ 33911 strings out of 468130
+ 614652 string characters out of 5430633
+ 1615033 words of memory out of 5000000
+ 61995 multiletter control sequences out of 15000+600000
+ 663247 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 87i,13n,131p,1794b,4538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,13n,131p,1818b,4538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on fatec-template.pdf (7 pages, 812229 bytes).
+Output written on fatec-template.pdf (8 pages, 1115402 bytes).
 PDF statistics:
- 100 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
- 15941 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 15967 words of extra memory for PDF output out of 17280 (max. 10000000)
 

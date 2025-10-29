@@ -1,6 +1,6 @@
-PWD c:\Users\guilh\OneDrive\Área de Trabalho\estudando\class-09-latex-main\f299-template-pi-artifacts
+PWD c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artifacts\latex-artifacts\f299-template-pi-artifacts
 INPUT C:\Users\guilh\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\guilh\OneDrive\Área de Trabalho\estudando\class-09-latex-main\f299-template-pi-artifacts\fatec-template.tex
+INPUT c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artifacts\latex-artifacts\f299-template-pi-artifacts\fatec-template.tex
 OUTPUT fatec-template.log
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
@@ -428,6 +428,20 @@ INPUT .\Logos\canvas.png
 INPUT .\Logos\canvas.png
 INPUT .\Logos\canvas.png
 INPUT .\Logos\canvas.png
+INPUT .\Logos\conceitual.png
+INPUT .\Logos\conceitual.png
+INPUT .\Logos\conceitual.png
+INPUT .\Logos\conceitual.png
+INPUT .\Logos\conceitual.png
+INPUT .\Logos\conceitual.png
+INPUT .\Logos\conceitual.png
+INPUT .\Logos\logico.png
+INPUT .\Logos\logico.png
+INPUT .\Logos\logico.png
+INPUT .\Logos\logico.png
+INPUT .\Logos\logico.png
+INPUT .\Logos\logico.png
+INPUT .\Logos\logico.png
 INPUT fatec-template.aux
 INPUT .\fatec-template.out
 INPUT .\fatec-template.out

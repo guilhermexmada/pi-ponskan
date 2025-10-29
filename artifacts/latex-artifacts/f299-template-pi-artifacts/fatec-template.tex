@@ -55,8 +55,8 @@
 
     Além disso, o sistema vai oferecer uma biblioteca estática com fotos e descrições de doenças e sintomas que ocorrem na tangerina ponkan, na qual o usuário pode pesquisar por informações específicas. Essa seção tem a finalidade de servir como uma consulta rápida ao produtor, destacando as diferenças entre a pinta preta e problemas fitossanitários que podem se assemelhar.
 
-    \subsection*{Diagrama de Classe}
-    \addcontentsline{toc}{section}{Diagrama de Classe}
+    \subsection*{Diagrama de Classes}
+    \addcontentsline{toc}{section}{Diagrama de Classes}
 
     O diagrama de classes oferece uma visão geral do sistema, mostrando mais detalhes sobre as entidades que participam do seu fluxo de funcionamento.
     
@@ -65,7 +65,7 @@
 
     \begin{figure}[h]
 \centering
-\caption{Diagrama de classe}%
+\caption{Diagrama de classes}%
 \label{fig:diagrama-classe}
  \includegraphics[width=1.0\textwidth]{Logos/classes_blackspot.png}
 \SourceOrNote{Do próprio autor (2025)}
@@ -146,4 +146,46 @@ Por fim, é importante destacar que os objetos "sin1" e "doe1", relativos à se�
 \end{figure}
 
 Por fim, a forma de receita focaria em assinaturas adaptadas a diferentes realidades dos produtores, venda de módulos adicionais do sistema e outros processos que envolvem parcerias.
+
+\subsection*{Modelo conceitual do banco de dados}
+    \addcontentsline{toc}{section}{Modelo conceitual do banco de dados}
+
+    O modelo conceitual do banco de dados apresenta uma visão da perspectiva do armazenamento de dados.
+
+    A entidade usuários agrupa todos os atributos das especializações estudante e produtor, descritas no diagrama de classes. Já no outro caso parecido, dos dados temporais, foi decidido manter tabelas separadas para facilitar a organização e as consultas necessárias.
+    
+    Novamente, fica visível que a entidade de fotos interage apenas com dados temporais consultados no instante em que a foto é capturada, já as ações do plano de ação consultam os registros climáticos históricos e de previsão, fazendo-se necessária uma entidade associativa de consulta.
+    
+    Com relação ao plano de ação em si, é importante destacar a relação 1 para 1 com a entidade usuário, e 1 para muitos com a entidade pré-diagnósticos. Isso significa que o usuário possui um único plano de ação  que pode ser atualizado por vários pré-diagnósticos.
+    
+    A entidade pesquisa biblioteca foi criada para intermediar os filtros que o usuário aplica sobre a seção da Biblioteca de Doenças. 
+
+    Vale destacar que, como o pré-diagnóstico é apenas uma formlização da entidade classificação, ela foi posta como entidade mais fraca desse relacionamento.
+
+        \begin{figure}[h]
+\centering
+\caption{Modelo conceitual do banco de dados}%
+\label{fig:diagrama-objetos}
+ \includegraphics[width=1.1\textwidth]{Logos/conceitual.png}
+\SourceOrNote{Do próprio autor (2025)}
+\end{figure}
+
+
+Mais uma vez, é possível identificar de forma clara que as funcionalidades principais do sistema estão concentradas e dependem principalmente dos dados temporais e das fotos capturadas pelo usuário.
+
+\subsection*{Modelo lógico do banco de dados}
+    \addcontentsline{toc}{section}{Modelo lógico do banco de dados}
+
+    O modelo lógico do banco de dados permite visualizar os tipos de dados que serão armazenados, os quais correspondem ao indicado no diagrama de classes.
+
+            \begin{figure}[h]
+\centering
+\caption{Modelo lógico do banco de dados}%
+\label{fig:diagrama-objetos}
+ \includegraphics[width=1.0\textwidth]{Logos/logico.png}
+\SourceOrNote{Do próprio autor (2025)}
+\end{figure}
+
+    Note que as entidades associativas servem apenas para armazenar as chaves das entidades que estão se relacionando, uma vez que os atributos importantes já estão presentes nessas entidades.
+
 \end{document}

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber fatec-template"] 1761667772.49289 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761684059.34683 0
-  "fatec-template.bcf" 1761684059 113655 15dae3cd1f42b900626071d0d281a50e "pdflatex"
+["biber fatec-template"] 1761692887.71753 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761696644.26487 0
+  "fatec-template.bcf" 1761696644 113655 15dae3cd1f42b900626071d0d281a50e "pdflatex"
   (generated)
   "fatec-template.bbl"
   "fatec-template.blg"
   (rewritten before read)
-["pdflatex"] 1761684056.5493 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/class-09-latex-main/f299-template-pi-artifacts/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761684059.34745 0
-  "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759721110 122199 f0a029dcadf437d1491ad2875c164ac4 ""
+["pdflatex"] 1761696641.22676 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-artifacts/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761696644.26549 0
+  "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761684976 122199 f0a029dcadf437d1491ad2875c164ac4 ""
   "C:/Users/guilh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759720438 13286966 d632b264d5c041a4888c415aaa275232 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
@@ -173,15 +173,17 @@
   "Logos/canvas.png" 1761683199 465614 012d77d5035055846f486fc236b39a85 ""
   "Logos/caso_de_uso_blackspot.png" 1761609314 121207 185520cfabba2c1e7d7c7faa4c9d8788 ""
   "Logos/classes_blackspot.png" 1761613485 276450 6b5fedb8b89298d413b0a6dacdc9aac7 ""
+  "Logos/conceitual.png" 1761692138 274244 2eafa9a7722f0744f71e672ec9d61430 ""
+  "Logos/logico.png" 1761696139 179920 9f4b3c03ff9ad29ada8ade34ad762111 ""
   "Logos/objetos_blackspot.png" 1761677048 465336 298d4504a6fa083dfb2ab33bb4ee94f9 ""
-  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/class-09-latex-main/f299-template-pi-artifacts/fatec-template.tex" 1761684054 10406 b3d6008ac4f2b8d1a63ccb5fab590c4a ""
+  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-artifacts/fatec-template.tex" 1761696636 12952 83d99c461fb3308d27137abc2583e5bc ""
   "fatec-article.sty" 1759719031 39427 bf9c8d6e851cda1aa131bd67402f9dad ""
-  "fatec-template.aux" 1761684059 2727 77a83f391f36d6903c220a5832f5b30e "pdflatex"
-  "fatec-template.bbl" 1761667790 0 d41d8cd98f00b204e9800998ecf8427e "biber fatec-template"
-  "fatec-template.out" 1761684059 816 4ccc6ef34bdec127c4fab614e1c4253d "pdflatex"
-  "fatec-template.run.xml" 1761684059 2533 ddd91e20767af94d459033942f5b644d "pdflatex"
-  "fatec-template.tex" 1761684054 10406 b3d6008ac4f2b8d1a63ccb5fab590c4a ""
-  "fatec-template.toc" 1761684059 458 dfd4f25b49a4e42d996387ebb3e6e177 "pdflatex"
+  "fatec-template.aux" 1761696643 3609 f3f0b2d76e6ec39ab586ea2e8f1cc294 "pdflatex"
+  "fatec-template.bbl" 1761692889 0 d41d8cd98f00b204e9800998ecf8427e "biber fatec-template"
+  "fatec-template.out" 1761696644 1274 9934a2c6a93fcc5127f616abfae112f7 "pdflatex"
+  "fatec-template.run.xml" 1761696644 2533 ddd91e20767af94d459033942f5b644d "pdflatex"
+  "fatec-template.tex" 1761696636 12952 83d99c461fb3308d27137abc2583e5bc ""
+  "fatec-template.toc" 1761696644 612 c5eab1749eeb496a5ed6729c7bbdc36c "pdflatex"
   (generated)
   "fatec-template.aux"
   "fatec-template.bcf"
