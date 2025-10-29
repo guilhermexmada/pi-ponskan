@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber fatec-template"] 1759725319.35773 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1759725635.49639 0
+["biber fatec-template"] 1761766354.63137 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761767188.18313 0
   "fatec-article.bib" 1759724841 12699 b0034d7ca4e358eefbdfa82b1e84a1db ""
-  "fatec-template.bcf" 1759725635 116117 f5fdf9c3e9c03fd6c8de57bb3bccebdb "pdflatex"
+  "fatec-template.bcf" 1761767187 116117 f5fdf9c3e9c03fd6c8de57bb3bccebdb "pdflatex"
   (generated)
   "fatec-template.bbl"
   "fatec-template.blg"
   (rewritten before read)
-["pdflatex"] 1759725630.70345 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/class-09-latex-main/f299-template-pi-paper/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1759725635.49706 0
-  "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1759721110 122199 f0a029dcadf437d1491ad2875c164ac4 ""
+["pdflatex"] 1761767183.50012 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-paper/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761767188.18382 0
+  "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761759717 122199 f0a029dcadf437d1491ad2875c164ac4 ""
   "C:/Users/guilh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759720438 13286966 d632b264d5c041a4888c415aaa275232 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc" 1256929440 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
@@ -212,18 +212,18 @@
   "Illustrations/fcht-ex-algorithm.png" 1759719032 45000 68d5c4daf91fc22a475d261af87c38f8 ""
   "Illustrations/grph-example.png" 1759719032 121228 5dc7886e5c9db312ecad87e0cb5a900c ""
   "Topicos/conclusao.tex" 1759719032 240 0ed91c82127ac9578dd3ad1d79586f13 ""
-  "Topicos/estadodaarte.tex" 1759725497 8403 733e546168bccdba137dbb4d6988c06e ""
-  "Topicos/introducao.tex" 1759725496 7159 31323910409e6b9b5c218b747f077cda ""
+  "Topicos/estadodaarte.tex" 1761767180 8490 e548c17c99a6b862a0e767f776b2ca7d ""
+  "Topicos/introducao.tex" 1761765886 7187 b82f191a539496ed4bb80f322a751c16 ""
   "Topicos/metodologia.tex" 1759719032 786 a85d0244cbc129142f00d7a47a6f6730 ""
-  "Topicos/objetivo.tex" 1759721840 987 bcaa407b88f053f994bf8080c8cca2b0 ""
+  "Topicos/objetivo.tex" 1761766158 1034 be73ae03306295ad9d8992a8328fbb8c ""
   "Topicos/resultados.tex" 1759719032 7394 a70f7264d810d0204f90b0281a2cdec0 ""
-  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/class-09-latex-main/f299-template-pi-paper/fatec-template.tex" 1759725626 3791 9496064a291ab255093fa78ac2eb1d17 ""
+  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-paper/fatec-template.tex" 1759725645 3791 9496064a291ab255093fa78ac2eb1d17 ""
   "fatec-article.sty" 1759723283 45404 d42a572cefe192cb69a1629b16cdfd61 ""
-  "fatec-template.aux" 1759725634 9336 1fd9b870f9f18dd44b6f3c8c32e6c2cc "pdflatex"
-  "fatec-template.bbl" 1759725321 36391 5ef60706f2dad79946bf705a77850cf5 "biber fatec-template"
-  "fatec-template.out" 1759725635 236 c97d7179c8455408bf40bfc3ff2736f0 "pdflatex"
-  "fatec-template.run.xml" 1759725635 2617 4d46f5d56bcd78c60e0607a558d03956 "pdflatex"
-  "fatec-template.tex" 1759725626 3791 9496064a291ab255093fa78ac2eb1d17 ""
+  "fatec-template.aux" 1761767187 9336 1fd9b870f9f18dd44b6f3c8c32e6c2cc "pdflatex"
+  "fatec-template.bbl" 1761766356 36391 5ef60706f2dad79946bf705a77850cf5 "biber fatec-template"
+  "fatec-template.out" 1761767187 236 c97d7179c8455408bf40bfc3ff2736f0 "pdflatex"
+  "fatec-template.run.xml" 1761767187 2617 4d46f5d56bcd78c60e0607a558d03956 "pdflatex"
+  "fatec-template.tex" 1759725645 3791 9496064a291ab255093fa78ac2eb1d17 ""
   (generated)
   "fatec-template.aux"
   "fatec-template.bcf"
