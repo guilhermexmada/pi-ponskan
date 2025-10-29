@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber fatec-template"] 0 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761691231.50718 -1
-  "fatec-template.bcf" 1761691231 113655 15dae3cd1f42b900626071d0d281a50e "pdflatex"
+["biber fatec-template"] 0 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761763046.71016 -1
+  "fatec-template.bcf" 1761763046 113655 15dae3cd1f42b900626071d0d281a50e "pdflatex"
   (generated)
   "fatec-template.bbl"
   "fatec-template.blg"
   (rewritten before read)
-["pdflatex"] 1761691229.06813 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-logbook/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761691231.50788 0
-  "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761684976 122199 f0a029dcadf437d1491ad2875c164ac4 ""
+["pdflatex"] 1761763044.33843 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-logbook/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761763046.71079 0
+  "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1761759717 122199 f0a029dcadf437d1491ad2875c164ac4 ""
   "C:/Users/guilh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759720438 13286966 d632b264d5c041a4888c415aaa275232 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/ecrm1200.tfm" 993062126 3152 4850ff0163852b7fab34bd55e1197f28 ""
@@ -173,13 +173,13 @@
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/xstring/xstring.sty" 1693735632 123 a302f2c651a95033260db60e51527ae8 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/xurl/xurl.sty" 1641733940 4675 e4b8c405820368c2dfb03526e16d725a ""
   "Logos/fatec.jpg" 1759719032 52462 b72184f489d14cab2f4098401c2496e6 ""
-  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-logbook/fatec-template.tex" 1761691229 5013 eb56ec8a17455487373d7baf9b87d87a ""
+  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-logbook/fatec-template.tex" 1761763044 5057 d89add10c03df1d14faa63a73878c63c ""
   "fatec-article.sty" 1759719032 28697 1de411d4e15c8dc78b57306f2b334c64 ""
-  "fatec-template.aux" 1761691231 512 ddfc82bd7204f4853e76046ac423452b "pdflatex"
+  "fatec-template.aux" 1761763046 512 ddfc82bd7204f4853e76046ac423452b "pdflatex"
   "fatec-template.bbl" 1761685018 0 d41d8cd98f00b204e9800998ecf8427e "biber fatec-template"
-  "fatec-template.out" 1761691231 133 782cab8c308fc766984b2f71c6b0542b "pdflatex"
-  "fatec-template.run.xml" 1761691231 2533 ddd91e20767af94d459033942f5b644d "pdflatex"
-  "fatec-template.tex" 1761691229 5013 eb56ec8a17455487373d7baf9b87d87a ""
+  "fatec-template.out" 1761763046 133 782cab8c308fc766984b2f71c6b0542b "pdflatex"
+  "fatec-template.run.xml" 1761763046 2533 ddd91e20767af94d459033942f5b644d "pdflatex"
+  "fatec-template.tex" 1761763044 5057 d89add10c03df1d14faa63a73878c63c ""
   (generated)
   "fatec-template.aux"
   "fatec-template.bcf"
