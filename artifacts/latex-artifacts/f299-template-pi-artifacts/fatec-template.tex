@@ -188,4 +188,22 @@ Mais uma vez, é possível identificar de forma clara que as funcionalidades pri
 
     Note que as entidades associativas servem apenas para armazenar as chaves das entidades que estão se relacionando, uma vez que os atributos importantes já estão presentes nessas entidades.
 
+\subsection*{Diagrama de Rede e Infraestrutura}
+    \addcontentsline{toc}{section}{Diagrama de Rede e Infraestrutura}
+
+    O diagrama de rede representa a disposição dos servidores e outros dispositivos que são a base do funcionamento do sistema.
+
+            \begin{figure}[h]
+\centering
+\caption{Diagrama de Rede e Infraestrutura}%
+\label{fig:diagrama-objetos}
+ \includegraphics[width=0.7\textwidth]{Logos/infra.jpg}
+\SourceOrNote{Do próprio autor (2025)}
+\end{figure}
+
+Este diagrama ilustra o fluxo de dados da captura inicial até a visualização pelo usuário, focando na arquitetura de borda (edge) e na conectividade.
+
+A imagem é capturada no dispositivo móvel e enviada para um aparelho de borda (edge), que faz um pré-processamento. Depois, os dados seguem pelo roteador Wi-Fi usando uma conexão segura (VPN/VPC) até a nuvem. Lá, o sistema processa e analisa a imagem, armazena os resultados e devolve essas informações para o usuário visualizar no aplicativo ou dashboard.
+
+Na nuvem AWS, o fluxo funciona assim: o API Gateway recebe a imagem, o SageMaker faz a análise com IA, os resultados são guardados no RDS (banco de dados) e os arquivos ficam no S3. O EC2 acessa essas informações e envia a resposta final para o aplicativo do usuário.
 \end{document}
