@@ -1,7 +1,11 @@
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
-\usepackage[brazil]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{subcaption}
+\usepackage[export]{adjustbox}
+\usepackage[brazilian]{babel}
 \usetheme{Madrid}
 
 % -------------------------------------------------
@@ -33,8 +37,8 @@
 % -------------------------------------------------
 % Informações principais
 % -------------------------------------------------
-\title[Workshop de Artigos Científicos]{\textbf{Workshop de Artigos Científicos}}
-\author{Prof. MSc. Frederico Barbosa Muniz}
+\title[Sistema para Identificação da Pinta Preta na Tangerina Ponkan]{\textbf{Sistema para Identificação da Pinta Preta na Tangerina Ponkan}}
+\author{Arthur Parra da Silva \and Guilherme Shimada Pereira \and Gustavo Kletelinger \and Matheus Bertoldo de Oliveira}
 \date{}
 
 % -------------------------------------------------
@@ -46,8 +50,11 @@
 \begin{frame}
     \centering
     \vspace{1cm}
-    {\color{cpsred}\Huge\textbf{Workshop de Artigos Científicos}}\\[0.8cm]
-    {\Large Prof. MSc. Frederico Barbosa Muniz}\\[0.4cm]
+    {\color{cpsred}\Huge\textbf{Sistema para Identificação da Pinta Preta na Tangerina Ponkan}}\\[0.7cm]
+    {\Large Arthur Parra da Silva }\\[0.2cm]
+    {\Large Guilherme Shimada Pereira }\\[0.2cm]
+    {\Large Gustavo Kletelinger }\\[0.2cm]
+    {\Large Matheus Bertoldo de Oliveira }\\[0.4cm]
     \textcolor{cpsgray}{Centro Paula Souza}\\[0.2cm]
     \textcolor{cpsgray}{FATEC Registro}
 \end{frame}
@@ -61,14 +68,39 @@
 % SEÇÕES E SLIDES
 % -------------------------------------------------
 
-\section{Estado da Arte inadequado}
-\begin{frame}{Estado da Arte inadequado}
+\section{Logomarca}
+\begin{frame}{Logomarca}
 \justifying
-Frequentemente não cumpre a função acadêmica: não discute trabalhos correlatos de computação, nem métodos, resultados e limitações.  
-Descreve panoramas gerais ou plataformas, mistura explicações conceituais com revisão e, em vários casos, precisa ser totalmente refeito.
+
+\begin{figure}[h]
+\includegraphics[width=0.8\textwidth]{images/logomarca.png}
+\caption{Logomarca}
+\label{fig:figure2}
+\end{figure}
+
+
+As formas arredondadas lembram pontos conectados, fazendo referência às redes neurais, 
+estruturas fundamentais para o projeto. O laranja é amigável e traz confiança, enquanto o verde
+remete à crescimento, saúde e natureza.
+
 \end{frame}
 
-\section{Referências e normas (ABNT) deficientes}
+\begin{frame}{Logomarca}
+\justifying
+
+\begin{wrapfigure}{l}{0.25\textwidth}
+\includegraphics[width=0.21\textwidth]{images/logotipo.png}
+\caption{Logotipo}
+\label{fig:wrapfig}
+\end{wrapfigure}
+
+As formas arredondadas lembram pontos conectados, fazendo referência às redes neurais, 
+estruturas fundamentais para o projeto.
+
+
+\end{frame}
+
+\section{Agenda}
 \begin{frame}{Referências e normas (ABNT) deficientes}
 \justifying
 Falta de padronização (itálico de periódicos, DOI, formatação).  
@@ -76,34 +108,34 @@ Incoerência entre o que é citado no texto e o que aparece na lista.
 URLs soltas, entradas incompletas e referências fora da norma.
 \end{frame}
 
-\section{Uso de fontes fracas ou inadequadas}
+\section{Pitch}
 \begin{frame}{Uso de fontes fracas ou inadequadas}
 \justifying
 Citações provenientes de páginas não científicas, ausência de fontes oficiais, artigos revisados por pares ou documentos institucionais confiáveis.
 \end{frame}
 
-\section{Introduções mal estruturadas}
+\section{Problematização}
 \begin{frame}{Introduções mal estruturadas}
 \justifying
 Ausência de dados quantitativos e de referências.  
 Organização confusa e, em muitos casos, a tecnologia é apresentada antes da definição clara do problema.
 \end{frame}
 
-\section{Objetivos frágeis}
+\section{Estado da Arte}
 \begin{frame}{Objetivos frágeis}
 \justifying
 Objetivos gerais pouco operacionais, específicos ausentes ou mal apresentados.  
 Há redundâncias e inversão entre o que é produto e o que é método.
 \end{frame}
 
-\section{Metodologia confusa ou incompleta}
+\section{Objetivo}
 \begin{frame}{Metodologia confusa ou incompleta}
 \justifying
 Mistura de etapas, ferramentas e resultados.  
 Falta de clareza sobre o fluxo de desenvolvimento, separação entre metodologia de pesquisa e de implementação, e presença de trechos do modelo sem conteúdo autoral.
 \end{frame}
 
-\section{Elementos gráficos e estruturais problemáticos}
+\section{Metodologia}
 \begin{frame}{Elementos gráficos e estruturais problemáticos}
 \justifying
 Figuras muito pequenas ou sem legenda.  
@@ -111,56 +143,13 @@ Ausência de fluxogramas obrigatórios.
 Tabelas e seções de exemplo do modelo não substituídas adequadamente.
 \end{frame}
 
-\section{Citações mal posicionadas ou incompletas}
+\section{Apresentação Prática}
 \begin{frame}{Citações mal posicionadas ou incompletas}
 \justifying
 Pedidos de “citação ao final do parágrafo” ignorados.  
 Falta de identificação clara da fonte de dados e lacunas entre citações e lista de referências.
 \end{frame}
 
-\section{Linguagem e estilo}
-\begin{frame}{Linguagem e estilo}
-\justifying
-Uso de tom informal, anglicismos sem formatação, excesso de parênteses, jargões não definidos e repetições de siglas e conceitos.
-\end{frame}
-
-\section{Resultados e discussão insuficientes}
-\begin{frame}{Resultados e discussão insuficientes}
-\justifying
-Seções ausentes, apenas marcadores de “RESULTADOS” sem conteúdo analítico.  
-Falta de métricas, comparações e análises quantitativas ou qualitativas.
-\end{frame}
-
-\section{Conclusões genéricas ou não redigidas}
-\begin{frame}{Conclusões genéricas ou não redigidas}
-\justifying
-Presença de texto-modelo (“Apresente aqui as conclusões...”) e ausência de fechamento coerente com os objetivos propostos.
-\end{frame}
-
-\section{Inconsistências terminológicas e redundâncias}
-\begin{frame}{Inconsistências terminológicas e redundâncias}
-\justifying
-Repetição de definições já apresentadas (como STRIDE) e reintrodução de conceitos sem aprofundamento teórico ou contextual.
-\end{frame}
-
-\section{Erros de revisão}
-\begin{frame}{Erros de revisão}
-\justifying
-Problemas de ortografia, gramática e coesão textual, incluindo o uso incorreto de termos (“trás” em vez de “traz”) e falhas de concordância.
-\end{frame}
-
-\section{Questões éticas e metodológicas}
-\begin{frame}{Questões éticas e metodológicas}
-\justifying
-Identificação nominal de profissionais ou participantes em seções de metodologia, o que compromete a ética e a confidencialidade dos dados coletados.
-\end{frame}
-
-\section{Palavras-chave e abstract inconsistentes}
-\begin{frame}{Palavras-chave e abstract inconsistentes}
-\justifying
-Presença de blocos em inglês sem alinhamento com o texto.  
-Erros de correspondência entre termos e ausência de revisão das traduções.
-\end{frame}
 
 \section{Encerramento}
 \begin{frame}{Encerramento}

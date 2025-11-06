@@ -1,17 +1,10 @@
-\babel@toc {brazil}{}\relax 
-\beamer@sectionintoc {1}{Estado da Arte inadequado}{3}{0}{1}
-\beamer@sectionintoc {2}{Referências e normas (ABNT) deficientes}{4}{0}{2}
-\beamer@sectionintoc {3}{Uso de fontes fracas ou inadequadas}{5}{0}{3}
-\beamer@sectionintoc {4}{Introduções mal estruturadas}{6}{0}{4}
-\beamer@sectionintoc {5}{Objetivos frágeis}{7}{0}{5}
-\beamer@sectionintoc {6}{Metodologia confusa ou incompleta}{8}{0}{6}
-\beamer@sectionintoc {7}{Elementos gráficos e estruturais problemáticos}{9}{0}{7}
-\beamer@sectionintoc {8}{Citações mal posicionadas ou incompletas}{10}{0}{8}
-\beamer@sectionintoc {9}{Linguagem e estilo}{11}{0}{9}
-\beamer@sectionintoc {10}{Resultados e discussão insuficientes}{12}{0}{10}
-\beamer@sectionintoc {11}{Conclusões genéricas ou não redigidas}{13}{0}{11}
-\beamer@sectionintoc {12}{Inconsistências terminológicas e redundâncias}{14}{0}{12}
-\beamer@sectionintoc {13}{Erros de revisão}{15}{0}{13}
-\beamer@sectionintoc {14}{Questões éticas e metodológicas}{16}{0}{14}
-\beamer@sectionintoc {15}{Palavras-chave e abstract inconsistentes}{17}{0}{15}
-\beamer@sectionintoc {16}{Encerramento}{18}{0}{16}
+\babel@toc {brazilian}{}\relax 
+\beamer@sectionintoc {1}{Logomarca}{3}{0}{1}
+\beamer@sectionintoc {2}{Agenda}{5}{0}{2}
+\beamer@sectionintoc {3}{Pitch}{6}{0}{3}
+\beamer@sectionintoc {4}{Problematização}{7}{0}{4}
+\beamer@sectionintoc {5}{Estado da Arte}{8}{0}{5}
+\beamer@sectionintoc {6}{Objetivo}{9}{0}{6}
+\beamer@sectionintoc {7}{Metodologia}{10}{0}{7}
+\beamer@sectionintoc {8}{Apresentação Prática}{11}{0}{8}
+\beamer@sectionintoc {9}{Encerramento}{12}{0}{9}

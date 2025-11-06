@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.5)  5 NOV 2025 19:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.5)  5 NOV 2025 22:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -569,9 +569,90 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+\wrapoverhang=\dimen302
+\WF@size=\dimen303
+\c@WF@wrappedlines=\count358
+\WF@box=\box78
+\WF@everypar=\toks48
+Package: wrapfig 2003/01/31  v 3.6
+) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen304
+\captionmargin=\dimen305
+\caption@leftmargin=\dimen306
+\caption@rightmargin=\dimen307
+\caption@width=\dimen308
+\caption@indent=\dimen309
+\caption@parindent=\dimen310
+\caption@hangindent=\dimen311
+Package caption Info: beamer document class detected.
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-beamer.sto
+File: caption-beamer.sto 2022/01/06 v2.0c Adaption of the caption package to the beamer document classes (AR)
+))
+\c@caption@flags=\count359
+\c@continuedfloat=\count360
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+Package caption Info: wrapfig package is loaded.
+)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count361
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count362
+) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjustbox.sty
+Package: adjustbox 2025/02/26 v1.3c Adjusting TeX boxes (trim, clip, ...)
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+\XKV@toks=\toks49
+\XKV@tempa@toks=\toks50
+)
+\XKV@depth=\count363
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-ends (calc, etex, pgfmath)
+) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\trimclip.sty
+Package: trimclip 2025/02/21 v1.2a Trim and clip general TeX material
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/collectbox\collectbox.sty
+Package: collectbox 2022/10/17 v0.4c Collect macro arguments as boxes
+\collectedbox=\box79
+)
+\tc@llx=\dimen312
+\tc@lly=\dimen313
+\tc@urx=\dimen314
+\tc@ury=\dimen315
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/adjustbox\tc-pdftex.def
+File: tc-pdftex.def 2025/02/26 v2.3 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen316
+\adjbox@Height=\dimen317
+\adjbox@Depth=\dimen318
+\adjbox@Totalheight=\dimen319
+\adjbox@pwidth=\dimen320
+\adjbox@pheight=\dimen321
+\adjbox@pdepth=\dimen322
+\adjbox@ptotalheight=\dimen323
+ (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty
+Package: ifoddpage 2022/10/18 v1.2 Conditionals for odd/even page detection
+\c@checkoddpage=\count364
+) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/varwidth\varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box80
+\sift@deathcycles=\count365
+\@vwid@loff=\dimen324
+\@vwid@roff=\dimen325
+)
+==> First Aid for varwidth.sty applied!
 ) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2025/10/22 v25.14 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
-\babel@savecnt=\count358
+\babel@savecnt=\count366
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2050.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2052.
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2054.
@@ -579,12 +660,12 @@ LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line
 LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2056.
 LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2058.
 LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2083.
-\U@D=\dimen302
+\U@D=\dimen326
 \l@unhyphenated=\language79
  (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read3
 LaTeX Info: Redefining \textlatin on input line 3942.
-\bbl@dirlevel=\count359
+\bbl@dirlevel=\count367
 
 
 Package babel Warning: Configuration files are deprecated, as
@@ -596,18 +677,12 @@ Package babel Warning: Configuration files are deprecated, as
 *
 (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-brazil.tex
-
-Package babel Warning: Name 'brazil' is deprecated.
-(babel)                Use 'brazilian' instead.
-(babel)                Reported on input line 19.
-
-)
-Package babel Info: Importing font and identification data for brazil
+) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/generic/babel/locale/pt\babel-brazilian.tex)
+Package babel Info: Importing font and identification data for brazilian
 (babel)             from babel-pt-BR.ini. Reported on input line 4295.
  (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
-Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
 )) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerthemeMadrid.sty (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemewhale.sty) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemeorchid.sty) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerinnerthemerounded.sty) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerouterthemeinfolines.sty)) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamercolorthemestructure.sty) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
@@ -627,36 +702,36 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedRightParindent=\skip79
 \JustifyingParindent=\skip80
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 43.
+LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 47.
  (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmss.fd
 File: ot1lmss.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count360
+\l__color_backend_stack_int=\count368
 ) (main.aux
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 8.
+Package babel Info: 'brazilian' activates 'portuges' shorthands.
+(babel)             Reported on input line 9.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 43.
-LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -694,74 +769,74 @@ LaTeX Font Info:    ... okay on input line 43.
 
 (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count361
-\scratchdimen=\dimen303
-\scratchbox=\box78
-\nofMPsegments=\count362
-\nofMParguments=\count363
-\everyMPshowfont=\toks48
-\MPscratchCnt=\count364
-\MPscratchDim=\dimen304
-\MPnumerator=\count365
-\makeMPintoPDFobject=\count366
-\everyMPtoPDFconversion=\toks49
+\scratchcounter=\count369
+\scratchdimen=\dimen327
+\scratchbox=\box81
+\nofMPsegments=\count370
+\nofMParguments=\count371
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count372
+\MPscratchDim=\dimen328
+\MPnumerator=\count373
+\makeMPintoPDFobject=\count374
+\everyMPtoPDFconversion=\toks52
 ) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 43.
+Package hyperref Info: Link coloring OFF on input line 47.
  (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 43.
+(Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 43.
+(Font)                  OT1/lmr/bx/n --> OT1/cmss/b/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 43.
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 43.
+(Font)                  OT1/cmss/b/n --> OT1/lmss/b/n on input line 47.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 43.
+(Font)                  OT1/lmss/m/n --> OT1/lmr/m/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 43.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 43.
+(Font)                  OT1/lmr/bx/n --> OT1/lmss/b/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 43.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/m/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 43.
+(Font)                  OT1/lmss/bx/n --> OT1/lmss/m/n on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 43.
+(Font)                  OT1/lmr/m/it --> OT1/lmss/m/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 43.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 43.
+(Font)                  OT1/lmr/bx/it --> OT1/lmss/m/it on input line 47.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 43.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 43.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/m/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 43.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 47.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 43.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 43.
+(Font)                  OT1/lmss/b/n --> OT1/lmr/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 43.
+(Font)                  OT1/lmss/b/n --> OT1/lmss/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 43.
+(Font)                  OT1/lmss/m/n --> OT1/lmss/b/n on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 43.
+(Font)                  OT1/lmss/m/it --> OT1/lmss/b/it on input line 47.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 43.
+(Font)                  OT1/lmtt/m/n --> OT1/lmtt/b/n on input line 47.
  (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -774,7 +849,10 @@ Dictionary: translator-months-dictionary, Language: English
 Dictionary: translator-numbers-dictionary, Language: English 
 ) (C:\Users\fatec-dsm2\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (main.nav)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+ (main.nav)
 
 [1
 
@@ -783,14 +861,26 @@ Dictionary: translator-theorem-dictionary, Language: English
 [2
 
 ]
+<images/logomarca.png, id=123, 1045.9075pt x 415.5525pt>
+File: images/logomarca.png Graphic file (type png)
+<use images/logomarca.png>
+Package pdftex.def Info: images/logomarca.png  used on input line 86.
+(pdftex.def)             Requested size: 273.83728pt x 108.80199pt.
+
 
 [3
 
-]
+ <./images/logomarca.png>]
+<images/logotipo.png, id=152, 270.00874pt x 375.4025pt>
+File: images/logotipo.png Graphic file (type png)
+<use images/logotipo.png>
+Package pdftex.def Info: images/logotipo.png  used on input line 101.
+(pdftex.def)             Requested size: 71.88431pt x 99.93944pt.
+
 
 [4
 
-]
+ <./images/logotipo.png>]
 
 [5
 
@@ -823,30 +913,6 @@ Dictionary: translator-theorem-dictionary, Language: English
 [12
 
 ]
-
-[13
-
-]
-
-[14
-
-]
-
-[15
-
-]
-
-[16
-
-]
-
-[17
-
-]
-
-[18
-
-]
 \tf@nav=\write6
 \openout6 = `main.nav'.
 
@@ -862,20 +928,20 @@ LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-10-09>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 85B38B7DC39311C479E6ED0F23D76AD8;3393.
+(rerunfilecheck)             Checksum: 29275CF0071BB382465BCFF11AABDD60;911.
  ) 
 Here is how much of TeX's memory you used:
- 22927 strings out of 468080
- 449194 string characters out of 5423352
- 844697 words of memory out of 5000000
- 51075 multiletter control sequences out of 15000+600000
- 647389 words of font info for 49 fonts, out of 8000000 for 9000
+ 25529 strings out of 468080
+ 499356 string characters out of 5423352
+ 882304 words of memory out of 5000000
+ 53643 multiletter control sequences out of 15000+600000
+ 650109 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,14n,123p,497b,692s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 128i,14n,123p,497b,724s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on main.pdf (18 pages, 203441 bytes).
+Output written on main.pdf (12 pages, 190644 bytes).
 PDF statistics:
- 584 PDF objects out of 1000 (max. 8388607)
- 53 named destinations out of 1000 (max. 500000)
- 177 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 400 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 
