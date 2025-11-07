@@ -1,10 +1,16 @@
 \documentclass{beamer}
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
-\usepackage{graphicx}
-\usepackage{wrapfig}
-\usepackage{subcaption}
-\usepackage[export]{adjustbox}
+\usepackage{graphicx} % imagens
+\usepackage{wrapfig} % flutuação de imagens na borda do texto
+\usepackage{subcaption} 
+\usepackage[export]{adjustbox} % orientação de elementos
+\usepackage{hyperref} % inserção de links
+\usepackage{xcolor} % cores
+\usepackage{tikz} % diagramas
+\usepackage{multicol} % múltiplas colunas
+\usepackage{blindtext}
+
 \usepackage[brazilian]{babel}
 \usetheme{Madrid}
 
@@ -59,15 +65,12 @@
     \textcolor{cpsgray}{FATEC Registro}
 \end{frame}
 
-% Sumário
-\begin{frame}{Sumário}
-\tableofcontents
-\end{frame}
 
 % -------------------------------------------------
 % SEÇÕES E SLIDES
 % -------------------------------------------------
 
+% Logomarca ============================
 \section{Logomarca}
 \begin{frame}{Logomarca}
 \justifying
@@ -75,51 +78,136 @@
 \begin{figure}[h]
 \includegraphics[width=0.8\textwidth]{images/logomarca.png}
 \caption{Logomarca}
-\label{fig:figure2}
+\label{fig:figure1}
 \end{figure}
-
 
 As formas arredondadas lembram pontos conectados, fazendo referência às redes neurais, 
 estruturas fundamentais para o projeto. O laranja é amigável e traz confiança, enquanto o verde
 remete à crescimento, saúde e natureza.
 
 \end{frame}
+% Logomarca ============================
 
-\begin{frame}{Logomarca}
+% Sumário ============================
+\begin{frame}{Agenda}
+\tableofcontents
+\end{frame}
+% Sumário ============================
+
+% Pitch ============================
+\section{Pitch}
+\begin{frame}{Pitch}
+\centering
+  Assista ao nosso pitch {\color{orange} \href{https://youtu.be/QucX8fwVIDI?si=mnkalk9atQx4rimm}{aqui}}.
+\end{frame}
+% Pitch ============================
+
+% Problematização 01 ============================
+\section{Problematização}
+\begin{frame}{Problematização}
 \justifying
 
-\begin{wrapfigure}{l}{0.25\textwidth}
-\includegraphics[width=0.21\textwidth]{images/logotipo.png}
-\caption{Logotipo}
+\begin{wrapfigure}{l}{0.5\textwidth}
+\vspace{-30pt}
+\includegraphics[width=1.0\linewidth]{images/usda-suco-de-laranja.png} 
+\caption{ \href{https://apps.fas.usda.gov/psdonline/circulars/citrus.pdf}{United States Department of Agriculture (2025)}}
 \label{fig:wrapfig}
 \end{wrapfigure}
 
-As formas arredondadas lembram pontos conectados, fazendo referência às redes neurais, 
-estruturas fundamentais para o projeto.
-
+O Brasil é o maior produtor de laranja e suco de laranja do mundo, evidenciando a importância nacional dos citros.
 
 \end{frame}
+% Problematização 01 ============================
 
-\section{Agenda}
-\begin{frame}{Referências e normas (ABNT) deficientes}
+% Problematização 02 ============================
+\begin{frame}{Problematização}
 \justifying
-Falta de padronização (itálico de periódicos, DOI, formatação).  
-Incoerência entre o que é citado no texto e o que aparece na lista.  
-URLs soltas, entradas incompletas e referências fora da norma.
-\end{frame}
 
-\section{Pitch}
-\begin{frame}{Uso de fontes fracas ou inadequadas}
-\justifying
-Citações provenientes de páginas não científicas, ausência de fontes oficiais, artigos revisados por pares ou documentos institucionais confiáveis.
-\end{frame}
+\begin{figure}[h!]
+\centering
 
-\section{Problematização}
-\begin{frame}{Introduções mal estruturadas}
-\justifying
-Ausência de dados quantitativos e de referências.  
-Organização confusa e, em muitos casos, a tecnologia é apresentada antes da definição clara do problema.
+O Vale do Ribeira produziu, em 2020, 98 mil toneladas de citros que renderam cerca de 163,2 milhões de reais brutos.
+
+\begin{subfigure}[b]{0.35\textwidth}
+\centering
+\includegraphics[width=\textwidth]{images/seab-producao-de-citros.png}
+%\caption{Imagem 1}
+\end{subfigure}
+\hfill
+\begin{subfigure}[b]{0.35\textwidth}
+\includegraphics[width=\textwidth]{images/seab-producao-de-tangerinas.png}
+%\caption{Imagem 2}
+\end{subfigure}
+
+\caption{ { \href{https://www.agricultura.pr.gov.br/sites/default/arquivos_restritos/files/documento/2021-09/vbp_1920_definitivo.pdf}{Secretaria da Agricultura e do Abastecimento (2020)} } }
+\end{figure}
+
 \end{frame}
+% Problematização 02 ============================
+
+% Problematização 03 ============================
+\begin{frame}{Problematização}
+
+\begin{multicols}{2}
+
+\begin{tikzpicture}[node distance=2cm, auto]
+
+\node (A) [draw, rectangle, inner sep=5pt] {Clima tropical úmido};
+\node (B) [draw, rectangle, below of=A, node distance=1cm] {Propiciação de doenças fúngicas};
+\node (C) [draw, rectangle, below of=B, node distance=1cm] {Pinta Preta (fungos da espécie \emph{citricarpa})};
+\node (D) [draw, rectangle, below of=C, node distance=2cm] 
+{
+\begin{tabular}{c}
+Sintomas  \\
+\hline
+\colorbox{yellow}{Manchas nos frutos} \\
+Necroses foliares \\
+Queda prematura \\
+\end{tabular}
+};
+\node (E) [draw, rectangle, below of=D, node distance=2cm]{Prejuízos comerciais};
+
+\draw[->] (A) -- (B);
+\draw[->] (B) -- (C);
+\draw[->] (C) -- (D);
+\draw[->] (D) -- (E);
+\end{tikzpicture}
+
+\begin{figure}[h]
+\includegraphics[width=0.25\textwidth]{images/sintoma-01.png}
+\label{fig:figure2}
+\end{figure}
+
+\begin{figure}[h]
+\includegraphics[width=0.25\textwidth]{images/sintoma-02.png}
+\label{fig:figure3}
+\end{figure}
+
+\end{multicols}
+
+\end{frame}
+% Problematização 03 ============================
+
+% Problematização 04 ============================
+\begin{frame}{Problematização}
+\centering
+
+\begin{block}{Remark}
+  Sample text
+\end{block}
+
+\begin{alertblock}{Remark}
+Sample text
+\end{alertblock}
+
+\begin{figure}[h]
+\includegraphics[width=0.8\textwidth]{images/sintoma-04.png}
+\label{fig:figure4}
+\end{figure}
+
+\end{frame}
+% Problematização 04 ============================
+
 
 \section{Estado da Arte}
 \begin{frame}{Objetivos frágeis}

@@ -1,10 +1,9 @@
 \babel@toc {brazilian}{}\relax 
-\beamer@sectionintoc {1}{Logomarca}{3}{0}{1}
-\beamer@sectionintoc {2}{Agenda}{5}{0}{2}
-\beamer@sectionintoc {3}{Pitch}{6}{0}{3}
-\beamer@sectionintoc {4}{Problematização}{7}{0}{4}
-\beamer@sectionintoc {5}{Estado da Arte}{8}{0}{5}
-\beamer@sectionintoc {6}{Objetivo}{9}{0}{6}
-\beamer@sectionintoc {7}{Metodologia}{10}{0}{7}
-\beamer@sectionintoc {8}{Apresentação Prática}{11}{0}{8}
-\beamer@sectionintoc {9}{Encerramento}{12}{0}{9}
+\beamer@sectionintoc {1}{Logomarca}{2}{0}{1}
+\beamer@sectionintoc {2}{Pitch}{4}{0}{2}
+\beamer@sectionintoc {3}{Problematização}{5}{0}{3}
+\beamer@sectionintoc {4}{Estado da Arte}{9}{0}{4}
+\beamer@sectionintoc {5}{Objetivo}{10}{0}{5}
+\beamer@sectionintoc {6}{Metodologia}{11}{0}{6}
+\beamer@sectionintoc {7}{Apresentação Prática}{12}{0}{7}
+\beamer@sectionintoc {8}{Encerramento}{13}{0}{8}
