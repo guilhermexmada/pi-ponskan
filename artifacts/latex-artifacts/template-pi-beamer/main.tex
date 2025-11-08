@@ -19,6 +19,7 @@
 % -------------------------------------------------
 \definecolor{cpsred}{RGB}{153,0,0}      % Vermelho institucional
 \definecolor{cpsgray}{RGB}{85,85,85}    % Cinza técnico
+\definecolor{green}{RGB}{60,99,0}    % Cinza técnico
 
 \usecolortheme[named=cpsred]{structure}
 \setbeamercolor{title}{fg=white,bg=cpsred}
@@ -156,7 +157,7 @@ O Vale do Ribeira produziu, em 2020, 98 mil toneladas de citros que renderam cer
 
 \node (A) [draw, rectangle, inner sep=5pt] {Clima tropical úmido};
 \node (B) [draw, rectangle, below of=A, node distance=1cm] {Propiciação de doenças fúngicas};
-\node (C) [draw, rectangle, below of=B, node distance=1cm] {Pinta Preta (\emph{Phyllosticta} \emph{citricarpa})};
+\node (C) [draw, rectangle, below of=B, node distance=1cm] {\small{Pinta Preta (\emph{Phyllosticta/Guignardia} \emph{citricarpa})}};
 \node (D) [draw, rectangle, below of=C, node distance=2cm] 
 {
 \begin{tabular}{c}
@@ -215,28 +216,76 @@ Queda prematura \\
 \begin{frame}{Estado da Arte}
 \centering
 
-\Large {Pazoti, 2005} \\[1cm]
+\vspace{0.2cm}
+{\color{green}\large\textbf{CITRUSVIS - Um sistema de visão computacional para a identificação do fungo Guignardia citricarpa, causador da mancha preta em citros}}\\[0.2cm]
+\normalsize {Pazoti, 2005} \\[0.2cm]
 
-\justifying 
-{\normalsize Objetivos gerais pouco operacionais, específicos ausentes ou mal apresentados.  
-Há redundâncias e inversão entre o que é produto e o que é método.}\\[1cm]
+\begin{figure}[h]
+\includegraphics[width=0.75\textwidth]{images/resumo-pazoti.png}
+\label{fig:figure5}
+\end{figure}
+
 \end{frame}
 % Estado da Arte 01 ============================
 
+% Estado da Arte 02 ============================
+\begin{frame}{Estado da Arte}
+\centering
+
+\vspace{0.2cm}
+{\color{green}\large\textbf{CITRUSVIS - Um sistema de visão computacional para a identificação do fungo Guignardia citricarpa, causador da mancha preta em citros}}\\[0.2cm]
+\normalsize {Pazoti, 2005} \\[0.2cm]
+
+\begin{block}{Rede Neural Artificial (RNA)}
+  Aprendizado supervisionado com 2 camadas escondidas de 20 e 15 neurônios.
+\end{block}
+
+\begin{block}{Resultados}
+  98\% de acurácia em amostras pré-selecionadas e 96,6\% em testes gerais, com 66 segundos de tempo de processamento médio.
+\end{block}
+
+\begin{block}{Desafios}
+  Limitações e ruídos na aquisição de imagens.
+\end{block}
+
+% \begin{tabular}{ |c|c| } 
+%  \hline
+%  Proposta & Sistema para auxiliar na identificação e \\
+%   &  contagem automática de ascósporos do fungo \\
+%  \hline 
+%  Metodologia & cell8  \\ 
+%  \hline
+%   Desafios & cell8  \\ 
+%  \hline
+%   Resultados & cell8  \\ 
+%  \hline
+%\end{tabular}
+
+\end{frame}
+% Estado da Arte 02 ============================
+
+% Estado da Arte 03 =============================
+\section{Estado da Arte}
+\begin{frame}{Estado da Arte}
+\centering
+
+\vspace{0.2cm}
+{\color{green}\large\textbf{Diferenciação do Greening de Outras Doenças Foliares em Citros Utilizando Técnicas de Processamento de Imagens}}\\[0.2cm]
+\normalsize {Ribeiro; Castro Jorge; Paiva, 2012} \\[0.2cm]
+
+\begin{figure}[h]
+\includegraphics[width=0.75\textwidth]{images/resumo-pazoti.png}
+\label{fig:figure5}
+\end{figure}
+
+\end{frame}
+% Estado da Arte 03 ============================
 
 \section{Objetivo}
 \begin{frame}{Metodologia confusa ou incompleta}
 \justifying
 Mistura de etapas, ferramentas e resultados.  
 Falta de clareza sobre o fluxo de desenvolvimento, separação entre metodologia de pesquisa e de implementação, e presença de trechos do modelo sem conteúdo autoral.
-\end{frame}
-
-\section{Metodologia}
-\begin{frame}{Elementos gráficos e estruturais problemáticos}
-\justifying
-Figuras muito pequenas ou sem legenda.  
-Ausência de fluxogramas obrigatórios.  
-Tabelas e seções de exemplo do modelo não substituídas adequadamente.
 \end{frame}
 
 \section{Apresentação Prática}

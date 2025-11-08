@@ -3,7 +3,7 @@
 \beamer@sectionintoc {2}{Pitch}{4}{0}{2}
 \beamer@sectionintoc {3}{Problematização}{5}{0}{3}
 \beamer@sectionintoc {4}{Estado da Arte}{9}{0}{4}
-\beamer@sectionintoc {5}{Objetivo}{10}{0}{5}
-\beamer@sectionintoc {6}{Metodologia}{11}{0}{6}
-\beamer@sectionintoc {7}{Apresentação Prática}{12}{0}{7}
-\beamer@sectionintoc {8}{Encerramento}{13}{0}{8}
+\beamer@sectionintoc {5}{Estado da Arte}{11}{0}{5}
+\beamer@sectionintoc {6}{Objetivo}{12}{0}{6}
+\beamer@sectionintoc {7}{Apresentação Prática}{13}{0}{7}
+\beamer@sectionintoc {8}{Encerramento}{14}{0}{8}
