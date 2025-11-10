@@ -237,7 +237,7 @@ Queda prematura \\
 \normalsize {Pazoti, 2005} \\[0.2cm]
 
 \begin{block}{Rede Neural Artificial (RNA)}
-  Aprendizado supervisionado com 2 camadas escondidas de 20 e 15 neurônios.
+  Aprendizado supervisionado com 2 camadas escondidas de 20 e 15 neurônios, treinada com 60 entradas.
 \end{block}
 
 \begin{block}{Resultados}
@@ -265,7 +265,6 @@ Queda prematura \\
 % Estado da Arte 02 ============================
 
 % Estado da Arte 03 =============================
-\section{Estado da Arte}
 \begin{frame}{Estado da Arte}
 \centering
 
@@ -274,33 +273,70 @@ Queda prematura \\
 \normalsize {Ribeiro; Castro Jorge; Paiva, 2012} \\[0.2cm]
 
 \begin{figure}[h]
-\includegraphics[width=0.75\textwidth]{images/resumo-pazoti.png}
+\includegraphics[width=0.6\textwidth]{images/resumo-ribeiro-castro-paiva.png}
 \label{fig:figure5}
 \end{figure}
 
 \end{frame}
 % Estado da Arte 03 ============================
+% Estado da Arte 04 ============================
+\begin{frame}{Estado da Arte}
+\centering
 
-\section{Objetivo}
-\begin{frame}{Metodologia confusa ou incompleta}
-\justifying
-Mistura de etapas, ferramentas e resultados.  
-Falta de clareza sobre o fluxo de desenvolvimento, separação entre metodologia de pesquisa e de implementação, e presença de trechos do modelo sem conteúdo autoral.
+\vspace{0.2cm}
+{\color{green}\large\textbf{Diferenciação do Greening de Outras Doenças Foliares em Citros Utilizando Técnicas de Processamento de Imagens}}\\[0.2cm]
+\normalsize {Ribeiro; Castro Jorge; Paiva, 2012} \\[0.2cm]
+
+\begin{block}{Rede Neural Artificial (RNA)}
+  Treinada com 46 amostras e validada com 14 amostras.
+\end{block}
+
+\begin{block}{Resultados}
+  Entre 43\% e 63\% de acurácia em classificação geral (considerando todas as doenças) e 96,04\% de precisão para discriminar apenas greening.
+\end{block}
+
+\begin{block}{Desafios}
+  Alta similaridade dos sintomas, quantidade reduzida de amostras e segmentação por cor única insuficiente.
+\end{block}
+
 \end{frame}
+% Estado da Arte 04 ============================
+% Estado da Arte 05 ============================
+\begin{frame}{Estado da Arte}
+\centering
 
-\section{Apresentação Prática}
-\begin{frame}{Citações mal posicionadas ou incompletas}
-\justifying
-Pedidos de “citação ao final do parágrafo” ignorados.  
-Falta de identificação clara da fonte de dados e lacunas entre citações e lista de referências.
+\vspace{0.2cm}
+{\color{green}\large\textbf{Detection of citrus black spot disease and ripeness level in orange fruit using learning-to-augment incorporated deep networks}}\\[0.2cm]
+\normalsize {Momeny et al., 2022} \\[0.2cm]
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{images/resumo-momeny.png}
+\label{fig:figure5}
+\end{figure}
+
 \end{frame}
+% Estado da Arte 05 ============================
+% Estado da Arte 06 ============================
+\begin{frame}{Estado da Arte}
+\centering
 
+\vspace{0.2cm}
+{\color{green}\large\textbf{Detection of citrus black spot disease and ripeness level in orange fruit using learning-to-augment incorporated deep networks}}\\[0.2cm]
+\normalsize {Momeny et al., 2022} \\[0.2cm]
 
-\section{Encerramento}
-\begin{frame}{Encerramento}
-\justifying
-Os problemas levantados indicam a necessidade de fortalecer a formação científica, a escrita acadêmica e o domínio metodológico dos alunos.  
-O aprimoramento contínuo desses aspectos é essencial para a qualidade e a credibilidade dos projetos de pesquisa desenvolvidos na FATEC Registro.
+\begin{block}{Rede Neural Convolucional (CNN)}
+  1896 imagens treinadas em diversos modelos, dos quais o melhor desempenho foi ResNet50.
+\end{block}
+
+\begin{block}{Resultados}
+  Acurácia total de 99,5\% com 100\% de sensibilidade (não despercebeu doentes) e especificidade (não confundiu saudáveis)
+\end{block}
+
+\begin{block}{Desafios}
+  Risco de \emph{overfitting} por conta da variabilidade nas imagens.
+\end{block}
+
 \end{frame}
+% Estado da Arte 06 ============================
 
 \end{document}
