@@ -3,3 +3,4 @@
 \beamer@sectionintoc {2}{Pitch}{4}{0}{2}
 \beamer@sectionintoc {3}{Problematização}{5}{0}{3}
 \beamer@sectionintoc {4}{Estado da Arte}{9}{0}{4}
+\beamer@sectionintoc {5}{Objetivos}{15}{0}{5}

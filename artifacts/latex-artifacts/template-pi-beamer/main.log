@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.5)  10 NOV 2025 20:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.11.5)  10 NOV 2025 22:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1008,7 +1008,7 @@ Package caption Info: End \AtBeginDocument code.
 [1
 
 {C:/Users/fatec-dsm2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}]
-<images/logomarca.png, id=59, 1045.9075pt x 415.5525pt>
+<images/logomarca.png, id=63, 1045.9075pt x 415.5525pt>
 File: images/logomarca.png Graphic file (type png)
 <use images/logomarca.png>
 Package pdftex.def Info: images/logomarca.png  used on input line 91.
@@ -1026,7 +1026,7 @@ Package pdftex.def Info: images/logomarca.png  used on input line 91.
 [4
 
 ]
-<images/usda-suco-de-laranja.png, id=147, 525.46312pt x 392.96812pt>
+<images/usda-suco-de-laranja.png, id=152, 525.46312pt x 392.96812pt>
 File: images/usda-suco-de-laranja.png Graphic file (type png)
 <use images/usda-suco-de-laranja.png>
 Package pdftex.def Info: images/usda-suco-de-laranja.png  used on input line 122.
@@ -1036,12 +1036,12 @@ Package pdftex.def Info: images/usda-suco-de-laranja.png  used on input line 122
 [5
 
  <./images/usda-suco-de-laranja.png>]
-<images/seab-producao-de-citros.png, id=179, 2299.08937pt x 3186.65532pt>
+<images/seab-producao-de-citros.png, id=184, 2299.08937pt x 3186.65532pt>
 File: images/seab-producao-de-citros.png Graphic file (type png)
 <use images/seab-producao-de-citros.png>
 Package pdftex.def Info: images/seab-producao-de-citros.png  used on input line 148.
 (pdftex.def)             Requested size: 119.80544pt x 166.05226pt.
-<images/seab-producao-de-tangerinas.png, id=180, 1801.48032pt x 2610.75375pt>
+<images/seab-producao-de-tangerinas.png, id=185, 1801.48032pt x 2610.75375pt>
 File: images/seab-producao-de-tangerinas.png Graphic file (type png)
 <use images/seab-producao-de-tangerinas.png>
 Package pdftex.def Info: images/seab-producao-de-tangerinas.png  used on input line 148.
@@ -1094,12 +1094,12 @@ Overfull \hbox (41.30252pt too wide) in paragraph at lines 191--191
 [][]  
  []
 
-<images/sintoma-01.png, id=208, 280.04625pt x 265.74281pt>
+<images/sintoma-01.png, id=213, 280.04625pt x 265.74281pt>
 File: images/sintoma-01.png Graphic file (type png)
 <use images/sintoma-01.png>
 Package pdftex.def Info: images/sintoma-01.png  used on input line 191.
 (pdftex.def)             Requested size: 85.57382pt x 81.20349pt.
-<images/sintoma-02.png, id=209, 300.3722pt x 263.48438pt>
+<images/sintoma-02.png, id=214, 300.3722pt x 263.48438pt>
 File: images/sintoma-02.png Graphic file (type png)
 <use images/sintoma-02.png>
 Package pdftex.def Info: images/sintoma-02.png  used on input line 191.
@@ -1115,7 +1115,7 @@ Package pdftex.def Info: images/sintoma-02.png  used on input line 191.
 [7
 
  <./images/sintoma-01.png> <./images/sintoma-02.png>]
-<images/sintoma-04.png, id=266, 842.39719pt x 255.95625pt>
+<images/sintoma-04.png, id=271, 842.39719pt x 255.95625pt>
 File: images/sintoma-04.png Graphic file (type png)
 <use images/sintoma-04.png>
 Package pdftex.def Info: images/sintoma-04.png  used on input line 211.
@@ -1125,7 +1125,7 @@ Package pdftex.def Info: images/sintoma-04.png  used on input line 211.
 [8
 
  <./images/sintoma-04.png (PNG copy)>]
-<images/resumo-pazoti.png, id=292, 1693.07532pt x 961.34157pt>
+<images/resumo-pazoti.png, id=297, 1693.07532pt x 961.34157pt>
 File: images/resumo-pazoti.png Graphic file (type png)
 <use images/resumo-pazoti.png>
 Package pdftex.def Info: images/resumo-pazoti.png  used on input line 228.
@@ -1139,21 +1139,17 @@ Package pdftex.def Info: images/resumo-pazoti.png  used on input line 228.
 [10
 
 ]
-<images/resumo-ribeiro-castro-paiva.png, id=380, 1195.46625pt x 1005.7575pt>
+<images/resumo-ribeiro-castro-paiva.png, id=386, 1195.46625pt x 1005.7575pt>
 File: images/resumo-ribeiro-castro-paiva.png Graphic file (type png)
 <use images/resumo-ribeiro-castro-paiva.png>
-Package pdftex.def Info: images/resumo-ribeiro-castro-paiva.png  used on input line 280.
-(pdftex.def)             Requested size: 205.37926pt x 172.78741pt.
+Package pdftex.def Info: images/resumo-ribeiro-castro-paiva.png  used on input line 267.
+(pdftex.def)             Requested size: 171.14764pt x 143.98183pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:figure5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.280 \end{frame}
+l.267 \end{frame}
                  
-Overfull \vbox (12.10623pt too high) detected at line 280
- []
-
-
 
 [11
 
@@ -1162,18 +1158,18 @@ Overfull \vbox (12.10623pt too high) detected at line 280
 [12
 
 ]
-<images/resumo-momeny.png, id=467, 1120.185pt x 1016.29688pt>
+<images/resumo-momeny.png, id=473, 1120.185pt x 1016.29688pt>
 File: images/resumo-momeny.png Graphic file (type png)
 <use images/resumo-momeny.png>
-Package pdftex.def Info: images/resumo-momeny.png  used on input line 317.
+Package pdftex.def Info: images/resumo-momeny.png  used on input line 304.
 (pdftex.def)             Requested size: 171.14764pt x 155.2758pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{fig:figure5}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.317 \end{frame}
+l.304 \end{frame}
                  
-Overfull \vbox (8.19463pt too high) detected at line 317
+Overfull \vbox (8.19463pt too high) detected at line 304
  []
 
 
@@ -1183,6 +1179,10 @@ Overfull \vbox (8.19463pt too high) detected at line 317
  <./images/resumo-momeny.png (PNG copy)>]
 
 [14
+
+]
+
+[15
 
 ]
 \tf@nav=\write6
@@ -1204,20 +1204,20 @@ L3 programming layer <2025-10-09>
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 59C779928C970B5F2DE4FBD227ECC7D8;399.
+(rerunfilecheck)             Checksum: 366A9E833B46AE7EF57225ADF2D3E886;487.
  ) 
 Here is how much of TeX's memory you used:
- 29281 strings out of 468080
- 588457 string characters out of 5423352
- 958088 words of memory out of 5000000
- 57315 multiletter control sequences out of 15000+600000
+ 29290 strings out of 468080
+ 588538 string characters out of 5423352
+ 959088 words of memory out of 5000000
+ 57321 multiletter control sequences out of 15000+600000
  667280 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,14n,123p,497b,722s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss10.pfb><C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb><C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsso10.pfb>
-Output written on main.pdf (14 pages, 5431009 bytes).
+Output written on main.pdf (15 pages, 5444147 bytes).
 PDF statistics:
- 582 PDF objects out of 1000 (max. 8388607)
- 39 named destinations out of 1000 (max. 500000)
- 521 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 612 PDF objects out of 1000 (max. 8388607)
+ 42 named destinations out of 1000 (max. 500000)
+ 529 words of extra memory for PDF output out of 10000 (max. 10000000)
 
