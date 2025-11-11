@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber fatec-template"] 1762824803.77765 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1762824813.3549 0
+["biber fatec-template"] 1762824803.77765 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1762897920.38938 0
   "fatec-article.bib" 1762206578 13034 b0034d7ca4e358eefbdfa82b1e84a1db ""
-  "fatec-template.bcf" 1762824812 116117 f5fdf9c3e9c03fd6c8de57bb3bccebdb "pdflatex"
+  "fatec-template.bcf" 1762897919 116117 f5fdf9c3e9c03fd6c8de57bb3bccebdb "pdflatex"
   (generated)
   "fatec-template.bbl"
   "fatec-template.blg"
   (rewritten before read)
-["pdflatex"] 1762824806.4447 "c:/Users/fatec-dsm2/Desktop/testes/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-paper/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1762824813.35577 0
+["pdflatex"] 1762897913.50851 "c:/Users/fatec-dsm2/Desktop/testes/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-paper/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1762897920.39025 0
   "C:/Users/fatec-dsm2/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762824798 122378 c1dc82c6b85f2c9d33e9cc271df3666e ""
   "C:/Users/fatec-dsm2/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762383381 13324287 115fa68e4e307e56eaf23b5600a69a30 ""
   "C:/Users/fatec-dsm2/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -213,16 +213,16 @@
   "Illustrations/grph-example.png" 1762206578 121228 5dc7886e5c9db312ecad87e0cb5a900c ""
   "Topicos/conclusao.tex" 1762206578 240 0ed91c82127ac9578dd3ad1d79586f13 ""
   "Topicos/estadodaarte.tex" 1762206578 8504 e548c17c99a6b862a0e767f776b2ca7d ""
-  "Topicos/introducao.tex" 1762824567 7204 722e71acd0d7e88b9579e296f68b7065 ""
+  "Topicos/introducao.tex" 1762897915 7205 b82f191a539496ed4bb80f322a751c16 ""
   "Topicos/metodologia.tex" 1762206578 789 a85d0244cbc129142f00d7a47a6f6730 ""
   "Topicos/objetivo.tex" 1762206578 1047 be73ae03306295ad9d8992a8328fbb8c ""
   "Topicos/resultados.tex" 1762206578 7523 a70f7264d810d0204f90b0281a2cdec0 ""
   "c:/Users/fatec-dsm2/Desktop/testes/pi-ponskan/artifacts/latex-artifacts/f299-template-pi-paper/fatec-template.tex" 1762206578 3873 9496064a291ab255093fa78ac2eb1d17 ""
   "fatec-article.sty" 1762206578 46769 d42a572cefe192cb69a1629b16cdfd61 ""
-  "fatec-template.aux" 1762824811 9336 1fd9b870f9f18dd44b6f3c8c32e6c2cc "pdflatex"
+  "fatec-template.aux" 1762897918 9336 1fd9b870f9f18dd44b6f3c8c32e6c2cc "pdflatex"
   "fatec-template.bbl" 1762824806 36391 5ef60706f2dad79946bf705a77850cf5 "biber fatec-template"
-  "fatec-template.out" 1762824812 236 c97d7179c8455408bf40bfc3ff2736f0 "pdflatex"
-  "fatec-template.run.xml" 1762824812 2617 4d46f5d56bcd78c60e0607a558d03956 "pdflatex"
+  "fatec-template.out" 1762897919 236 c97d7179c8455408bf40bfc3ff2736f0 "pdflatex"
+  "fatec-template.run.xml" 1762897920 2617 4d46f5d56bcd78c60e0607a558d03956 "pdflatex"
   "fatec-template.tex" 1762206578 3873 9496064a291ab255093fa78ac2eb1d17 ""
   (generated)
   "fatec-template.aux"
