@@ -19,6 +19,7 @@
 % -------------------------------------------------
 \definecolor{cpsred}{RGB}{153,0,0}      % Vermelho institucional
 \definecolor{cpsgray}{RGB}{85,85,85}    % Cinza técnico
+\definecolor{green}{RGB}{60,99,0}    % Cinza técnico
 
 \usecolortheme[named=cpsred]{structure}
 \setbeamercolor{title}{fg=white,bg=cpsred}
@@ -156,7 +157,7 @@ O Vale do Ribeira produziu, em 2020, 98 mil toneladas de citros que renderam cer
 
 \node (A) [draw, rectangle, inner sep=5pt] {Clima tropical úmido};
 \node (B) [draw, rectangle, below of=A, node distance=1cm] {Propiciação de doenças fúngicas};
-\node (C) [draw, rectangle, below of=B, node distance=1cm] {Pinta Preta (\emph{Phyllosticta} \emph{citricarpa})};
+\node (C) [draw, rectangle, below of=B, node distance=1cm] {\small{Pinta Preta (\emph{Phyllosticta/Guignardia} \emph{citricarpa})}};
 \node (D) [draw, rectangle, below of=C, node distance=2cm] 
 {
 \begin{tabular}{c}
@@ -215,43 +216,143 @@ Queda prematura \\
 \begin{frame}{Estado da Arte}
 \centering
 
-\Large {Pazoti, 2005} \\[1cm]
+\vspace{0.2cm}
+{\color{green}\large\textbf{CITRUSVIS - Um sistema de visão computacional para a identificação do fungo Guignardia citricarpa, causador da mancha preta em citros}}\\[0.2cm]
+\normalsize {Pazoti, 2005} \\[0.2cm]
 
-\justifying 
-{\normalsize Objetivos gerais pouco operacionais, específicos ausentes ou mal apresentados.  
-Há redundâncias e inversão entre o que é produto e o que é método.}\\[1cm]
+\begin{figure}[h]
+\includegraphics[width=0.75\textwidth]{images/resumo-pazoti.png}
+\label{fig:figure5}
+\end{figure}
+
 \end{frame}
 % Estado da Arte 01 ============================
 
+% Estado da Arte 02 ============================
+\begin{frame}{Estado da Arte}
+\centering
 
+\vspace{0.2cm}
+{\color{green}\large\textbf{CITRUSVIS - Um sistema de visão computacional para a identificação do fungo Guignardia citricarpa, causador da mancha preta em citros}}\\[0.2cm]
+\normalsize {Pazoti, 2005} \\[0.2cm]
+
+\begin{block}{Rede Neural Artificial (RNA)}
+  Aprendizado supervisionado com 2 camadas escondidas de 20 e 15 neurônios, treinada com 60 entradas.
+\end{block}
+
+\begin{block}{Resultados}
+  98\% de acurácia em amostras pré-selecionadas e 96,6\% em testes gerais, com 66 segundos de tempo de processamento médio.
+\end{block}
+
+\begin{block}{Desafios}
+  Limitações e ruídos na aquisição de imagens.
+\end{block}
+
+\end{frame}
+% Estado da Arte 02 ============================
+
+% Estado da Arte 03 =============================
+\begin{frame}{Estado da Arte}
+\centering
+
+\vspace{0.2cm}
+{\color{green}\large\textbf{Diferenciação do Greening de Outras Doenças Foliares em Citros Utilizando Técnicas de Processamento de Imagens}}\\[0.2cm]
+\normalsize {Ribeiro; Castro Jorge; Paiva, 2012} \\[0.2cm]
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{images/resumo-ribeiro-castro-paiva.png}
+\label{fig:figure6}
+\end{figure}
+
+\end{frame}
+% Estado da Arte 03 ============================
+% Estado da Arte 04 ============================
+\begin{frame}{Estado da Arte}
+\centering
+
+\vspace{0.2cm}
+{\color{green}\large\textbf{Diferenciação do Greening de Outras Doenças Foliares em Citros Utilizando Técnicas de Processamento de Imagens}}\\[0.2cm]
+\normalsize {Ribeiro; Castro Jorge; Paiva, 2012} \\[0.2cm]
+
+\begin{block}{Rede Neural Artificial (RNA)}
+  Treinada com 46 amostras e validada com 14 amostras.
+\end{block}
+
+\begin{block}{Resultados}
+  Entre 43\% e 63\% de acurácia em classificação geral (considerando todas as doenças) e 96,04\% de precisão para discriminar apenas greening.
+\end{block}
+
+\begin{block}{Desafios}
+  Alta similaridade dos sintomas, quantidade reduzida de amostras e segmentação por cor única insuficiente.
+\end{block}
+
+\end{frame}
+% Estado da Arte 04 ============================
+% Estado da Arte 05 ============================
+\begin{frame}{Estado da Arte}
+\centering
+
+\vspace{0.2cm}
+{\color{green}\large\textbf{Detection of citrus black spot disease and ripeness level in orange fruit using learning-to-augment incorporated deep networks}}\\[0.2cm]
+\normalsize {Momeny et al., 2022} \\[0.2cm]
+
+\begin{figure}[h]
+\includegraphics[width=0.5\textwidth]{images/resumo-momeny.png}
+\label{fig:figure7}
+\end{figure}
+
+\end{frame}
+% Estado da Arte 05 ============================
+% Estado da Arte 06 ============================
+\begin{frame}{Estado da Arte}
+\centering
+
+\vspace{0.2cm}
+{\color{green}\large\textbf{Detection of citrus black spot disease and ripeness level in orange fruit using learning-to-augment incorporated deep networks}}\\[0.2cm]
+\normalsize {Momeny et al., 2022} \\[0.2cm]
+
+\begin{block}{Rede Neural Convolucional (CNN)}
+  1896 imagens treinadas em diversos modelos, dos quais o melhor desempenho foi ResNet50.
+\end{block}
+
+\begin{block}{Resultados}
+  Acurácia total de 99,5\% com 100\% de sensibilidade (não despercebeu doentes) e especificidade (não confundiu saudáveis)
+\end{block}
+
+\begin{block}{Desafios}
+  Risco de \emph{overfitting} por conta da variabilidade nas imagens.
+\end{block}
+
+\end{frame}
+% Estado da Arte 06 ============================
+% Estado da Arte 07 ============================
 \section{Objetivo}
-\begin{frame}{Metodologia confusa ou incompleta}
-\justifying
-Mistura de etapas, ferramentas e resultados.  
-Falta de clareza sobre o fluxo de desenvolvimento, separação entre metodologia de pesquisa e de implementação, e presença de trechos do modelo sem conteúdo autoral.
+\begin{frame}{Objetivo}
+\centering
+
+\vspace{0.1cm}
+{\color{green}\large\textbf{Sistema para Identificação da Pinta Preta na Tangerina Ponkan}}\\[0.1cm]
+\normalsize {Arthur Parra et al., 2025} \\[0.2cm]
+
+ 
+\underline{Identificação de frutos de tangerinas infectadas por pinta preta} \\
+ 
+\underline{através de fotos capturadas em câmera de smartphone}
+
+ \vspace{0.3cm}
+
+ \begin{tabular}{ |c|c| } 
+ \hline
+  Desenvolvimento & Algoritmos de processamento de imagem \\ & e rede neural \\
+ \hline
+  Tempo de resposta & Menor que 5 minutos  \\ 
+ \hline
+  Valor agregado & Recomendações personalizadas de manejo \\ & baseadas em dados climáticos \\
+\hline
+  \emph{Dataset} & Conjuntos de dados organizados \\ & e diversificados para  treino e teste de rede neural \\
+\hline
+\end{tabular}
+
 \end{frame}
-
-\section{Metodologia}
-\begin{frame}{Elementos gráficos e estruturais problemáticos}
-\justifying
-Figuras muito pequenas ou sem legenda.  
-Ausência de fluxogramas obrigatórios.  
-Tabelas e seções de exemplo do modelo não substituídas adequadamente.
-\end{frame}
-
-\section{Apresentação Prática}
-\begin{frame}{Citações mal posicionadas ou incompletas}
-\justifying
-Pedidos de “citação ao final do parágrafo” ignorados.  
-Falta de identificação clara da fonte de dados e lacunas entre citações e lista de referências.
-\end{frame}
-
-
-\section{Encerramento}
-\begin{frame}{Encerramento}
-\justifying
-Os problemas levantados indicam a necessidade de fortalecer a formação científica, a escrita acadêmica e o domínio metodológico dos alunos.  
-O aprimoramento contínuo desses aspectos é essencial para a qualidade e a credibilidade dos projetos de pesquisa desenvolvidos na FATEC Registro.
-\end{frame}
-
+% Estado da Arte 07 ============================
 \end{document}
