@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1763395762.62396 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/template-pi-beamer/main.tex" "main.pdf" "main" 1763395765.02435 0
+["pdflatex"] 1763405312.99347 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/template-pi-beamer/main.tex" "main.pdf" "main" 1763405315.45846 0
   "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1762543072 122378 c1dc82c6b85f2c9d33e9cc271df3666e ""
   "C:/Users/guilh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1759720438 13286966 d632b264d5c041a4888c415aaa275232 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1256929440 2327 9d6df24f9c4f7368395224341a95523a ""
@@ -231,7 +231,7 @@
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/wrapfig/wrapfig.sty" 1044403200 26220 3701aebf80ccdef248c0c20dd062fea9 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/xkeyval/xkeyval.sty" 1656236919 4937 4ce600ce9bd4ec84d0250eb6892fcf4f ""
-  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/template-pi-beamer/main.tex" 1763395759 12105 91e3ea4683d41c027966ad27acc9532a ""
+  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artifacts/latex-artifacts/template-pi-beamer/main.tex" 1763405312 12103 0bdbdc541d787c7a93ec0fb4dde340f3 ""
   "images/logomarca.png" 1762541181 24270 0331ca354673bed60e48a609781ed9a9 ""
   "images/play-pitch-icon.png" 1763394696 11212 f814508c1e2e46a3d4b7110684b3f656 ""
   "images/resumo-momeny.png" 1763380111 1169456 af23e5db7b299d67c8d5c3e6e47df42b ""
@@ -243,11 +243,11 @@
   "images/sintoma-02.png" 1762541181 146901 e9b78d00fa59fb4d5717f9532c0c5cbd ""
   "images/sintoma-04.png" 1762541181 914676 eb8d7cd4954f8c4fce8f6dc6096c63ff ""
   "images/usda-suco-de-laranja.png" 1762541181 58090 514f4797d7f97d625f545e111aa82055 ""
-  "main.aux" 1763395764 5001 f6c0a47f85ba7e70c59fa45b4a302770 "pdflatex"
-  "main.nav" 1763395764 2339 01015c82acb04f12142e415de98d6cfb "pdflatex"
-  "main.out" 1763395764 482 6f9ce312dfcbc1a00c6371e15dc11ef3 "pdflatex"
-  "main.tex" 1763395759 12105 91e3ea4683d41c027966ad27acc9532a ""
-  "main.toc" 1763395764 266 10759ab7f390a32fd7b78e1495f499e3 "pdflatex"
+  "main.aux" 1763405315 5001 f6c0a47f85ba7e70c59fa45b4a302770 "pdflatex"
+  "main.nav" 1763405315 2339 01015c82acb04f12142e415de98d6cfb "pdflatex"
+  "main.out" 1763405315 482 6f9ce312dfcbc1a00c6371e15dc11ef3 "pdflatex"
+  "main.tex" 1763405312 12103 0bdbdc541d787c7a93ec0fb4dde340f3 ""
+  "main.toc" 1763405315 266 10759ab7f390a32fd7b78e1495f499e3 "pdflatex"
   (generated)
   "main.aux"
   "main.log"
