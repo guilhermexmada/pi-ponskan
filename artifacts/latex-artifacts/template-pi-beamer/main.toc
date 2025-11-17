@@ -1,5 +1,5 @@
 \babel@toc {brazilian}{}\relax 
-\beamer@sectionintoc {1}{Logomarca}{2}{0}{1}
+\beamer@sectionintoc {1}{Logomarca}{3}{0}{1}
 \beamer@sectionintoc {2}{Pitch}{4}{0}{2}
 \beamer@sectionintoc {3}{Problematização}{5}{0}{3}
 \beamer@sectionintoc {4}{Estado da Arte}{9}{0}{4}
