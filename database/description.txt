@@ -1,3 +1,0 @@
-- modelo conceitual
-- modelo lógico
-- banco de dados físico SQL/NoSQL

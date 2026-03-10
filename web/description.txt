@@ -1,2 +1,0 @@
-- landing page com apresentação da EQUIPE e do PROJETO
-- Projeto MVP Web
