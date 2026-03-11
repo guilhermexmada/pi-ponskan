@@ -32,33 +32,41 @@ Siga os passos abaixo para contribuir com o repositório, salvando o seu progres
 
 ### Clonar e atualizar o repositório
 
-`git clone https://github.com/guilhermexmada/pi-ponskan.git`
+```
+git clone https://github.com/guilhermexmada/pi-ponskan.git
 
-`git fetch origin`
+git fetch origin
+```
 
 ### Verificar sua branch e baixar últimas alterações
 
-`git branch`
+```
+git branch
 
-`git pull`
+git pull
+```
 
 ### Trocar para branch remota
 
-`git branch -r`
+```
+git branch -r
 
-`git checkout -b nome-branch-local origin/nome-branch-remota`
+git checkout -b nome-branch-local origin/nome-branch-remota
+```
 
 ### Criar branch, desenvolver e salvar trabalho
 
-`git checkout -b nome-branch-local`
+```
+git checkout -b nome-branch-local
 
-`git status`
+git status
 
-`git add nome-do-arquivo.extensao` ou `git add .`
+git add nome-do-arquivo.extensao  ou  git add .
 
-`git commit -m "nome-commit : mensagem-do-commit"`
+git commit -m "nome-commit : mensagem-do-commit"
 
-`git push -u origin nome-da-branch`
+git push -u origin nome-da-branch
+```
 
 ## Padrão de branches e commits
 
