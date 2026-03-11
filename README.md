@@ -30,43 +30,50 @@ Desenvolvimento de uma aplicação mobile/web para monitoramento fitossanitário
 
 Siga os passos abaixo para contribuir com o repositório, salvando o seu progresso na execução de tarefas.
 
-### Clonar e atualizar o repositório
+### Atualizar seu repositório local
+
+Antes de desenvolver, sempre atualize seu repositório com as últimas mudanças
 
 ```
-git clone https://github.com/guilhermexmada/pi-ponskan.git
-
-git fetch origin
-```
-
-### Verificar sua branch e baixar últimas alterações
-
-```
-git branch
+git fetch
 
 git pull
 ```
 
-### Trocar para branch remota
+### Criar uma branch
+
+Para trabalhar numa nova tarefa, crie uma branch específica
 
 ```
-git branch -r
+git branch
 
-git checkout -b nome-branch-local origin/nome-branch-remota
-```
-
-### Criar branch, desenvolver e salvar trabalho
-
-```
 git checkout -b nome-branch-local
+```
 
+### Salvar alterações no local
+
+```
 git status
 
-git add nome-do-arquivo.extensao  ou  git add .
+git add nome-do-arquivo | git add .
 
-git commit -m "nome-commit : mensagem-do-commit"
+git commit -m "mensagem-do-commit"
+```
 
+### Salvar alterações no remoto
+
+O comando abaixo cria uma branch no github e conecta ela à sua branch atual
+
+```
 git push -u origin nome-da-branch
 ```
+
+
+### Completar tarefas
+
+Tarefas serão abertas usando issues no github. Quando terminar, feche sua issue com uma descrição do que foi realizado. 
+
+Não use comandos git para realizar merge. As suas tarefas serão passadas para produção usando pull requests no github.
 
 ## Padrão de branches e commits
 
