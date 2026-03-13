@@ -79,10 +79,10 @@ Não use comandos git para realizar merge. As suas tarefas serão passadas para 
 
 | Tipo  |  Descrição | Exemplo |
 | --- | --- | --- |
-| chore | tarefas técnicas, configurações, instalações | `chore/instalar-dependencias` |
-| refactor | reorganiza, limpa, não altera funcionamento | `refactor/apagar-comentarios` |
-| fix | corrige erros e bugs | `fix/rota-http-errada` |
-| feature | implementa nova funcionalidade | `feature/tela-de-login` |
+| entrega | execução de uma tarefa/issue | `entrega/banner` |
+| edicao | adições, ajustes e reorganizações | `edicao/atualiza-api` |
+| correcao | corrige erros e bugs | `correcao/sobrenome-landing-page` |
+| docs | escrita de documentação | `docs/artigo-metodologia` |
 
 
 
