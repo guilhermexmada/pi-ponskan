@@ -30,6 +30,12 @@ Desenvolvimento de uma aplicação mobile/web para monitoramento fitossanitário
 
 Siga os passos abaixo para contribuir com o repositório, salvando o seu progresso na execução de tarefas.
 
+### Fluxo
+
+Siga o fluxo abaixo para contribuir com o repositório:
+
+`clonar repositório → criar branch → desenvolver e commitar → fazer push → abrir pull request`
+
 ### Atualizar seu repositório local
 
 Antes de desenvolver, sempre atualize seu repositório com as últimas mudanças
@@ -79,9 +85,8 @@ Não use comandos git para realizar merge. As suas tarefas serão passadas para 
 
 | Tipo  |  Descrição | Exemplo |
 | --- | --- | --- |
-| entrega | execução de uma tarefa/issue | `entrega/banner` |
-| edicao | adições, ajustes e reorganizações | `edicao/atualiza-api` |
-| correcao | corrige erros e bugs | `correcao/sobrenome-landing-page` |
+| entrega | execução de uma tarefa (issue) | `entrega/banner` |
+| edicao | adições, correções e ajustes | `edicao/atualiza-api` |
 | docs | escrita de documentação | `docs/artigo-metodologia` |
 
 
