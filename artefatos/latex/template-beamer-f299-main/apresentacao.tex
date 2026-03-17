@@ -1,0 +1,337 @@
+\documentclass[aspectratio=169]{beamer}
+
+% Pacotes essenciais
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazilian]{babel}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+% Fonte moderna Roboto
+\usepackage[sfdefault]{roboto}
+\usepackage[T1]{fontenc}
+
+% Definição das cores
+\definecolor{vermelhoPrincipal}{HTML}{b11116}
+\definecolor{azulComplementar}{HTML}{3a5461}
+\definecolor{brancoFundo}{HTML}{FFFFFF}
+
+% Configuração do tema
+\usetheme{Madrid}
+\usecolortheme{default}
+
+% Cores personalizadas - texto sempre em preto
+\setbeamercolor{structure}{fg=black}
+\setbeamercolor{palette primary}{bg=vermelhoPrincipal,fg=white}
+\setbeamercolor{palette secondary}{bg=azulComplementar,fg=white}
+\setbeamercolor{palette tertiary}{bg=vermelhoPrincipal,fg=white}
+\setbeamercolor{palette quaternary}{bg=azulComplementar,fg=white}
+\setbeamercolor{frametitle}{bg=vermelhoPrincipal,fg=white}
+\setbeamercolor{background canvas}{bg=brancoFundo}
+\setbeamercolor{title}{fg=black}
+\setbeamercolor{subtitle}{fg=azulComplementar}
+\setbeamercolor{author}{fg=black}
+\setbeamercolor{date}{fg=black}
+\setbeamercolor{itemize item}{fg=black}
+\setbeamercolor{itemize subitem}{fg=black}
+\setbeamercolor{enumerate item}{fg=black}
+\setbeamercolor{block title}{bg=vermelhoPrincipal,fg=white}
+\setbeamercolor{block body}{bg=vermelhoPrincipal!10,fg=black}
+\setbeamercolor{normal text}{fg=black}
+
+% Configurar fonte dos itemize
+\setbeamerfont{itemize/enumerate body}{size=\scriptsize}
+\setbeamerfont{itemize/enumerate subbody}{size=\scriptsize}
+
+% Marcadores modernos e minimalistas
+\setbeamertemplate{itemize item}{\raisebox{0.2ex}{\rule{0.6ex}{0.6ex}}}
+\setbeamertemplate{itemize subitem}{\raisebox{0.3ex}{\rule{0.4ex}{0.4ex}}}
+\setbeamertemplate{itemize subsubitem}{\raisebox{0.35ex}{\rule{0.3ex}{0.3ex}}}
+\setbeamertemplate{enumerate items}[square]
+
+% Transições suaves
+\setbeamercovered{transparent}
+
+% Remover símbolos de navegação
+\setbeamertemplate{navigation symbols}{}
+
+% Customizar o cabeçalho com barra vermelha e logo
+\setbeamertemplate{headline}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.6cm,dp=0.15cm,leftskip=0.2cm,rightskip=0.4cm]{palette primary}
+    \raisebox{-0.05cm}{\includegraphics[height=0.45cm]{imgs/base/fatec-rgt.png}}
+    \hfill
+    \raisebox{-0.18cm}{\includegraphics[height=0.85cm]{imgs/base/governo-sp-secretaria-logo.png}}
+    \hspace{0.2cm}
+    \raisebox{-0.08cm}{\includegraphics[height=0.6cm]{imgs/base/cps-logo.png}}
+  \end{beamercolorbox}
+}
+% Remover sombras dos blocks
+\setbeamertemplate{blocks}[default]
+\setbeamertemplate{itemize/enumerate body begin}{\scriptsize}
+\setbeamertemplate{itemize/enumerate subbody begin}{\scriptsize}
+% Customizar o rodapé
+\setbeamertemplate{footline}{
+  \begin{beamercolorbox}[wd=\paperwidth,ht=0.4cm,dp=0.2cm,leftskip=0.3cm,rightskip=0.3cm]{palette secondary}
+    \usebeamerfont{footline}
+    \insertshortauthor \hfill \hfill {\fontsize{5}{6}\selectfont\insertshorttitle} \hfill \hfill \insertframenumber/\inserttotalframenumber
+  \end{beamercolorbox}
+}
+
+% Customizar título do frame
+\setbeamertemplate{frametitle}{
+  \vspace{0.3cm}
+  \textcolor{black}{\insertframetitle}
+  \vspace{0.1cm}
+}
+
+% Informações da apresentação
+\title{Modelo Latex Beamer para \\Desenvolvimento de Software Multiplataforma}
+\subtitle{}
+\author[DSM]{SOBRENOME, F.; SOBRENOME, C.; SOBRENOME, B.}
+\institute{Desenvolvimento de Software Multiplataforma\\FATEC Registro}
+\date{\today}
+
+\begin{document}
+
+% Slide de título moderno
+\begin{frame}
+  \vspace{0.8cm}
+  \begin{center}
+    \begin{tikzpicture}
+      % Linha decorativa superior
+      \draw[vermelhoPrincipal, line width=2pt] (-4,0) -- (4,0);
+    \end{tikzpicture}
+    
+    \vspace{0.4cm}
+    
+    {\normalsize\bfseries\inserttitle}\par
+    
+    \vspace{0.2cm}
+    
+    {\tiny\insertauthor}\par
+    
+    \vspace{0.1cm}
+    
+    {\small\textcolor{azulComplementar}{\insertsubtitle}}\par
+    
+    \vspace{0.5cm}
+    
+    \begin{tikzpicture}
+      % Linha decorativa inferior
+      \draw[azulComplementar, line width=1.5pt] (-2.5,0) -- (2.5,0);
+    \end{tikzpicture}
+    
+    \vspace{0.3cm}
+    
+    {\scriptsize\insertinstitute}\par
+    
+    \vspace{0.01cm}
+    
+    {\tiny\textcolor{azulComplementar}{\insertdate}}\par
+  \end{center}
+\end{frame}
+
+% Slide de agenda
+\begin{frame}[b]{Agenda}
+  \begin{itemize}
+    \item Pitch
+    \item Problematização
+    \item Estado da Arte
+    \item Objetivo
+    \item Ferramental
+    \item Metodologia
+    \item Apresentação prática
+    \item Resultados e Discussões
+  \end{itemize}
+  
+  \vfill
+  
+  \hfill{\scriptsize \textbf{Duração:} 10 a 11 min.}
+\end{frame}
+
+\section{Pitch}
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_001.jpg}%
+}
+\begin{frame}[b]{Pitch}
+  \begin{itemize}
+    \item \parbox{0.60\textwidth}{Apresentação concisa e objetiva do projeto}
+    \item \parbox{0.60\textwidth}{Destaque do \textbf{problema} que o projeto resolve}
+    \item \parbox{0.60\textwidth}{Proposta de \textbf{valor} e diferenciais da solução}
+    \item \parbox{0.60\textwidth}{Público-alvo e \textbf{impacto} esperado}
+    \item \parbox{0.60\textwidth}{Visão geral das \textbf{tecnologias} utilizadas}
+  \end{itemize}
+  
+  \vfill
+  
+  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+\end{frame}
+}
+
+\section{Problematização}
+
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_002.jpg}%
+}
+\begin{frame}[b]{Problematização}
+  \begin{itemize}
+    \item \parbox{0.60\textwidth}{Contextualização do \textbf{problema} identificado}
+    \item \parbox{0.60\textwidth}{Análise das \textbf{causas} e consequências}
+    \item \parbox{0.60\textwidth}{Impacto no público-alvo ou na área de atuação}
+    \item \parbox{0.60\textwidth}{Justificativa da \textbf{relevância} do projeto}
+    \item \parbox{0.60\textwidth}{Lacunas nas soluções existentes}
+  \end{itemize}
+  
+  \vfill
+  
+  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+\end{frame}
+}
+
+\section{Estado da Arte}
+
+\begin{frame}[t]{Estado da Arte}
+  \scriptsize
+  
+  Análise de \textbf{soluções existentes} no mercado, comparação de \textbf{tecnologias} e abordagens, identificação de \textbf{gaps} e oportunidades, referências bibliográficas e \textbf{trabalhos relacionados}, tendências e \textbf{inovações} na área.
+  
+  \vspace{0.3cm}
+  
+  \begin{table}
+    \centering
+    \tiny
+    \begin{tabular}{|p{2.5cm}|p{2cm}|p{2cm}|p{2cm}|p{2cm}|p{1.5cm}|}
+      \hline
+      \textbf{Título/Autores} & \textbf{Objetivo} & \textbf{Método} & \textbf{Resultados} & \textbf{Limitações} & \textbf{Gap} \\
+      \hline
+      Classificação de discurso de ódio com Transformers — Silva et al. (2024) & Identificar discurso de ódio em português & Fine-tuning de Transformer com validação cruzada 5-fold & F1 = 0,91, superior a SVM/CNN & Baixo desempenho em textos curtos & Sem explicabilidade e sem tempo real \\
+      \hline
+      Detecção de pragas agrícolas por CNN — Oliveira e Santos (2023) & Reconhecer pragas em imagens de campo & CNN profunda com transferência de aprendizado & Acurácia = 94\% & Sensível à iluminação/oclusão & Não executa em dispositivos de borda \\
+      \hline
+      Detecção de intrusão com LSTM Autoencoder — Almeida et al. (2022) & Detectar anomalias no tráfego de rede & Autoencoder LSTM para reconstrução de séries temporais & Detecção = 96\% com menos falsos positivos & Alto custo computacional & Sem resposta automática ou interpretabilidade \\
+      \hline
+    \end{tabular}
+  \end{table}
+\end{frame}
+
+\section{Objetivo}
+
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_004.jpg}%
+}
+\begin{frame}[b]{Objetivo}
+  \begin{itemize}
+    \item \parbox{0.60\textwidth}{\textbf{Objetivo geral}: meta principal do projeto}
+    \item \parbox{0.60\textwidth}{\textbf{Objetivos específicos}:}
+    \begin{itemize}
+      \item \parbox{0.55\textwidth}{Desenvolver funcionalidade X}
+      \item \parbox{0.55\textwidth}{Implementar recurso Y}
+      \item \parbox{0.55\textwidth}{Validar com público-alvo}
+    \end{itemize}
+    \item \parbox{0.60\textwidth}{Resultados esperados e \textbf{entregas}}
+    \item \parbox{0.60\textwidth}{Métricas de \textbf{sucesso} do projeto}
+  \end{itemize}
+  
+  \vfill
+  
+  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+\end{frame}
+}
+
+\section{Ferramental}
+
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_005.jpg}%
+}
+\begin{frame}[b]{Ferramental}
+  \begin{itemize}
+    \item \parbox{0.60\textwidth}{\textbf{Linguagens}: Python, JavaScript, etc}
+    \item \parbox{0.60\textwidth}{\textbf{Frameworks}: React, Node.js, Django, etc}
+    \item \parbox{0.60\textwidth}{\textbf{Banco de dados}: PostgreSQL, MongoDB, etc}
+    \item \parbox{0.60\textwidth}{\textbf{Infraestrutura}: AWS, Docker, Kubernetes, etc}
+    \item \parbox{0.60\textwidth}{\textbf{Ferramentas}: Git, VS Code, Figma, etc}
+    \item \parbox{0.60\textwidth}{\textbf{APIs} e integrações utilizadas}
+  \end{itemize}
+  
+  \vfill
+  
+  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+\end{frame}
+}
+
+\section{Metodologia}
+
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_006.jpg}%
+}
+\begin{frame}[t]{Metodologia}
+  
+  \scriptsize
+  Apresentação, em formato de fluxograma, dos principais processos implementados no projeto, evidenciando as tecnologias empregadas, tais como Internet das Coisas (IoT), Inteligência Artificial (IA) e Banco de Dados.
+
+\end{frame}
+}
+
+\section{Apresentação Prática}
+
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_007.jpg}%
+}
+\begin{frame}[b]{Apresentação Prática}
+  \begin{itemize}
+    \item \parbox{0.60\textwidth}{\textbf{Demonstração} ao vivo do sistema}
+    \item \parbox{0.60\textwidth}{Principais \textbf{funcionalidades} implementadas}
+    \item \parbox{0.60\textwidth}{\textbf{Interface} e experiência do usuário}
+    \item \parbox{0.60\textwidth}{Fluxos de \textbf{uso} e navegação}
+    \item \parbox{0.60\textwidth}{Casos de uso e \textbf{cenários} práticos}
+  \end{itemize}
+  
+  \vfill
+  
+  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+\end{frame}
+}
+
+\section{Resultados e Discussões}
+
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_008.jpg}%
+}
+\begin{frame}[b]{Resultados e Discussões}
+  \begin{itemize}
+    \item \parbox{0.60\textwidth}{Principais \textbf{resultados} alcançados}
+    \item \parbox{0.60\textwidth}{Análise de \textbf{métricas} e indicadores}
+    \item \parbox{0.60\textwidth}{Feedback dos \textbf{usuários} e testes realizados}
+    \item \parbox{0.60\textwidth}{\textbf{Desafios} encontrados e soluções adotadas}
+    \item \parbox{0.60\textwidth}{Contribuições e \textbf{aprendizados} do projeto}
+    \item \parbox{0.60\textwidth}{\textbf{Trabalhos futuros} e melhorias propostas}
+  \end{itemize}
+  
+  \vfill
+  
+  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+\end{frame}
+}
+
+% Slide Informações Gerais (clone)
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_022.jpg}%
+}
+\begin{frame}[b]{}
+  \vspace{0.2cm}
+  
+  \hspace*{0.25\paperwidth}{\Large \textbf{Obrigado!}}
+  
+  \vfill
+\end{frame}
+}
+
+\end{document}
