@@ -1,0 +1,39 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Kumar e Chen 2024]{kumar2024}
+\abntrefinfo{Kumar e Chen}{KUMAR; CHEN}{2024}
+{KUMAR, S.; CHEN, L. Efficient algorithms for differential equation systems.
+  In:  \emph{Proceedings of the International Conference on Computational
+  Science}. Prague, Czech Republic: [s.n.], 2024. p. 112--125.}
+
+\bibitem[Oliveira e Costa 2023]{oliveira2023}
+\abntrefinfo{Oliveira e Costa}{OLIVEIRA; COSTA}{2023}
+{OLIVEIRA, P.; COSTA, M. Machine learning applications in dynamic systems.
+\emph{IEEE Transactions on Systems, Man, and Cybernetics}, IEEE, v.~53, n.~8,
+  p. 4567--4580, 2023.}
+
+\bibitem[Santos, Lima e Ferreira 2024]{santos2024}
+\abntrefinfo{Santos, Lima e Ferreira}{SANTOS; LIMA; FERREIRA}{2024}
+{SANTOS, A.; LIMA, B.; FERREIRA, C. Advanced numerical methods for complex
+  system analysis.
+\emph{Journal of Computational Mathematics}, Springer, v.~45, n.~3, p.
+  234--251, 2024.}
+
+\bibitem[Silva, Almeida e Rodrigues 2025]{silva2025}
+\abntrefinfo{Silva, Almeida e Rodrigues}{SILVA; ALMEIDA; RODRIGUES}{2025}
+{SILVA, J.; ALMEIDA, R.; RODRIGUES, T. Computational modeling of nonlinear
+  phenomena.
+\emph{Applied Mathematics and Computation}, Elsevier, v.~412, p. 126589, 2025.}
+
+\bibitem[Wang, Zhang e Lee 2023]{wang2023}
+\abntrefinfo{Wang, Zhang e Lee}{WANG; ZHANG; LEE}{2023}
+{WANG, Y.; ZHANG, H.; LEE, K. Comparative study of numerical integration
+  methods.
+\emph{Numerical Algorithms}, Springer, v.~92, n.~4, p. 1523--1547, 2023.}
+
+\end{thebibliography}
