@@ -435,36 +435,43 @@ A Unified Modeling Language (UML) \cite{kumar2024} é uma linguagem de modelagem
 
 O diagrama de casos de uso representa as funcionalidades do sistema do ponto de vista do usuário:
 
-\begin{figure}[H]
+\begin{figure}[h]
 \centering
-\begin{tikzpicture}
-    % Atores
-    \node[draw, circle, minimum size=1cm] (user) at (0,0) {};
-    \node[below] at (0,-0.7) {Usuário};
-    
-    \node[draw, circle, minimum size=1cm] (admin) at (0,-4) {};
-    \node[below] at (0,-4.7) {Administrador};
-    
-    % Sistema
-    \draw[thick] (3,-2.5) ellipse (3cm and 4cm);
-    \node[above] at (3,1.7) {\textbf{Sistema de Gestão}};
-    
-    % Casos de uso
-    \node[draw, ellipse, align=center] (login) at (3,0.5) {Fazer Login};
-    \node[draw, ellipse, align=center] (cadastro) at (3,-1) {Cadastrar\\Produto};
-    \node[draw, ellipse, align=center] (relatorio) at (3,-2.5) {Gerar\\Relatório};
-    \node[draw, ellipse, align=center] (config) at (3,-4) {Configurar\\Sistema};
-    
-    % Relacionamentos
-    \draw[->] (user) -- (login);
-    \draw[->] (user) -- (cadastro);
-    \draw[->] (user) -- (relatorio);
-    \draw[->] (admin) -- (config);
-    \draw[->] (admin) -- (relatorio);
-\end{tikzpicture}
-\caption{Diagrama de Casos de Uso}
-\label{fig:use-case}
+\caption{Diagrama de caso de uso}%
+\label{fig:diagrama-caso-uso}
+ \includegraphics[width=0.8\textwidth]{imgs/caso_de_uso.png}
 \end{figure}
+
+% \begin{figure}[H]
+% \centering
+% \begin{tikzpicture}
+%     % Atores
+%     \node[draw, circle, minimum size=1cm] (user) at (0,0) {};
+%     \node[below] at (0,-0.7) {Usuário};
+    
+%     \node[draw, circle, minimum size=1cm] (admin) at (0,-4) {};
+%     \node[below] at (0,-4.7) {Administrador};
+    
+%     % Sistema
+%     \draw[thick] (3,-2.5) ellipse (3cm and 4cm);
+%     \node[above] at (3,1.7) {\textbf{Sistema de Gestão}};
+    
+%     % Casos de uso
+%     \node[draw, ellipse, align=center] (login) at (3,0.5) {Fazer Login};
+%     \node[draw, ellipse, align=center] (cadastro) at (3,-1) {Cadastrar\\Produto};
+%     \node[draw, ellipse, align=center] (relatorio) at (3,-2.5) {Gerar\\Relatório};
+%     \node[draw, ellipse, align=center] (config) at (3,-4) {Configurar\\Sistema};
+    
+%     % Relacionamentos
+%     \draw[->] (user) -- (login);
+%     \draw[->] (user) -- (cadastro);
+%     \draw[->] (user) -- (relatorio);
+%     \draw[->] (admin) -- (config);
+%     \draw[->] (admin) -- (relatorio);
+% \end{tikzpicture}
+% \caption{Diagrama de Casos de Uso}
+% \label{fig:use-case}
+% \end{figure}
 
 \subsection{Diagrama de Classes}
 
