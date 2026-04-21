@@ -1,6 +1,6 @@
-PWD c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artifacts\latex-artifacts\f299-template-pi-artifacts
+PWD c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artefatos\latex-artifacts-dsm2-deprecated\f299-template-pi-artifacts
 INPUT C:\Users\guilh\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artifacts\latex-artifacts\f299-template-pi-artifacts\fatec-template.tex
+INPUT c:\Users\guilh\OneDrive\Área de Trabalho\estudando\clones\pi-ponskan\artefatos\latex-artifacts-dsm2-deprecated\f299-template-pi-artifacts\fatec-template.tex
 OUTPUT fatec-template.log
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\tex\latex\base\article.cls
