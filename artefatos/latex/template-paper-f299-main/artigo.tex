@@ -69,14 +69,12 @@
     {\thesubsection}{1em}{}
 
 % Informações do artigo
-\title{\vspace{0.6cm}\textbf{\Large Análise Computacional de Sistemas Complexos Utilizando Métodos Numéricos Avançados}}
+\title{\vspace{0.6cm}\textbf{\Large Sistema para Identificação da Pinta Preta na Tangerina Ponkan, orientado por Visão Computacional}}
 \author{
-    João da Silva$^{1}$, Maria Santos$^{2}$, Pedro Oliveira$^{3}$ \\[0.3cm]
+    Arthur Parra, Danielli Reis, Guilherme Pereira, \\ Gustavo Kletelinger, Matheus Oliveira \\[0.3cm]
     \small
-    $^{1}$Faculdade de Tecnologia do Estado de São Paulo \\
-    $^{2}$Universidade de São Paulo \\
-    $^{3}$Instituto de Pesquisas Tecnológicas \\[0.2cm]
-    \textit{joao.silva@fatec.sp.gov.br, maria.santos@usp.br, pedro.oliveira@ipt.br}
+    Faculdade de Tecnologia do Estado de São Paulo \\[0.2cm]
+    \textit{arthur.silva56@aluno.cps.sp.gov.br, danieli.reis@aluno.cps.sp.gov.br,}\\ \textit{guilherme.pereira26@aluno.cps.sp.gov.br, matheus.oliveira52@aluno.cps.sp.gov.br,}\\ \textit{gustavo.kletelinger@aluno.cps.sp.gov.br}
 }
 \date{}
 
@@ -91,10 +89,10 @@
 % Resumo
 \section*{Resumo}
 
-\lipsum[1] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+O projeto propõe o uso Visão Computacional para identificar precocemente a pinta preta dos citros na tangerina ponkan, analisando fotos capturadas por celular, classificando imagens e gerando relatórios e recomendações de manejo. Seu objetivo é otimizar medidas preventivas no campo, atender critérios de tempo de resposta e treinar uma IA com base de dados diversificada. Pazoti (2005) e Momeny et al. (2022) obtiveram altas taxas de acurácia na identificação do fungo usando redes neurais.
 
 \vspace{0.3cm}
-\noindent\textit{\textbf{Palavras-chave:}} Sistemas complexos, Métodos numéricos, Análise computacional, Modelagem matemática, Simulação
+\noindent\textit{\textbf{Palavras-chave:}} Pinta Preta dos Citros; Visão Computacional; Redes Neurais
 
 \vspace{0.5cm}
 \noindent\rule{\textwidth}{0.5pt}
@@ -103,30 +101,41 @@
 % Introdução
 \section{Introdução}
 
-\lipsum[2-3] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin eu ipsum in lectus mollis penatibus \cite{santos2024, oliveira2023}.\footnote{Este é um exemplo de nota de rodapé. Notas de rodapé são úteis para adicionar informações complementares sem interromper o fluxo do texto principal.}
+% \lipsum[2-3] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin eu ipsum in lectus mollis penatibus \cite{santos2024, oliveira2023}.\footnote{Este é um exemplo de nota de rodapé. Notas de rodapé são úteis para adicionar informações complementares sem interromper o fluxo do texto principal.}
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed aliquam, nulla quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris \cite{silva2025}. Como discutido por Brown e Taylor \cite[p.~45]{brown2023}, os métodos clássicos ainda são fundamentais para a compreensão moderna dos sistemas dinâmicos.
+% Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed aliquam, nulla quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris \cite{silva2025}. Como discutido por Brown e Taylor \cite[p.~45]{brown2023}, os métodos clássicos ainda são fundamentais para a compreensão moderna dos sistemas dinâmicos.
+
+Os Objetivos de Desenvolvimento Sustentável (ODSs) foram adotados pela Organização das Nações Unidas \cite{ONU2025} no ano de 2015, estabelecendo parâmetros para políticas nacionais sobre 17 temáticas que impactam o desenvolvimento humano em todos os países. Entre esses objetivos, o projeto de identificação da pinta preta (\emph{Phyllosticta citricarpa}) por visão computacional relaciona-se profundamente com as ODSs 2, 9 e 12, que propõem medidas para garantir segurança alimentar com agricultura sustentável, fomento da inovação nos setores produtivos e eficiência no uso dos recursos naturais, respectivamente. Esses objetivos serão trabalhados com enfoque na tangerina ponkan (\emph{Citrus reticulata}), uma cultura de destaque na região do Vale do Ribeira.
+
+Sendo o Brasil o maior produtor mundial de laranja e suco de laranja (USDA, 2025) \cite{USDA2025}, torna-se evidente a importância nacional deste gênero conhecido como citros (\emph{Citrus}), composto por espécies de laranja, limão, lima, tangerina/mexerica, pomelo/toranja e cidra. Dentre elas, a tangerina possui um grande valor socioeconômico no Vale do Ribeira e uma forte presença na agricultura familiar regional. Segundo o Departamento de Economia Rural (DERAL/SEAB) \cite{DERAL2024}, a citricultura permanece a principal atividade de fruticultura paranaense, ocupando 6,9 mil hectares do estado no ano de 2024. Outro levantamento realizado pela Embrapa \cite{Embrapa2024} no mesmo ano apontou que municípios do Vale do Ribeira aparecem entre os maiores produtores, como Pariquera-Açu (SP) e Iguape (SP) com produção anual superior a 23 mil e 5,6 mil toneladas, respectivamente.
+
+Nesse contexto, a conexão entre citricultura e agricultura familiar torna-se um pilar fundamental no desenvolvimento da região, considerando que "mais de 60\% dos estabelecimentos agrícolas do Vale do Ribeira são compostos por pequenos agricultores familiares" (tradução nossa) (PAGASSINI et al., 2024) \cite{Pagassini2024}. Para esse grupo social, a tangerina ponkan representa o atendimento de muitas necessidades, uma vez que se adaptou bem às condições edafoclimáticas locais. A drenagem do solo incentiva o crescimento de raízes profundas para melhor captação de água; enquanto o clima subtropical úmido, com alta umidade relativa do ar e temperaturas moderadas a altas, favorece a suculência e o tamanho dos frutos (BORGES et al., 2021) \cite{Borges2021}.
+
+Essas características de agrado do consumidor definem a tangerina como um produto de comercialização principalmente \emph{in-natura}, abastecendo não apenas o mercado externo, mas toda uma cadeia de pequenas propriedades que são afetadas diretamente pelos problemas da cultura. Por exemplo, a sazonalidade do mercado, em razão da safra concentrada entre os meses de abril e julho, pode afetar diretamente famílias que têm o cultivo de ponkan como fonte de renda principal. Outro fator decisivo é a produtividade, muitas vezes prejudicada por questões fitossanitárias, ou seja, pragas e doenças. 
+
+O cenário nacional de citros enfrenta grandes ameaças de agentes nocivos como insetos, bactérias e fungos. Uma das doenças mais importantes é a pinta preta ou mancha preta dos citros, a qual, segundo Silva Junior (2016, p. 14) \cite{SilvaJunior2016}, foi relatada em 1980 no estado do Rio de Janeiro e encontra-se praticamente em todas as regiões citrícolas do país. Trata-se de uma doença fúngica causada pelas variações de reprodução sexuada \emph{Phyllostictina citricarpa} e assexuada \emph{Guignardia citricarpa}, caracterizada pela queda prematura dos frutos, cujas cascas são acometidas por lesões que também desqualificam significativamente o produto para comercialização. Ademais, lesões de pinta preta são dotadas de certa variabilidade e podem se assemelhar a danos mecânicos ou insetos, confundindo o produtor. Os principais sintomas são manchas dura, sardenta, virulenta, rendilhada, trincada e a falsa melanose, com manifestação favorecida pela exposição ao sol em altas temperaturas. Portanto, “o manejo da doença em pomares para o mercado interno deve ser muito rigoroso e eficiente” (SILVA JUNIOR et al., 2016) \cite{SilvaJunior2016}.
+
+Para o enfrentamento de desafios fitossanitários como esse, o conceito de agricultura de precisão (AP) tem se destacado como uma abordagem inteligente da prática agrícola. Segundo Molin, Amaral e Colaço (2015) \cite{Molin2015}, a AP esteve fortemente vinculada ao georreferenciamento no seu início, e mais recentemente pode ser entendida como a aplicação da tecnologia da informação (TI) em campo. Sua finalidade de reduzir custos e aumentar produtividade baseia-se na compreensão de que as propriedades agrícolas não são uniformes espacialmente ou ao longo do tempo, o que exige o desenvolvimento de estratégias para gerenciar a heterogeneidade das lavouras e seus respectivos problemas.
+
+Nesse retrato, a visão computacional (VC) “pode ser empregada na detecção de doenças e pragas, na estimação de safra e na avaliação não invasiva de atributos como qualidade, aparência e volume, além de ser componente essencial em sistemas robóticos agrícolas” (SANTOS et al., 2020) \cite{santos2020visao}. O mesmo estudo aborda a classificação de padrões associados a objetos de interesse e sintomas de doenças e pragas como problemas  perceptuais abordados pela visão computacional, geralmente capturados em imagens por câmeras acopladas em tratores, robôs e drones. Cita também os problemas geométricos, advindos da perda de informações de profundidade em imagens bidimensionais e que podem ser recuperadas por algoritmos de visão computacional que interpretem múltiplas imagens de uma mesma cena.
 
 % Objetivo
 \section{Objetivo}
 
-\lipsum[4] O principal objetivo deste trabalho é apresentar uma análise detalhada dos sistemas complexos utilizando métodos computacionais avançados. Os objetivos específicos incluem:
+Desenvolver um sistema capaz de identificar sintomas da pinta preta na tangerina ponkan, capturados em foto via câmera de telefone celular, utilizando métodos de Inteligência Artificial e Visão Computacional de modo a otimizar as medidas preventivas em campo. 
+
+Em paralelo, o projeto possui objetivos secundários que complementam sua finalidade principal:
 
 \begin{itemize}
-    \item Desenvolver modelos matemáticos para representação de sistemas dinâmicos;
-    \item Implementar algoritmos numéricos eficientes para solução de equações diferenciais;
-    \item Validar os resultados através de simulações computacionais;
-    \item Comparar diferentes abordagens metodológicas existentes na literatura \cite{kumar2024, wang2023}.
+    \item Emitir recomendações de manejo personalizadas para o produtor, baseadas em dados climáticos;
+    \item Gerar mapa dos pontos de infecção e áreas de risco para o pomar, baseado em geolocalização; 
+    \item Utilizar conjuntos de dados organizados e diversificados com sintomas da pinta preta para treinamento e teste de algoritmo de aprendizado de máquina.
 \end{itemize}
 
 % Estado da Arte
 \section{Estado da Arte}
 
-\lipsum[5] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diversos estudos têm explorado a aplicação de métodos numéricos em sistemas complexos. Segundo \cite{johnson2024}, a utilização de técnicas avançadas permite uma melhor compreensão dos fenômenos físicos.
 
-\lipsum[6] Os métodos clássicos de análise numérica, como o método de Euler e Runge-Kutta, têm sido amplamente utilizados na literatura \cite{brown2023}. Essas abordagens tradicionais estabeleceram as bases para o desenvolvimento de técnicas mais sofisticadas.
-
-\lipsum[7] Métodos mais recentes incorporam técnicas de aprendizado de máquina e inteligência artificial \cite{zhang2025}, expandindo significativamente as possibilidades de análise e modelagem de sistemas complexos.
 
 % Metodologia
 \section{Metodologia}
