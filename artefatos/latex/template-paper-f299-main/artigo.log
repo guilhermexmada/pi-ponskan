@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.6)  16 MAY 2026 18:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.6)  17 MAY 2026 00:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -841,7 +841,7 @@ Package rerunfilecheck Info: File `artigo.out' has not changed.
 Here is how much of TeX's memory you used:
  24989 strings out of 468130
  466201 string characters out of 5430633
- 948659 words of memory out of 5000000
+ 948657 words of memory out of 5000000
  53140 multiletter control sequences out of 15000+600000
  693136 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
