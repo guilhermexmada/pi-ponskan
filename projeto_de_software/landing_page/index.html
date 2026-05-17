@@ -5,20 +5,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ByteForge - Nossa Página</title>
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="icon" type="image/png" href="assets/img/logo-negative.pngs">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/img/logo-negative.png">
+  <!-- Bootstrap -->
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Estilos personalizados (carregado por último para sobrescrever o Bootstrap quando necessário) -->
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 
 <body>
 
-
-  <!-- Navbar ByteForge -->
   <header id="header-byteforge" class="byte-forge">
     <div class="container">
 
+      <!-- Menu de navegação -->
       <nav id="navbar-byteforge">
         <p><a href="#quem">Quem somos</a></p>
         <p><a href="#quem">O que fazemos</a></p>
@@ -27,20 +29,23 @@
         <p><a href="#equipe">Equipe</a></p>
       </nav>
 
-      <!-- Conteúdo principal -->
+
       <div class="d-flex align-items-center justify-content-between flex-wrap gap-5 px-3">
 
-        <!-- Logo e descrição -->
-        <div class="text-start" style="">
-          <img src="assets/img/logo-positive.png" alt="Logo LIA" class="img-fluid mb-3" style="max-width: 250px;">
+
+        <div class="text-start">
+          <img src="assets/img/logo-positive.png" alt="Logo ByteForge" class="img-fluid mb-3" style="max-width: 250px;">
           <p class="text-muted">A excelência no desenvolvimento<br>de software.</p>
         </div>
 
-        <!-- Carrossel de dispositivos -->
+
         <div id="carousellogo">
-          <img id="mockup-03" src="assets/img/mockup-03.png" style="display: flex;">
-          <img id="mockup-02" src="assets/img/mockup-02.png">
-          <img id="mockup-01" src="assets/img/mockup-01.png">
+          <img id="mockup-01" src="assets/img/mockup-03.png" alt="Mockup desktop" style="display:flex;">
+          <img id="mockup-02" src="assets/img/mockup-05.png" alt="Mockup tablet">
+          <img id="mockup-03" src="assets/img/mockup-06.png" alt="Mockup mobile">
+          <img id="mockup-04" src="assets/img/mockup-11.png" alt="Mockup mobile">
+          <img id="mockup-05" src="assets/img/mockup-15.png" alt="Mockup mobile">
+          <img id="mockup-06" src="assets/img/mockup-04.png" alt="Mockup mobile">
         </div>
 
       </div>
@@ -48,12 +53,13 @@
   </header>
 
 
-  <!-- QUEM SOMOS -->
+
   <section id="quem" class="byte-forge">
-    <div id="container">
-      <h2 id="section-title">QUEM SOMOS?</h2>
-      <h3 id="section-subtitle">UMA VISÃO SOBRE O MERCADO DE SOFTWARE</h3>
-      <p id="section-text">
+    <div class="container">
+
+      <h2 class="section-title">QUEM SOMOS?</h2>
+      <h3 class="section-subtitle">UMA VISÃO SOBRE O MERCADO DE SOFTWARE</h3>
+      <p class="section-text">
         Seu negócio não precisa se aventurar em tendências passageiras ou promessas milagrosas.<br>
         Procuram-se solucionadores de problemas que possam compreender e executar aquilo que o cliente deseja, de forma
         eficiente e segura.<br>
@@ -61,12 +67,11 @@
         <strong>A chama da criatividade</strong> e uma <strong>sólida base técnica</strong> forjam a excelência.
       </p>
 
-      <a id="button" href="#contato" class="btn btn-warning text-white fw-semibold px-4 py-4 my-10">VAMOS CONVERSAR</a>
+      <a href="#contato" class="btn-forge">VAMOS CONVERSAR</a>
 
-      <!-- O QUE FAZEMOS -->                
-      <h2 id="section-title">O QUE FAZEMOS?</h2>
-      <h3 id="section-subtitle">PRODUTOS DE SOFTWARE COM EXCELÊNCIA</h3>
-      <p id="section-text">
+      <h2 class="section-title mt-5">O QUE FAZEMOS?</h2>
+      <h3 class="section-subtitle">PRODUTOS DE SOFTWARE COM EXCELÊNCIA</h3>
+      <p class="section-text">
         Nossos sistemas atendem grandes empresas, novos empreendimentos e comunidades inteiras nos ramos de
         administração, venda, comunicação, educação e muitos outros.<br>
         Utilizamos tanto <strong>tecnologias bem fundamentadas</strong> como <strong>disruptivas</strong> para
@@ -75,99 +80,90 @@
         de um mundo interconectado e de altas velocidades.
       </p>
 
-      <p id="section-text" class="fw-semibold mt-3">Conheça nossas soluções abaixo:</p>
+      <p class="section-text fw-semibold mt-3">Conheça nossas soluções abaixo:</p>
 
     </div>
   </section>
 
 
-  <!-- Projetos -->
   <div id="carousel-container" class="byte-forge">
     <div id="carousel-wrapper">
       <div id="carousel-track">
 
-        <!-- Slide 1 -->
+  
         <div class="carousel-slide">
-          <div id="cards-row">
+          <div class="cards-row">
             <div class="carousel-card"><img src="assets/img/project-01.png" alt="FORMAR"></div>
           </div>
-          <div id="carousel-description">
-            O mapa brasileiro do ensino superior. Ache a faculdade perfeita para você.
-          </div>
-          <button id="carousel-button">SAIBA MAIS</button>
+          <div class="carousel-description">O mapa brasileiro do ensino superior. Ache a faculdade perfeita para você.</div>
+          <button class="carousel-button">SAIBA MAIS</button>
         </div>
 
-        <!-- Slide 2 -->
+
         <div class="carousel-slide">
-          <div id="cards-row">
+          <div class="cards-row">
             <div class="carousel-card"><img src="assets/img/project-02.png" alt="HEAT NAVIGATION"></div>
           </div>
-          <div id="carousel-description">
-            Mapeamento de ilhas de calor em tempo real.
-          </div>
-          <button id="carousel-button">SAIBA MAIS</button>
+          <div class="carousel-description">Mapeamento de ilhas de calor em tempo real.</div>
+          <button class="carousel-button">SAIBA MAIS</button>
         </div>
 
-        <!-- Slide 3 -->
+   
         <div class="carousel-slide">
-          <div id="cards-row">
+          <div class="cards-row">
             <div class="carousel-card"><img src="assets/img/project-04.png" alt="PET FINDER"></div>
           </div>
-          <div id="carousel-description">
-            Comunidade para animais de estimação perdidos com reconhecimento inteligente.
-          </div>
-          <button id="carousel-button">SAIBA MAIS</button>
+          <div class="carousel-description">Comunidade para animais de estimação perdidos com reconhecimento inteligente.</div>
+          <button class="carousel-button">SAIBA MAIS</button>
         </div>
 
-        <!-- Slide 4 -->
+   
         <div class="carousel-slide">
-          <div id="cards-row">
+          <div class="cards-row">
             <div class="carousel-card"><img src="assets/img/project-03.png" alt="OPEN MIND"></div>
           </div>
-          <div id="carousel-description">
-            Pré-diagnóstico do Transtorno de Déficit de Atenção. Rápido, intuitivo e fundamentado.
-          </div>
-          <button id="carousel-button">SAIBA MAIS</button>
+          <div class="carousel-description">Pré-diagnóstico do Transtorno de Déficit de Atenção. Rápido, intuitivo e fundamentado.</div>
+          <button class="carousel-button">SAIBA MAIS</button>
         </div>
 
       </div>
-
-      <!-- Controles --> 
-      <!-- <div id="carousel-controls">
-        <div id="carousel-left-click" onclick="moveCarousel(-1)"></div>
-        <div id="carousel-right-click" onclick="moveCarousel(1)"></div>
-      </div> -->
-
     </div>
   </div>
 
-
-  <!-- Lia -->
   <section id="projeto" class="projeto-lia py-5 lia-font">
     <div class="container">
-      <img src="assets/img/logotipo-ponskan.png" alt="LIA Project Logo" id="logo-lia">
+
+      <img src="assets/img/logotipo-ponskan.png" alt="Logo PONSKAN" id="logo-lia">
+
       <p class="descricao">
-        O PONSKAN é um aplicativo móvel de agricultura de precisão desenvolvido para o monitoramento fitossanitário da cultura da tangerina ponkan.
-        <br>
-        <br>
-        Utilizamos algoritmos de visão computacional para o pré-diagnóstico da pinta preta dos citros a partir de imagens capturadas por câmera, permitindo a detecção precoce de sintomas foliares e frutíferos.
+        O PONSKAN é um aplicativo móvel de agricultura de precisão desenvolvido para o monitoramento fitossanitário da
+        cultura da tangerina ponkan.
+        <br><br>
+        Utilizamos algoritmos de visão computacional para o pré-diagnóstico da pinta preta dos citros a partir de
+        imagens capturadas por câmera, permitindo a detecção precoce de sintomas foliares e frutíferos.
       </p>
+
       <p class="destaque mt-4">
         <strong>
           Isso é agricultura de precisão<br>
-          que a sua tangerina precisa, <br>
+          que a sua tangerina precisa,<br>
           na palma da sua mão.
         </strong>
       </p>
+
+      <img src="assets/img/produtor.png" alt="Produtor Agrícola" style="width: 300px;">
+
     </div>
   </section>
 
 
-  <!-- O que é? -->
+
   <section class="oque-e py-5 lia-font">
-    <h2 id="titulo" class="titulo mb-4">O que é?</h2>
+    <h2 class="titulo mb-4">O que é?</h2>
 
     <div class="card-carousel">
+
+      <!-- Abas de navegação -->
       <div class="tabs">
         <button class="tab active" onclick="trocarAba(0)">
           <span class="bolinha"><span class="bolinha-preenchida"></span></span>
@@ -183,85 +179,150 @@
         </button>
       </div>
 
+      <!-- Conteúdo dos slides -->
       <div class="conteudo-carousel">
+
+        <!-- Aba 1: Problema -->
         <div class="slide active">
           <div class="texto">
             <h5><strong>A Pinta Preta</strong></h5>
             <p>
-              A pinta preta dos citros, causada pelo fungo Phyllosticta citricarpa, afeta frutas cítricas em regiões quentes e úmidas, sendo disseminada por esporos transportados pela chuva e pelo vento.
+              A pinta preta dos citros, causada pelo fungo <em>Phyllosticta citricarpa</em>, afeta frutas cítricas em
+              regiões quentes e úmidas, sendo disseminada por esporos transportados pela chuva e pelo vento.
               <br><br>
-              A doença causa perdas econômicas significativas, reduzindo a qualidade dos frutos e limitando exportações, além de elevar custos de manejo e controle nas lavouras.
+              A doença causa perdas econômicas significativas, reduzindo a qualidade dos frutos e limitando exportações,
+              além de elevar custos de manejo e controle nas lavouras.
               <br><br>
-              Seus sintomas incluem manchas escuras na casca, folhas e ramos, agravadas por alta umidade, calor e má ventilação, que favorecem o desenvolvimento do fungo.
+              Seus sintomas incluem manchas escuras na casca, folhas e ramos, agravadas por alta umidade, calor e má
+              ventilação, que favorecem o desenvolvimento do fungo.
             </p>
           </div>
-          <img src="assets/img/cbs-photo-01.png" alt="Pessoa com deficiência auditiva">
+          <img src="assets/img/cbs-photo-01.png" alt="Pinta preta nos citros">
         </div>
 
+        <!-- Aba 2: Metodologia -->
         <div class="slide">
           <div class="texto">
             <h5><strong>Metodologia aplicada</strong></h5>
             <p>
-              Utilizamos redes neurais e visão computacional para identificar os sintomas foliares e frutíferos da pinta preta na tangerina ponkan, a partir
-              de vídeos e imagens capturadas por câmera.
+              Você nos envia a foto da fruta pelo celular, e nós te entregamos um pré-diagnóstico fundamentado com o
+              plano de ação mais adequado para sua posição nas próximas semanas.
+              <br><br>
+              Utilizamos o poder das redes neurais convolucionais alinhado com um pré-processamento metódico para
+              identificar os sintomas da pinta preta nas suas frutas e avaliar o grau de severidade.
+              <br><br>
+              Em seguida, nossos algoritmos de recomendação cruzam dados climáticos com georreferenciamento e desenham
+              um passo a passo de manejo inteligente para te ajudar.
             </p>
           </div>
           <img src="assets/img/cbs-photo-03.jpg" alt="Metodologia">
         </div>
 
+        <!-- Aba 3: Solução -->
         <div class="slide">
           <div class="texto">
             <h5><strong>Solução proposta</strong></h5>
             <p>
-              Desenvolvemos um aplicativo simples e intuitivo, que utiliza visão computacional para identificar os sintomas da pinta preta na produção agrícola 
-              e recomendar práticas de manejo inteligentes ao produtor, ajudando-o a minimizar as perdas e aumentar a produtividade.
+              Desenvolvemos um aplicativo robusto e intuitivo, que utiliza visão computacional para identificar as áreas
+              mais afetadas da sua lavoura e te auxilia na tomada de decisões.
+              <br><br>
+              O Ponskan não é apenas um classificador de fotos: ele é um sistema de gerenciamento fitossanitário que
+              cabe na palma da sua mão.
             </p>
           </div>
           <img src="assets/img/cbs-photo-02.jpg" alt="Solução">
         </div>
+
       </div>
     </div>
   </section>
 
-  <!-- Publico Alvo -->
+
+<!-- pulbico alvo -->
   <section id="publico-alvo" class="py-5 lia-font">
     <div class="container">
-      <h2 id="titulo" class="text-center mb-5">Público Alvo</h2>
 
-      <div class="row align-items-center justify-content-center">
-        <!-- Coluna de Imagens -->
-        <div id="coluna-imagens" >
+      <h2 class="titulo text-center mb-5">Quem vai usar?</h2>
+
+      <div class="publico-wrapper">
+
+        <div id="coluna-imagens">
           <div class="left-column">
-            <img  src="assets/img/cbs-photo-04.jpg" alt="Imagem 1" class="img-publico">
-          <img  src="assets/img/cbs-photo-05.jpg" alt="Imagem 2" class="img-publico">
+            <img src="assets/img/marina.png" alt="Fazendeiro" class="img-publico img-grande">
+            <img src="assets/img/cbs-photo-04.jpg" alt="Dashboard agrícola" class="img-publico img-pequena">
+          </div>
+          <div class="center-column">
+            <img src="assets/img/cbs-photo-06.jpg" alt="Agrônoma" class="img-publico img-vertical">
           </div>
           <div class="right-column">
-            <img  src="assets/img/cbs-photo-06.jpg" alt="Imagem 3" class="img-publico imagem-central">
-
+            <img src="assets/img/wagner.png" alt="Pomar" class="img-publico img-media">
+            <img src="assets/img/clara.png" alt="Análise de frutos" class="img-publico img-quadrada">
           </div>
         </div>
 
-        <!-- Texto -->
-        <div id="coluna-texto" class="col-lg-6 col-md-12">
-          <h4 id="subtitulo-publico" class="fw-bold ">Quem vai usar?</h4>
-          <p id="descricao-publico">
-            O público-alvo do PONSKAN abrange produtores agrícolas de citros que buscam soluções tecnológicas para o monitoramento fitossanitário e estudantes da área de biologia e ciências agrárias interessados em ferramentas de diagnóstico digital. 
-            <br>
-            <br>
-            O aplicativo foi projetado para apoiar a detecção da pinta preta dos citros e está em expansão para identificar sintomas de outras doenças que afetam a cultura, fortalecendo a integração entre pesquisa, aprendizado e prática no campo.
-          </p>
+        <div id="coluna-texto">
+          <h4 id="subtitulo-publico" class="fw-bold">Público Alvo</h4>
+
+          <p id="descricao-publico">Para os produtores agrícolas, o Ponskan é o <b>sistema de gerenciamento</b> da saúde do pomar.</p>
+          <p>Para os engenheiros agrônomos, o Ponskan é o <b>aplicativo de análise de dados</b> ideal para suas pesquisas.</p>
+          <p>Para os consultores técnicos, o Ponskan é a <b>ferramenta de trabalho</b> que eleva o seu nível profissional.</p>
+          <p>O que o Ponskan pode ser para você?</p>
+
+          <!-- Formulário de sugestão -->
+          <div class="form-sugestao">
+            <input type="text" placeholder="Envie sua sugestão aqui">
+            <button type="button">Enviar</button>
+          </div>
+
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Como funciona -->
-  <section class="como-funciona text-center py-5 position-relative lia-font">
-    <h2 id="titulo" class=" mb-2">Como funciona</h2>
-    <p class="mb-5">A base do projeto é o treinamento de redes neurais para reconhecimento de sintomas da pinta preta através
-      de técnicas de visão computacional.</p>
+<!-- depoimento -->
+  <section id="depoimentos" class="lia-font">
+    <div class="container">
+
+      <div class="depoimento-card">
+
+        <!-- Foto do depoente -->
+        <div class="depoimento-foto">
+          <img src="assets/img/seu-antenor.png" alt="Seu Antenor">
+        </div>
+
+        <!-- Texto do depoimento -->
+        <div class="depoimento-conteudo">
+          <span class="depoimento-tag">EXPERIÊNCIA REAL</span>
+
+          <h2 class="depoimento-titulo">O que os produtores estão dizendo</h2>
+
+          <p class="depoimento-texto">
+            "O Ponskan mudou completamente a forma como acompanhamos
+            a saúde do pomar. Hoje conseguimos identificar problemas
+            muito antes deles se espalharem, economizando tempo,
+            insumos e aumentando a produtividade."
+          </p>
+
+          <div class="depoimento-autor">
+            <strong>Seu Antenor</strong>
+            <span>Produtor citrícola • Vale do Ribeira</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="como-funciona text-center py-5 lia-font">
+    <h2 class="titulo mb-2">Como funciona</h2>
+    <p class="mb-5">
+      A base do projeto é o treinamento de redes neurais para reconhecimento de sintomas da pinta preta
+      através de técnicas de visão computacional.
+    </p>
 
     <div class="cards-container">
+
+      <!-- Card 1 -->
       <div class="card-flip" onclick="this.classList.toggle('active')">
         <div class="card-inner">
           <div class="card-front">
@@ -270,11 +331,12 @@
             <p>PONSKAN consegue enxergar os sintomas</p>
           </div>
           <div class="card-back">
-            <p>As fotos da folha ou da fruta serão tratadas para permitir análise de imagens com técnicas modernas</p>
+            <p>As fotos da fruta serão tratadas para permitir análise de imagens com técnicas modernas</p>
           </div>
         </div>
       </div>
 
+      <!-- Card 2 -->
       <div class="card-flip" onclick="this.classList.toggle('active')">
         <div class="card-inner">
           <div class="card-front">
@@ -288,6 +350,7 @@
         </div>
       </div>
 
+      <!-- Card 3 -->
       <div class="card-flip" onclick="this.classList.toggle('active')">
         <div class="card-inner">
           <div class="card-front">
@@ -296,11 +359,12 @@
             <p>O sistema interpreta</p>
           </div>
           <div class="card-back">
-            <p>O sistema cruza o resultado da rede neural com dados climáticos para gerar relatórios e planos de ação inteligentes</p>
+            <p>O sistema cruza o resultado da rede neural com dados climáticos e sua geolocalização para gerar relatórios e planos de ação inteligentes</p>
           </div>
         </div>
       </div>
 
+      <!-- Card 4 -->
       <div class="card-flip" onclick="this.classList.toggle('active')">
         <div class="card-inner">
           <div class="card-front">
@@ -313,42 +377,92 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
 
 
+  <section id="timeline-section" class="lia-font">
+    <div class="container">
+
+      <!-- Cabeçalho da timeline -->
+      <div class="timeline-header">
+        <span class="timeline-badge">Fluxo de Processamento</span>
+        <h2 id="timeline-title">Como identificar a pinta preta</h2>
+      </div>
+
+      <!-- Pontos -->
+      <div class="timeline-wrapper">
+        <div class="timeline-line"></div>
+
+        <div class="timeline-point active"
+          data-title="Captura de imagens"
+          data-text="Capture ou faça upload de 1 a 4 imagens. Nosso app vai te orientar como pegar os melhores ângulos.">
+          <span>1</span>
+        </div>
+
+        <div class="timeline-point"
+          data-title="Pré-processamento"
+          data-text="Sua foto será manipulada para melhorar a precisão e velocidade da detecção. Apenas aguarde.">
+          <span>2</span>
+        </div>
+
+        <div class="timeline-point"
+          data-title="Classificação"
+          data-text="Nossa rede neural vai dar a melhor resposta com base em um aprendizado profundo com conjunto diversificado de dados de treino.">
+          <span>3</span>
+        </div>
+
+        <div class="timeline-point"
+          data-title="Resultados"
+          data-text="O pré-diagnóstico estará disponível em alguns instantes e todos os resultados serão salvos para que você consulte em qualquer momento.">
+          <span>4</span>
+        </div>
+      </div>
+
+      <!-- Texto dinâmicodo hover nos pontos -->
+      <div class="timeline-content">
+        <p id="timeline-text">Passe o cursor pelas etapas da função de identificação do Ponskan!</p>
+      </div>
+
+    </div>
+  </section>
+
+
+<!-- equipe -->
   <section id="equipe" class="container text-center py-5 byte-forge">
-    <h2 id="section-title">NOSSA EQUIPE</h2>
-    <h2 id="section-subtitle">AS PESSOAS POR TRÁS DA MARCA</h2>
+    <h2 class="section-title">NOSSA EQUIPE</h2>
+    <h2 class="section-subtitle">AS PESSOAS POR TRÁS DA MARCA</h2>
 
     <div class="row justify-content-center">
       <div class="col-lg-6 col-md-12 mb-4">
         <div class="equipe-grid">
-          <div class="equipe-membro laranja" onclick="mostrarFoto('assets/img/arthur.jpeg')">ARTHUR PARRA</div>
-          <div class="equipe-membro azul-claro" onclick="mostrarFoto('assets/img/guilherme.jpg')">GUILHERME SHIMADA
-          </div>
-          <div class="equipe-membro azul-escuro" onclick="mostrarFoto('assets/img/gustavo.jpg')">GUSTAVO KLETELIN GER
-          </div>
-          <div class="equipe-membro azul-intermediario" onclick="mostrarFoto('assets/img/joao.jpeg')">JOÃO VITOR</div>
-          <div class="equipe-membro azul-escuro" onclick="mostrarFoto('assets/img/matheus.jpg')">MATHEUS BERTOLDO</div>
+          <div class="equipe-membro laranja"            onclick="mostrarFoto('assets/img/arthur.jpeg')">ARTHUR PARRA</div>
+          <div class="equipe-membro azul-claro"         onclick="mostrarFoto('assets/img/guilherme-02.jpg')">GUILHERME SHIMADA</div>
+          <div class="equipe-membro azul-escuro"        onclick="mostrarFoto('assets/img/gustavo.jpg')">GUSTAVO KLETELINGER</div>
+          <div class="equipe-membro azul-intermediario" onclick="mostrarFoto('assets/img/dani.jpg')">DANIELI FIEL</div>
+          <div class="equipe-membro azul-escuro"        onclick="mostrarFoto('assets/img/matheus-02.jpg')">MATHEUS BERTOLDO</div>
         </div>
       </div>
 
+      <!-- Foto e info do membro selecionado -->
       <div class="col-lg-6 col-md-12 d-flex flex-column align-items-center justify-content-center">
         <div class="foto-container mb-3">
-          <img id="foto-membro" src="assets/img/arthur.jpeg" alt="Foto do membro" class="rounded"
-            style="width: 200px; height: 200px; object-fit: cover; transition: opacity 0.3s ease;">
+          <img id="foto-membro" src="assets/img/arthur.jpeg" alt="Foto do membro" class="rounded">
         </div>
         <div style="max-width: 300px; text-align: center;">
           <strong id="nome-membro" class="text-warning">Arthur Parra</strong>
           <p id="descricao-membro" style="font-size: 14px;">Analista de Dados e Arquiteto de Nuvem</p>
         </div>
       </div>
+
     </div>
   </section>
 
+
   <footer>
     <div class="footer-container byte-forge">
+
       <div class="footer-column">
         <h3>Contate-nos</h3>
         <p>Telefone: (99) 99 9999-9999</p>
@@ -359,16 +473,17 @@
 
       <div class="footer-column">
         <h3>Navegue</h3>
-        <p><a href="#">Quem somos</a></p>
-        <p><a href="#">O que fazemos</a></p>
-        <p><a href="#">Soluções</a></p>
-        <p><a href="#">Último Projeto</a></p>
-        <p><a href="#">Equipe</a></p>
+        <p><a href="#quem">Quem somos</a></p>
+        <p><a href="#quem">O que fazemos</a></p>
+        <p><a href="#carousel-container">Soluções</a></p>
+        <p><a href="#projeto">Último Projeto</a></p>
+        <p><a href="#equipe">Equipe</a></p>
       </div>
 
       <div class="footer-column footer-logo">
         <img src="assets/img/logo-negative.png" alt="Logo ByteForge">
       </div>
+
     </div>
 
     <div class="footer-bottom">
@@ -376,8 +491,10 @@
     </div>
   </footer>
 
-  <script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-  <script type="text/javascript" src="assets/js/js.js"></script>
+
+  <!-- Scripts -->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/js.js"></script>
 
 </body>
 
