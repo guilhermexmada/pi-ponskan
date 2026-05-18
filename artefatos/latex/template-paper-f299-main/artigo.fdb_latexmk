@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex artigo"] 1779119007.86673 "artigo.aux" "artigo.bbl" "artigo" 1779119011.06008 0
+["bibtex artigo"] 1779119463.33308 "artigo.aux" "artigo.bbl" "artigo" 1779119517.18917 0
   "./referencias.bib" 1779116595 12938 2f9c33a721f149143ba79fc18ebc3f1a ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "artigo.aux" 1779119010 2160 29a481e9efa13a45cf93bf06df4d2b33 "pdflatex"
+  "artigo.aux" 1779119516 2160 5fcd898cbc8c086b700565d2d0725629 "pdflatex"
   (generated)
   "artigo.bbl"
   "artigo.blg"
   (rewritten before read)
-["pdflatex"] 1779119008.22722 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" "artigo.pdf" "artigo" 1779119011.06073 0
+["pdflatex"] 1779119514.62668 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" "artigo.pdf" "artigo" 1779119517.18973 0
   "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779074301 122378 c1dc82c6b85f2c9d33e9cc271df3666e ""
   "C:/Users/guilh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779074396 13350272 68fe752dfa4fb5ea11c8d013b22a05a1 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -187,11 +187,11 @@
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "artigo.aux" 1779119010 2160 29a481e9efa13a45cf93bf06df4d2b33 "pdflatex"
-  "artigo.bbl" 1779119008 5592 43a6a577b2e7d682efe2b73a14daa584 "bibtex artigo"
-  "artigo.out" 1779119010 399 36518624c7955927f9f5f4d1e3d080e9 "pdflatex"
-  "artigo.tex" 1779119004 26498 460b447c04412783e44366106210b2be ""
-  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" 1779119004 26498 460b447c04412783e44366106210b2be ""
+  "artigo.aux" 1779119516 2160 5fcd898cbc8c086b700565d2d0725629 "pdflatex"
+  "artigo.bbl" 1779119463 5592 43a6a577b2e7d682efe2b73a14daa584 "bibtex artigo"
+  "artigo.out" 1779119516 399 36518624c7955927f9f5f4d1e3d080e9 "pdflatex"
+  "artigo.tex" 1779119514 27893 b08ea3ac73955e62338133f2ab8fe635 ""
+  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" 1779119514 27893 b08ea3ac73955e62338133f2ab8fe635 ""
   "imgs/base/cps-logo.png" 1779116595 2862 0d44aa0a5e9d83c87deaed8e377653d3 ""
   "imgs/base/fatec-rgt.png" 1779116595 9297 dff6e0deb04d7ecc5a3f8fc9288282c2 ""
   "imgs/base/governo-sp-secretaria-logo.png" 1779116595 53030 6a135a3f3d64a5d79c80849a638d8e81 ""
