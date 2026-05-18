@@ -157,68 +157,89 @@ Enquanto o trabalho inicial de Ribeiro, Castro Jorge e Paiva (2012) \cite{Ribeir
 % Metodologia
 \section{Metodologia}
 
-\lipsum[8] A metodologia desenvolvida neste trabalho segue as etapas ilustradas na Figura \ref{fig:exemplo} e descritas a seguir.
+Esta pesquisa caracteriza-se como um estudo de natureza aplicada com abordagem experimental, voltada ao desenvolvimento de um sistema multiplataforma de pré-diagnóstico fitossanitário para a identificação precoce da Pinta Preta (Phyllosticta citricarpa) na cultura da tangerina Ponkan, visando a otimização de medidas preventivas no Vale do Ribeira.
 
-\subsection{Coleta de Dados}
+O sistema será estruturado em uma arquitetura de microsserviços. A orquestração da Interface de Programação de Aplicações (API) será realizada em Node.js, enquanto o processamento de Inteligência Artificial (IA) utilizará a linguagem Python. A persistência dos dados ocorrerá em banco de dados MySQL via Object-Relational Mapping (ORM) Sequelize, com o suporte do Redis e da biblioteca BullMQ para o gerenciamento de filas assíncronas.
 
-\lipsum[9] Os dados foram coletados através de simulações computacionais utilizando parâmetros específicos. A Tabela \ref{tab:parametros} apresenta os principais parâmetros utilizados nas simulações.
+A comunicação entre os módulos ocorrerá via API com estilo arquitetural Representational State Transfer (REST). Para garantir a responsividade da interface (React Native e Next.js), o processamento de imagens será delegado a workers assíncronos. O pipeline de tratamento utilizará a biblioteca Sharp para redimensionamento (224x224 px), filtragem de ruído, ajustes de contraste, conversão para padrão sRGB e extração de buffer binário.
 
-\begin{table}[H]
-\centering
-\caption{Parâmetros utilizados nas simulações computacionais}
-\label{tab:parametros}
-\begin{tabular}{@{}lccl@{}}
-\toprule
-\textbf{Parâmetro} & \textbf{Símbolo} & \textbf{Valor} & \textbf{Unidade} \\ \midrule
-Tempo de simulação & $T_{sim}$ & 1000 & s \\
-Passo de integração & $\Delta t$ & 0.01 & s \\
-Número de iterações & $N_{iter}$ & 10000 & - \\
-Tolerância & $\epsilon$ & $10^{-6}$ & - \\
-Fator de amortecimento & $\zeta$ & 0.15 & - \\
-Frequência natural & $\omega_n$ & 25.0 & rad/s \\ \bottomrule
-\end{tabular}
-\end{table}
+A inferência será realizada por uma Rede Neural Convolucional (CNN) de duas fases: o algoritmo YOLO detectará as lesões e a rede EfficientNet as classificará, adotando um limiar de confiança de 80\%. O sistema operará através dos módulos de Diagnóstico, Contexto, Recomendação (baseado em protocolos da Embrapa e Fundecitrus) e Diagramação, utilizando a estratégia de "deleção lógica" para assegurar a rastreabilidade dos registros.
 
-\subsection{Processamento e Análise}
+O fluxo da arquitetura (Figura 1) iniciar-se-á com o upload das imagens pelo cliente (Etapa A), que serão salvas pela API e registradas como "Pendente" (Etapa B). O job será enviado à fila assíncrona (Etapa C), onde o worker acionará o tratamento via Sharp (Etapa D).
 
-\lipsum[10] O processamento dos dados seguiu um protocolo rigoroso de análise estatística. Os métodos numéricos clássicos foram implementados, incluindo o método de Euler, cuja equação fundamental é expressa como:
+A imagem tratada será submetida ao modelo de IA (Etapa E) para inferência. Caso o diagnóstico seja positivo (Etapa F), o sistema aplicará as regras de negócio da Embrapa para gerar um Plano de Ação (Etapa G) e persistirá o resultado no MySQL (Etapa H).
 
-\begin{equation}
-\frac{dy}{dt} = f(t, y), \quad y(t_0) = y_0
-\label{eq:euler}
-\end{equation}
+Ao finalizar, o sistema atualizará o status da análise para "Concluída" (Etapa I), disparando a notificação de resultado para a interface do usuário (Etapa J). Se o diagnóstico for negativo, o sistema desativará a análise, mantendo o banco de dados otimizado.
 
-onde $f(t, y)$ representa a função que descreve o sistema dinâmico. Para otimização dos parâmetros do modelo, utilizou-se a seguinte função de custo:
-
-\begin{equation}
-J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} \left(h_\theta(x^{(i)}) - y^{(i)}\right)^2 + \frac{\lambda}{2m}\sum_{j=1}^{n}\theta_j^2
-\label{eq:cost_function}
-\end{equation}
-
-onde $\theta$ representa os parâmetros do modelo, $m$ é o número de amostras, $\lambda$ é o parâmetro de regularização, e $h_\theta(x)$ é a hipótese do modelo. A transformada de Fourier foi aplicada para análise no domínio da frequência:
-
-\begin{equation}
-F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} dt
-\label{eq:fourier}
-\end{equation}
+Este ciclo assíncrono garantirá a escalabilidade do sistema. Para validar a arquitetura, serão realizados testes em ambiente controlado, simulando acessos sob variadas condições de luz e ruído, visando aferir a robustez do pipeline e a precisão da classificação final da IA.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{imgs/img_001.jpg}
-\caption{Exemplo de visualização dos resultados obtidos através da metodologia proposta. A figura ilustra o comportamento do sistema ao longo do tempo.}
+\includegraphics[width=\textwidth]{imgs/fluxo2.png}
+\caption{A figura ilustra o comportamento do sistema durante o fluxo de processamento de imagens.}
 \label{fig:exemplo}
 \end{figure}
 
-\subsection{Validação do Modelo}
+% \subsection{Coleta de Dados}
 
-\lipsum[11] A validação foi realizada comparando os resultados simulados com dados experimentais. O erro médio quadrático (RMSE) foi calculado através de:
+% \lipsum[9] Os dados foram coletados através de simulações computacionais utilizando parâmetros específicos. A Tabela \ref{tab:parametros} apresenta os principais parâmetros utilizados nas simulações.
 
-\begin{equation}
-RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
-\label{eq:rmse}
-\end{equation}
+% \begin{table}[H]
+% \centering
+% \caption{Parâmetros utilizados nas simulações computacionais}
+% \label{tab:parametros}
+% \begin{tabular}{@{}lccl@{}}
+% \toprule
+% \textbf{Parâmetro} & \textbf{Símbolo} & \textbf{Valor} & \textbf{Unidade} \\ \midrule
+% Tempo de simulação & $T_{sim}$ & 1000 & s \\
+% Passo de integração & $\Delta t$ & 0.01 & s \\
+% Número de iterações & $N_{iter}$ & 10000 & - \\
+% Tolerância & $\epsilon$ & $10^{-6}$ & - \\
+% Fator de amortecimento & $\zeta$ & 0.15 & - \\
+% Frequência natural & $\omega_n$ & 25.0 & rad/s \\ \bottomrule
+% \end{tabular}
+% \end{table}
 
-onde $y_i$ são os valores observados e $\hat{y}_i$ são os valores preditos pelo modelo.
+% \subsection{Processamento e Análise}
+
+% \lipsum[10] O processamento dos dados seguiu um protocolo rigoroso de análise estatística. Os métodos numéricos clássicos foram implementados, incluindo o método de Euler, cuja equação fundamental é expressa como:
+
+% \begin{equation}
+% \frac{dy}{dt} = f(t, y), \quad y(t_0) = y_0
+% \label{eq:euler}
+% \end{equation}
+
+% onde $f(t, y)$ representa a função que descreve o sistema dinâmico. Para otimização dos parâmetros do modelo, utilizou-se a seguinte função de custo:
+
+% \begin{equation}
+% J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} \left(h_\theta(x^{(i)}) - y^{(i)}\right)^2 + \frac{\lambda}{2m}\sum_{j=1}^{n}\theta_j^2
+% \label{eq:cost_function}
+% \end{equation}
+
+% onde $\theta$ representa os parâmetros do modelo, $m$ é o número de amostras, $\lambda$ é o parâmetro de regularização, e $h_\theta(x)$ é a hipótese do modelo. A transformada de Fourier foi aplicada para análise no domínio da frequência:
+
+% \begin{equation}
+% F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} dt
+% \label{eq:fourier}
+% \end{equation}
+
+% \begin{figure}[H]
+% \centering
+% \includegraphics[width=0.7\textwidth]{imgs/img_001.jpg}
+% \caption{Exemplo de visualização dos resultados obtidos através da metodologia proposta. A figura ilustra o comportamento do sistema ao longo do tempo.}
+% \label{fig:exemplo}
+% \end{figure}
+
+% \subsection{Validação do Modelo}
+
+% \lipsum[11] A validação foi realizada comparando os resultados simulados com dados experimentais. O erro médio quadrático (RMSE) foi calculado através de:
+
+% \begin{equation}
+% RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
+% \label{eq:rmse}
+% \end{equation}
+
+% onde $y_i$ são os valores observados e $\hat{y}_i$ são os valores preditos pelo modelo.
 
 % % Resultados e Discussões
 % \section{Resultados e Discussões}
