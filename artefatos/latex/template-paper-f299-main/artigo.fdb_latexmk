@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex artigo"] 1779075492.98253 "artigo.aux" "artigo.bbl" "artigo" 1779075503.61681 0
-  "./referencias.bib" 1779075465 12497 b460c97653d918a00351f8d726dfbe04 ""
+["bibtex artigo"] 1779085842.30612 "artigo.aux" "artigo.bbl" "artigo" 1779085846.3753 0
+  "./referencias.bib" 1779084934 12938 2f9c33a721f149143ba79fc18ebc3f1a ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "artigo.aux" 1779075502 4009 5391c579cca9b495f7ba3ba249b52d69 "pdflatex"
+  "artigo.aux" 1779085845 3256 7ace20e896160bbce1355611da35ff90 "pdflatex"
   (generated)
   "artigo.bbl"
   "artigo.blg"
   (rewritten before read)
-["pdflatex"] 1779075500.26221 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" "artigo.pdf" "artigo" 1779075503.61778 0
+["pdflatex"] 1779085842.86413 "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" "artigo.pdf" "artigo" 1779085846.37601 0
   "C:/Users/guilh/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1779074301 122378 c1dc82c6b85f2c9d33e9cc271df3666e ""
   "C:/Users/guilh/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1779074396 13350272 68fe752dfa4fb5ea11c8d013b22a05a1 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc" 1256929440 2375 baa924870cfb487815765f9094cf3728 ""
@@ -39,9 +39,6 @@
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/lmsy10.tfm" 1256929440 1308 02cc510f9dd6012e5815d0c0ffbf6869 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/lmsy6.tfm" 1256929440 1300 b0605d44c16c22d99dc001808e4f24ea ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/lmsy8.tfm" 1256929440 1304 cdc9a17df9ef0d2dc320eff37bbab1c4 ""
-  "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmbx10.tfm" 1256929440 11880 35fcf136a2198418dfc53c83e9e2a07f ""
-  "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmbx6.tfm" 1256929440 11852 eda7061aa4cc8552ba736dae866e4460 ""
-  "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmbx8.tfm" 1256929440 11868 731e03b24d399279cf9609d002110394 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr10.tfm" 1256929440 11868 4f81e9b6033c032bdaf9884f4d7ef412 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr12.tfm" 1256929440 11888 6841b91e46b65cf41a49b160e6e74130 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/fonts/tfm/public/lm/rm-lmr6.tfm" 1256929440 11836 e3b6ce3e601aec94f64a536e7f4224d5 ""
@@ -202,11 +199,11 @@
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/guilh/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "artigo.aux" 1779075502 4009 5391c579cca9b495f7ba3ba249b52d69 "pdflatex"
-  "artigo.bbl" 1779075493 4399 6e107c837fcd19d13946c5fa929750e9 "bibtex artigo"
-  "artigo.out" 1779075502 1569 d24d4a55efa417c23d081ca3f8d76053 "pdflatex"
-  "artigo.tex" 1779075499 17199 a3cbd46fd8e25fa19c0eefade133efd3 ""
-  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" 1779075499 17199 a3cbd46fd8e25fa19c0eefade133efd3 ""
+  "artigo.aux" 1779085845 3256 7ace20e896160bbce1355611da35ff90 "pdflatex"
+  "artigo.bbl" 1779085842 5592 43a6a577b2e7d682efe2b73a14daa584 "bibtex artigo"
+  "artigo.out" 1779085845 882 fa1fb1ea8c5c2d0643f4d01dfbdb180a "pdflatex"
+  "artigo.tex" 1779085827 23499 fc88a44f703e58a112c162598a196779 ""
+  "c:/Users/guilh/OneDrive/Área de Trabalho/estudando/clones/pi-ponskan/artefatos/latex/template-paper-f299-main/artigo.tex" 1779085827 23499 fc88a44f703e58a112c162598a196779 ""
   "imgs/base/cps-logo.png" 1778942356 2862 0d44aa0a5e9d83c87deaed8e377653d3 ""
   "imgs/base/fatec-rgt.png" 1778942356 9297 dff6e0deb04d7ecc5a3f8fc9288282c2 ""
   "imgs/base/governo-sp-secretaria-logo.png" 1778942356 53030 6a135a3f3d64a5d79c80849a638d8e81 ""
