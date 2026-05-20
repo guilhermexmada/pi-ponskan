@@ -69,14 +69,12 @@
     {\thesubsection}{1em}{}
 
 % Informações do artigo
-\title{\vspace{0.6cm}\textbf{\Large Análise Computacional de Sistemas Complexos Utilizando Métodos Numéricos Avançados}}
+\title{\vspace{0.6cm}\textbf{\Large Sistema para Identificação da Pinta Preta na Tangerina Ponkan, orientado por Visão Computacional}}
 \author{
-    João da Silva$^{1}$, Maria Santos$^{2}$, Pedro Oliveira$^{3}$ \\[0.3cm]
+    Arthur Parra, Danielli Reis, Guilherme Pereira, \\ Gustavo Kletelinger, Matheus Oliveira \\[0.3cm]
     \small
-    $^{1}$Faculdade de Tecnologia do Estado de São Paulo \\
-    $^{2}$Universidade de São Paulo \\
-    $^{3}$Instituto de Pesquisas Tecnológicas \\[0.2cm]
-    \textit{joao.silva@fatec.sp.gov.br, maria.santos@usp.br, pedro.oliveira@ipt.br}
+    Faculdade de Tecnologia do Estado de São Paulo \\[0.2cm]
+    \textit{arthur.silva56@aluno.cps.sp.gov.br, danieli.reis@aluno.cps.sp.gov.br,}\\ \textit{guilherme.pereira26@aluno.cps.sp.gov.br, matheus.oliveira52@aluno.cps.sp.gov.br,}\\ \textit{gustavo.kletelinger@aluno.cps.sp.gov.br}
 }
 \date{}
 
@@ -91,10 +89,17 @@
 % Resumo
 \section*{Resumo}
 
-\lipsum[1] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Este trabalho apresenta um sistema para a identificação precoce da pinta preta dos citros (Phyllosticta citricarpa)  na tangerina Ponkan, voltado para o uso direto em campo. A solução integra uma aplicação móvel a um modelo de Redes Neurais Convolucionais (CNN) otimizado para Visão Computacional, permitindo analisar fotos capturadas por smartphones, classificando automaticamente o estado fitossanitário dos frutos e gerando relatórios com recomendações de manejo. Para o desenvolvimento da CNN, utiliza-se um banco de imagens diversificado, coletado sob condições reais de iluminação e ruído de plantação. O sistema tem como objetivo atender a critérios rigorosos de tempo de resposta para otimizar as medidas preventivas adotadas pelo produtor rural. Os resultados esperados evidenciam a eficácia e a aplicabilidade da arquitetura proposta na democratização do diagnóstico agrícola e na redução de perdas produtivas.
 
 \vspace{0.3cm}
-\noindent\textit{\textbf{Palavras-chave:}} Sistemas complexos, Métodos numéricos, Análise computacional, Modelagem matemática, Simulação
+\noindent\textit{\textbf{Palavras-chave:}} Pinta Preta dos Citros; Visão Computacional; Redes Neurais Convolucionais
+
+\section*{Abstract}
+
+This work presents a system for the early identification of citrus black spot in Ponkan tangerines, designed for in-field application. The solution integrates a mobile application with a CNN-based Computer Vision framework, enabling the analysis of smartphone-captured images, automatically classifying the fruit's phytosanitary status, and generating reports with management recommendations. For the development of the CNN, a diverse dataset is utilized, collected under real-world lighting conditions and field background noise. The system aims to meet strict response time requirements to optimize preventive measures adopted by rural producers. Expected results demonstrate the efficacy and applicability of the proposed architecture in democratizing agricultural diagnostics and reducing production losses.
+
+\vspace{0.3cm}
+\noindent\textit{\textbf{Keywords:}} Citrus Black Spot; Computer Vision; CNN
 
 \vspace{0.5cm}
 \noindent\rule{\textwidth}{0.5pt}
@@ -103,164 +108,213 @@
 % Introdução
 \section{Introdução}
 
-\lipsum[2-3] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin eu ipsum in lectus mollis penatibus \cite{santos2024, oliveira2023}.\footnote{Este é um exemplo de nota de rodapé. Notas de rodapé são úteis para adicionar informações complementares sem interromper o fluxo do texto principal.}
+% \lipsum[2-3] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vitae eros eget tellus tristique bibendum. Donec rutrum sed sem quis venenatis. Proin eu ipsum in lectus mollis penatibus \cite{santos2024, oliveira2023}.\footnote{Este é um exemplo de nota de rodapé. Notas de rodapé são úteis para adicionar informações complementares sem interromper o fluxo do texto principal.}
 
-Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed aliquam, nulla quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris \cite{silva2025}. Como discutido por Brown e Taylor \cite[p.~45]{brown2023}, os métodos clássicos ainda são fundamentais para a compreensão moderna dos sistemas dinâmicos.
+% Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed aliquam, nulla quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris \cite{silva2025}. Como discutido por Brown e Taylor \cite[p.~45]{brown2023}, os métodos clássicos ainda são fundamentais para a compreensão moderna dos sistemas dinâmicos.
+
+Os Objetivos de Desenvolvimento Sustentável (ODSs) foram adotados pela Organização das Nações Unidas \cite{ONU2025} no ano de 2015, estabelecendo parâmetros para políticas nacionais sobre 17 temáticas que impactam o desenvolvimento humano em todos os países. Entre esses objetivos, o projeto de identificação da pinta preta (\emph{Phyllosticta citricarpa}) por visão computacional relaciona-se profundamente com as ODSs 2, 9 e 12, que propõem medidas para garantir segurança alimentar com agricultura sustentável, fomento da inovação nos setores produtivos e eficiência no uso dos recursos naturais, respectivamente. Esses objetivos serão trabalhados com enfoque na tangerina ponkan (\emph{Citrus reticulata}), uma cultura de destaque na região do Vale do Ribeira.
+
+Sendo o Brasil o maior produtor mundial de laranja e suco de laranja (USDA, 2025) \cite{USDA2025}, torna-se evidente a importância nacional deste gênero conhecido como citros (\emph{Citrus}), composto por espécies de laranja, limão, lima, tangerina/mexerica, pomelo/toranja e cidra. Dentre elas, a tangerina possui um grande valor socioeconômico no Vale do Ribeira e uma forte presença na agricultura familiar regional. Segundo o Departamento de Economia Rural (DERAL/SEAB) \cite{DERAL2024}, a citricultura permanece a principal atividade de fruticultura paranaense, ocupando 6,9 mil hectares do estado no ano de 2024. Outro levantamento realizado pela Embrapa \cite{Embrapa2024} no mesmo ano apontou que municípios do Vale do Ribeira aparecem entre os maiores produtores, como Pariquera-Açu (SP) e Iguape (SP) com produção anual superior a 23 mil e 5,6 mil toneladas, respectivamente.
+
+Nesse contexto, a conexão entre citricultura e agricultura familiar torna-se um pilar fundamental no desenvolvimento da região, considerando que "mais de 60\% dos estabelecimentos agrícolas do Vale do Ribeira são compostos por pequenos agricultores familiares" (tradução nossa) (PAGASSINI et al., 2024) \cite{Pagassini2024}. Para esse grupo social, a tangerina ponkan representa o atendimento de muitas necessidades, uma vez que se adaptou bem às condições edafoclimáticas locais. A drenagem do solo incentiva o crescimento de raízes profundas para melhor captação de água; enquanto o clima subtropical úmido, com alta umidade relativa do ar e temperaturas moderadas a altas, favorece a suculência e o tamanho dos frutos (BORGES et al., 2021) \cite{Borges2021}.
+
+Essas características de agrado do consumidor definem a tangerina como um produto de comercialização principalmente \emph{in-natura}, abastecendo não apenas o mercado externo, mas toda uma cadeia de pequenas propriedades que são afetadas diretamente pelos problemas da cultura. Por exemplo, a sazonalidade do mercado, em razão da safra concentrada entre os meses de abril e julho, pode afetar diretamente famílias que têm o cultivo de ponkan como fonte de renda principal. Outro fator decisivo é a produtividade, muitas vezes prejudicada por questões fitossanitárias, ou seja, pragas e doenças. 
+
+O cenário nacional de citros enfrenta grandes ameaças de agentes nocivos como insetos, bactérias e fungos. Uma das doenças mais importantes é a pinta preta ou mancha preta dos citros, a qual, segundo Silva Junior (2016, p. 14) \cite{SilvaJunior2016}, foi relatada em 1980 no estado do Rio de Janeiro e encontra-se praticamente em todas as regiões citrícolas do país. Trata-se de uma doença fúngica causada pelas variações de reprodução sexuada \emph{Phyllostictina citricarpa} e assexuada \emph{Guignardia citricarpa}, caracterizada pela queda prematura dos frutos, cujas cascas são acometidas por lesões que também desqualificam significativamente o produto para comercialização. Ademais, lesões de pinta preta são dotadas de certa variabilidade e podem se assemelhar a danos mecânicos ou insetos, confundindo o produtor. Os principais sintomas são manchas dura, sardenta, virulenta, rendilhada, trincada e a falsa melanose, com manifestação favorecida pela exposição ao sol em altas temperaturas. Portanto, “o manejo da doença em pomares para o mercado interno deve ser muito rigoroso e eficiente” (SILVA JUNIOR et al., 2016) \cite{SilvaJunior2016}.
+
+Para o enfrentamento de desafios fitossanitários como esse, o conceito de agricultura de precisão (AP) tem se destacado como uma abordagem inteligente da prática agrícola. Segundo Molin, Amaral e Colaço (2015) \cite{Molin2015}, a AP esteve fortemente vinculada ao georreferenciamento no seu início, e mais recentemente pode ser entendida como a aplicação da tecnologia da informação (TI) em campo. Sua finalidade de reduzir custos e aumentar produtividade baseia-se na compreensão de que as propriedades agrícolas não são uniformes espacialmente ou ao longo do tempo, o que exige o desenvolvimento de estratégias para gerenciar a heterogeneidade das lavouras e seus respectivos problemas.
+
+Nesse retrato, a visão computacional (VC) “pode ser empregada na detecção de doenças e pragas, na estimação de safra e na avaliação não invasiva de atributos como qualidade, aparência e volume, além de ser componente essencial em sistemas robóticos agrícolas” (SANTOS et al., 2020) \cite{santos2020visao}. O mesmo estudo aborda a classificação de padrões associados a objetos de interesse e sintomas de doenças e pragas como problemas  perceptuais abordados pela visão computacional, geralmente capturados em imagens por câmeras acopladas em tratores, robôs e drones. Cita também os problemas geométricos, advindos da perda de informações de profundidade em imagens bidimensionais e que podem ser recuperadas por algoritmos de visão computacional que interpretem múltiplas imagens de uma mesma cena.
 
 % Objetivo
 \section{Objetivo}
 
-\lipsum[4] O principal objetivo deste trabalho é apresentar uma análise detalhada dos sistemas complexos utilizando métodos computacionais avançados. Os objetivos específicos incluem:
+Desenvolver um sistema capaz de identificar sintomas da pinta preta na tangerina ponkan, capturados em foto via câmera de telefone celular, utilizando métodos de Inteligência Artificial e Visão Computacional de modo a otimizar as medidas preventivas em campo. 
+
+Em paralelo, o projeto possui objetivos secundários que complementam sua finalidade principal:
 
 \begin{itemize}
-    \item Desenvolver modelos matemáticos para representação de sistemas dinâmicos;
-    \item Implementar algoritmos numéricos eficientes para solução de equações diferenciais;
-    \item Validar os resultados através de simulações computacionais;
-    \item Comparar diferentes abordagens metodológicas existentes na literatura \cite{kumar2024, wang2023}.
+    \item Emitir recomendações de manejo personalizadas para o produtor, baseadas em dados climáticos;
+    \item Gerar mapa dos pontos de infecção e áreas de risco para o pomar, baseado em geolocalização; 
+    \item Utilizar conjuntos de dados organizados e diversificados com sintomas da pinta preta para treinamento e teste de algoritmo de aprendizado de máquina.
 \end{itemize}
 
 % Estado da Arte
 \section{Estado da Arte}
 
-\lipsum[5] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diversos estudos têm explorado a aplicação de métodos numéricos em sistemas complexos. Segundo \cite{johnson2024}, a utilização de técnicas avançadas permite uma melhor compreensão dos fenômenos físicos.
+A detecção automatizada de doenças na agricultura tornou-se essencial para reduzir perdas produtivas e substituir a subjetividade da inspeção visual humana. Para atender a essa demanda, a literatura recente abandonou o processamento manual de imagens em favor das redes neurais convolucionais. Esse avanço reflete a necessidade atual do setor: criar sistemas de visão computacional rápidos, capazes de operar sob as interferências de um ambiente real de plantação e acessíveis diretamente por smartphones.
 
-\lipsum[6] Os métodos clássicos de análise numérica, como o método de Euler e Runge-Kutta, têm sido amplamente utilizados na literatura \cite{brown2023}. Essas abordagens tradicionais estabeleceram as bases para o desenvolvimento de técnicas mais sofisticadas.
+As abordagens iniciais para o diagnóstico de doenças apoiaram-se em Redes Neurais Artificiais (RNAs) clássicas e extração manual de características. Um exemplo desse cenário é o trabalho de Ribeiro, Castro Jorge e Paiva (2012) \cite{Ribeiro2012}, cujo objetivo foi diferenciar o greening de outras doenças foliares e deficiências nutricionais em citros, uma vez que a identificação visual é falha e a técnica molecular PCR (Reação em Cadeia da Polimerase) é cara e demorada. Foram usadas amostras de 60 folhas de citros com sintomas de greening, clorose variegada dos citros, rubelose e deficiências de magnésio, manganês e zinco, cujas imagens foram digitalizadas em scanner fotográfico.
 
-\lipsum[7] Métodos mais recentes incorporam técnicas de aprendizado de máquina e inteligência artificial \cite{zhang2025}, expandindo significativamente as possibilidades de análise e modelagem de sistemas complexos.
+O pré-processamento baseou-se na segmentação das cores verdes, amarelas e marrons das manchas do greening por meio de uma RNA treinada com 46 imagens, enquanto as restantes foram utilizadas para validação. Todo o treinamento foi feito com pixels rotulados, processados por três camadas escondidas e convertidos em máscaras binárias que definiam as manchas. Em seguida, foram extraídos descritores de forma por meio de cálculos matemáticos aplicados às máscaras binárias, gerando atributos armazenados em vetores e posteriormente organizados em quadrantes que mediam a assimetria das manchas. A classificação das doenças também utilizou RNA e construiu escalas de severidade dos sintomas em diagramas.
+
+O estudo destaca desafios como a alta similaridade entre sintomas, a amostra reduzida de 60 folhas e o uso isolado da cor amarela, que não foi suficiente para discriminar o greening. Ainda assim, a segmentação por cor utilizando RNA obteve 96,04\% de precisão. Entretanto, na classificação geral considerando todas as doenças, os resultados variaram entre 43\% e 63\%. Concluiu-se que a RNA foi viável para auxiliar na diferenciação do greening e pode complementar a inspeção visual no campo, porém é necessário combinar a classificação de cores com descritores de forma para elevar a acurácia (Ribeiro; Castro Jorge; Paiva, 2012) \cite{Ribeiro2012}.
+
+Superando as limitações da extração manual das RNAs clássicas, Marques, Pontelli e Paiva (2022) \cite{Marques2022} propuseram a identificação do greening em plantações de citros por meio de Redes Neurais Convolucionais Profundas (CNNs). A metodologia baseou-se na técnica de aprendizado por transferência utilizando a arquitetura InceptionV3, implementada em linguagem Python com as bibliotecas Keras, Tensorflow, Numpy e Sklearn. As imagens foram capturadas por câmeras digitais e divididas em dois conjuntos estratégicos: folhas com fundo homogêneo e folhas com fundo real. O principal desafio de estudo foi garantir que a rede extraísse características consistentes lidando com ruídos visuais típicos de ambientes abertos, como solo, galhos e variações de iluminação.
+
+Para aumentar a variabilidade e quantidade de dados, aplicou-se a técnica de data augmentation, submetendo as imagens a transformações de translação, rotação, zoom e variação de brilho. O treinamento comparou duas abordagens: treinar apenas as camadas finais ou ajustar todos os pesos neurais da rede. Os resultados demonstram que o treinamento de todas as camadas foi substancialmente superior, atingindo 99,33\% de acurácia nas imagens de estúdio. No teste de maior exigência, com fundo real de campo, o modelo sustentou uma precisão de 95,99\%. Concluiu-se que o uso de CNNs e câmeras digitais é capaz de superar as taxas de erro da inspeção visual, identificando plantas doentes diretamente no ambiente de plantação. 
+
+Um estudo mais recente e próximo dos objetivos deste projeto foi desenvolvido por Momeny et al. (2022) \cite{Momeny2022}, que aprofundaram o uso de redes neurais convolucionais (CNNs) aliadas a uma estratégia denominada \emph{learning-to-augment}, responsável por criar dados artificiais para treinamento do modelo na detecção da pinta preta \emph{(black spot)} em laranjas. O conjunto de dados utilizado totalizou 1.896 imagens de laranjas divididas em classes de frutos verdes, meia-maturação, maduros e com pinta preta, todas capturadas com um smartphone Samsung SM-J500H com câmera de 4128 × 2322 pixels.
+
+Também foi utilizada uma versão do MATLAB como software de processamento, e diferentes modelos de \emph{deep learning} foram avaliados, como MobileNetV2, GoogleNet e DenseNet201. Os resultados demonstraram melhor desempenho do modelo ResNet50, que alcançou acurácia total de 99,5\%, com 100\% de sensibilidade e especificidade, ou seja, sem deixar de identificar frutos doentes nem confundir frutos saudáveis (Momeny et al., 2022) \cite{Momeny2022}.
+
+Enquanto o trabalho inicial de Ribeiro, Castro Jorge e Paiva (2012) \cite{Ribeiro2012} evidencia o esgotamento dos métodos matemáticos manuais de processamento de cor em imagens de scanner, Marques, Pontelli e Paiva (2022) \cite{Marques2022} provam a viabilidade das CNNs para contornar ruídos visuais em ambientes reais de plantação usando câmeras comuns. Já Momeny et al. (2022) \cite{Momeny2022} demonstraram que um sistema rápido e de baixo custo, utilizando câmeras de smartphones, pode ser aplicado à detecção da pinta preta. Além disso, o estudo obteve êxito no uso da técnica learning-to-augment em comparação com métodos tradicionais de aumento de amostras, como rotação e \emph{flip}. Considerando que as CNNs são tipos específicos de RNAs especializadas em dados com estrutura espacial, como imagens, áudios e vídeos, esse estudo oferece direcionamentos importantes para o desenvolvimento da rede neural deste projeto.
+
 
 % Metodologia
 \section{Metodologia}
 
-\lipsum[8] A metodologia desenvolvida neste trabalho segue as etapas ilustradas na Figura \ref{fig:exemplo} e descritas a seguir.
+Esta pesquisa caracteriza-se como um estudo de natureza aplicada com abordagem experimental, voltada ao desenvolvimento de um sistema multiplataforma de pré-diagnóstico fitossanitário para a identificação precoce da Pinta Preta (Phyllosticta citricarpa) na cultura da tangerina Ponkan, visando a otimização de medidas preventivas no Vale do Ribeira.
 
-\subsection{Coleta de Dados}
+O sistema será estruturado em uma arquitetura de microsserviços. A orquestração da Interface de Programação de Aplicações (API) será realizada em Node.js, enquanto o processamento de Inteligência Artificial (IA) utilizará a linguagem Python. A persistência dos dados ocorrerá em banco de dados MySQL via Object-Relational Mapping (ORM) Sequelize, com o suporte do Redis e da biblioteca BullMQ para o gerenciamento de filas assíncronas.
 
-\lipsum[9] Os dados foram coletados através de simulações computacionais utilizando parâmetros específicos. A Tabela \ref{tab:parametros} apresenta os principais parâmetros utilizados nas simulações.
+A comunicação entre os módulos ocorrerá via API com estilo arquitetural Representational State Transfer (REST). Para garantir a responsividade da interface (React Native e Next.js), o processamento de imagens será delegado a workers assíncronos. O pipeline de tratamento utilizará a biblioteca Sharp para redimensionamento (224x224 px), filtragem de ruído, ajustes de contraste, conversão para padrão sRGB e extração de buffer binário.
 
-\begin{table}[H]
-\centering
-\caption{Parâmetros utilizados nas simulações computacionais}
-\label{tab:parametros}
-\begin{tabular}{@{}lccl@{}}
-\toprule
-\textbf{Parâmetro} & \textbf{Símbolo} & \textbf{Valor} & \textbf{Unidade} \\ \midrule
-Tempo de simulação & $T_{sim}$ & 1000 & s \\
-Passo de integração & $\Delta t$ & 0.01 & s \\
-Número de iterações & $N_{iter}$ & 10000 & - \\
-Tolerância & $\epsilon$ & $10^{-6}$ & - \\
-Fator de amortecimento & $\zeta$ & 0.15 & - \\
-Frequência natural & $\omega_n$ & 25.0 & rad/s \\ \bottomrule
-\end{tabular}
-\end{table}
+A inferência será realizada por uma Rede Neural Convolucional (CNN) de duas fases: o algoritmo YOLO detectará as lesões e a rede EfficientNet as classificará, adotando um limiar de confiança de 80\%. O sistema operará através dos módulos de Diagnóstico, Contexto, Recomendação (baseado em protocolos da Embrapa e Fundecitrus) e Diagramação, utilizando a estratégia de "deleção lógica" para assegurar a rastreabilidade dos registros.
 
-\subsection{Processamento e Análise}
+O fluxo da arquitetura (Figura 1) iniciar-se-á com o upload das imagens pelo cliente (Etapa A), que serão salvas pela API e registradas como "Pendente" (Etapa B). O job será enviado à fila assíncrona (Etapa C), onde o worker acionará o tratamento via Sharp (Etapa D).
 
-\lipsum[10] O processamento dos dados seguiu um protocolo rigoroso de análise estatística. Os métodos numéricos clássicos foram implementados, incluindo o método de Euler, cuja equação fundamental é expressa como:
+A imagem tratada será submetida ao modelo de IA (Etapa E) para inferência. Caso o diagnóstico seja positivo (Etapa F), o sistema aplicará as regras de negócio da Embrapa para gerar um Plano de Ação (Etapa G) e persistirá o resultado no MySQL (Etapa H).
 
-\begin{equation}
-\frac{dy}{dt} = f(t, y), \quad y(t_0) = y_0
-\label{eq:euler}
-\end{equation}
+Ao finalizar, o sistema atualizará o status da análise para "Concluída" (Etapa I), disparando a notificação de resultado para a interface do usuário (Etapa J). Se o diagnóstico for negativo, o sistema desativará a análise, mantendo o banco de dados otimizado.
 
-onde $f(t, y)$ representa a função que descreve o sistema dinâmico. Para otimização dos parâmetros do modelo, utilizou-se a seguinte função de custo:
-
-\begin{equation}
-J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} \left(h_\theta(x^{(i)}) - y^{(i)}\right)^2 + \frac{\lambda}{2m}\sum_{j=1}^{n}\theta_j^2
-\label{eq:cost_function}
-\end{equation}
-
-onde $\theta$ representa os parâmetros do modelo, $m$ é o número de amostras, $\lambda$ é o parâmetro de regularização, e $h_\theta(x)$ é a hipótese do modelo. A transformada de Fourier foi aplicada para análise no domínio da frequência:
-
-\begin{equation}
-F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} dt
-\label{eq:fourier}
-\end{equation}
+Este ciclo assíncrono garantirá a escalabilidade do sistema. Para validar a arquitetura, serão realizados testes em ambiente controlado, simulando acessos sob variadas condições de luz e ruído, visando aferir a robustez do pipeline e a precisão da classificação final da IA.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.7\textwidth]{imgs/img_001.jpg}
-\caption{Exemplo de visualização dos resultados obtidos através da metodologia proposta. A figura ilustra o comportamento do sistema ao longo do tempo.}
+\includegraphics[width=\textwidth]{imgs/fluxo2.png}
+\caption{A figura ilustra o comportamento do sistema durante o fluxo de processamento de imagens.}
 \label{fig:exemplo}
 \end{figure}
 
-\subsection{Validação do Modelo}
+% \subsection{Coleta de Dados}
 
-\lipsum[11] A validação foi realizada comparando os resultados simulados com dados experimentais. O erro médio quadrático (RMSE) foi calculado através de:
+% \lipsum[9] Os dados foram coletados através de simulações computacionais utilizando parâmetros específicos. A Tabela \ref{tab:parametros} apresenta os principais parâmetros utilizados nas simulações.
 
-\begin{equation}
-RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
-\label{eq:rmse}
-\end{equation}
+% \begin{table}[H]
+% \centering
+% \caption{Parâmetros utilizados nas simulações computacionais}
+% \label{tab:parametros}
+% \begin{tabular}{@{}lccl@{}}
+% \toprule
+% \textbf{Parâmetro} & \textbf{Símbolo} & \textbf{Valor} & \textbf{Unidade} \\ \midrule
+% Tempo de simulação & $T_{sim}$ & 1000 & s \\
+% Passo de integração & $\Delta t$ & 0.01 & s \\
+% Número de iterações & $N_{iter}$ & 10000 & - \\
+% Tolerância & $\epsilon$ & $10^{-6}$ & - \\
+% Fator de amortecimento & $\zeta$ & 0.15 & - \\
+% Frequência natural & $\omega_n$ & 25.0 & rad/s \\ \bottomrule
+% \end{tabular}
+% \end{table}
 
-onde $y_i$ são os valores observados e $\hat{y}_i$ são os valores preditos pelo modelo.
+% \subsection{Processamento e Análise}
 
-% Resultados e Discussões
-\section{Resultados e Discussões}
+% \lipsum[10] O processamento dos dados seguiu um protocolo rigoroso de análise estatística. Os métodos numéricos clássicos foram implementados, incluindo o método de Euler, cuja equação fundamental é expressa como:
 
-\lipsum[12-13] Os resultados obtidos demonstram a eficácia da metodologia proposta. A Tabela \ref{tab:resultados} apresenta uma comparação quantitativa entre diferentes abordagens.
+% \begin{equation}
+% \frac{dy}{dt} = f(t, y), \quad y(t_0) = y_0
+% \label{eq:euler}
+% \end{equation}
 
-\begin{table}[H]
-\centering
-\caption{Comparação de desempenho entre diferentes métodos}
-\label{tab:resultados}
-\begin{tabular}{@{}lccc@{}}
-\toprule
-\textbf{Método} & \textbf{RMSE} & \textbf{Tempo (s)} & \textbf{Precisão (\%)} \\ \midrule
-Método Proposto & 0.0023 & 15.2 & 98.5 \\
-Euler Clássico & 0.0145 & 8.7 & 92.3 \\
-Runge-Kutta 4ª ordem & 0.0038 & 21.5 & 97.1 \\
-Método Adaptativo & 0.0031 & 18.9 & 97.8 \\ \bottomrule
-\end{tabular}
-\end{table}
+% onde $f(t, y)$ representa a função que descreve o sistema dinâmico. Para otimização dos parâmetros do modelo, utilizou-se a seguinte função de custo:
 
-\subsection{Análise Quantitativa}
+% \begin{equation}
+% J(\theta) = \frac{1}{2m} \sum_{i=1}^{m} \left(h_\theta(x^{(i)}) - y^{(i)}\right)^2 + \frac{\lambda}{2m}\sum_{j=1}^{n}\theta_j^2
+% \label{eq:cost_function}
+% \end{equation}
 
-\lipsum[14] Os dados quantitativos revelam que o método proposto apresenta melhor desempenho em termos de precisão. A relação entre os parâmetros pode ser expressa por:
+% onde $\theta$ representa os parâmetros do modelo, $m$ é o número de amostras, $\lambda$ é o parâmetro de regularização, e $h_\theta(x)$ é a hipótese do modelo. A transformada de Fourier foi aplicada para análise no domínio da frequência:
 
-\begin{equation}
-\eta = \frac{P_{out}}{P_{in}} \times 100\% = \frac{V_{out} \cdot I_{out}}{V_{in} \cdot I_{in}} \times 100\%
-\label{eq:efficiency}
-\end{equation}
+% \begin{equation}
+% F(\omega) = \int_{-\infty}^{\infty} f(t) e^{-i\omega t} dt
+% \label{eq:fourier}
+% \end{equation}
 
-onde $\eta$ representa a eficiência do sistema, $P_{out}$ é a potência de saída e $P_{in}$ é a potência de entrada.
+% \begin{figure}[H]
+% \centering
+% \includegraphics[width=0.7\textwidth]{imgs/img_001.jpg}
+% \caption{Exemplo de visualização dos resultados obtidos através da metodologia proposta. A figura ilustra o comportamento do sistema ao longo do tempo.}
+% \label{fig:exemplo}
+% \end{figure}
 
-\subsection{Análise Qualitativa}
+% \subsection{Validação do Modelo}
 
-\lipsum[15] Do ponto de vista qualitativo, observou-se que o comportamento do sistema é fortemente influenciado pelas condições iniciais e pelos parâmetros de controle. A matriz de transformação pode ser representada como:
+% \lipsum[11] A validação foi realizada comparando os resultados simulados com dados experimentais. O erro médio quadrático (RMSE) foi calculado através de:
 
-\begin{equation}
-\mathbf{A} = \begin{bmatrix}
-a_{11} & a_{12} & a_{13} \\
-a_{21} & a_{22} & a_{23} \\
-a_{31} & a_{32} & a_{33}
-\end{bmatrix}
-\label{eq:matrix}
-\end{equation}
+% \begin{equation}
+% RMSE = \sqrt{\frac{1}{n}\sum_{i=1}^{n}(y_i - \hat{y}_i)^2}
+% \label{eq:rmse}
+% \end{equation}
 
-\subsection{Discussão}
+% onde $y_i$ são os valores observados e $\hat{y}_i$ são os valores preditos pelo modelo.
 
-\lipsum[16-17] A análise dos resultados indica que a abordagem proposta oferece vantagens significativas em relação aos métodos tradicionais. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+% % Resultados e Discussões
+% \section{Resultados e Discussões}
 
-Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+% \lipsum[12-13] Os resultados obtidos demonstram a eficácia da metodologia proposta. A Tabela \ref{tab:resultados} apresenta uma comparação quantitativa entre diferentes abordagens.
 
-% Conclusão
-\section{Conclusão}
+% \begin{table}[H]
+% \centering
+% \caption{Comparação de desempenho entre diferentes métodos}
+% \label{tab:resultados}
+% \begin{tabular}{@{}lccc@{}}
+% \toprule
+% \textbf{Método} & \textbf{RMSE} & \textbf{Tempo (s)} & \textbf{Precisão (\%)} \\ \midrule
+% Método Proposto & 0.0023 & 15.2 & 98.5 \\
+% Euler Clássico & 0.0145 & 8.7 & 92.3 \\
+% Runge-Kutta 4ª ordem & 0.0038 & 21.5 & 97.1 \\
+% Método Adaptativo & 0.0031 & 18.9 & 97.8 \\ \bottomrule
+% \end{tabular}
+% \end{table}
 
-\lipsum[18] Com base nos resultados obtidos, conclui-se que a metodologia desenvolvida apresenta excelente desempenho para análise de sistemas complexos. As principais contribuições deste trabalho incluem:
+% \subsection{Análise Quantitativa}
 
-\begin{itemize}
-    \item Desenvolvimento de um framework computacional robusto;
-    \item Validação experimental dos modelos propostos;
-    \item Comparação sistemática com métodos existentes;
-    \item Identificação de limitações e oportunidades de melhoria.
-\end{itemize}
+% \lipsum[14] Os dados quantitativos revelam que o método proposto apresenta melhor desempenho em termos de precisão. A relação entre os parâmetros pode ser expressa por:
 
-Trabalhos futuros incluem a extensão da metodologia para sistemas multidimensionais e a incorporação de técnicas de otimização avançadas.
+% \begin{equation}
+% \eta = \frac{P_{out}}{P_{in}} \times 100\% = \frac{V_{out} \cdot I_{out}}{V_{in} \cdot I_{in}} \times 100\%
+% \label{eq:efficiency}
+% \end{equation}
 
-% Agradecimentos
-\section*{Agradecimentos}
+% onde $\eta$ representa a eficiência do sistema, $P_{out}$ é a potência de saída e $P_{in}$ é a potência de entrada.
 
-Os autores agradecem à Faculdade de Tecnologia do Estado de São Paulo (FATEC) e ao Centro Paula Souza (CPS) pelo apoio institucional. Este trabalho foi parcialmente financiado pela FAPESP (proc. 2024/12345-6) e CNPq (proc. 301234/2024-0).
+% \subsection{Análise Qualitativa}
+
+% \lipsum[15] Do ponto de vista qualitativo, observou-se que o comportamento do sistema é fortemente influenciado pelas condições iniciais e pelos parâmetros de controle. A matriz de transformação pode ser representada como:
+
+% \begin{equation}
+% \mathbf{A} = \begin{bmatrix}
+% a_{11} & a_{12} & a_{13} \\
+% a_{21} & a_{22} & a_{23} \\
+% a_{31} & a_{32} & a_{33}
+% \end{bmatrix}
+% \label{eq:matrix}
+% \end{equation}
+
+% \subsection{Discussão}
+
+% \lipsum[16-17] A análise dos resultados indica que a abordagem proposta oferece vantagens significativas em relação aos métodos tradicionais. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.
+
+% Proin adipiscing porta tellus, ut feugiat nibh adipiscing sit amet. In eu justo a felis faucibus ornare vel id metus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+
+% % Conclusão
+% \section{Conclusão}
+
+% \lipsum[18] Com base nos resultados obtidos, conclui-se que a metodologia desenvolvida apresenta excelente desempenho para análise de sistemas complexos. As principais contribuições deste trabalho incluem:
+
+% \begin{itemize}
+%     \item Desenvolvimento de um framework computacional robusto;
+%     \item Validação experimental dos modelos propostos;
+%     \item Comparação sistemática com métodos existentes;
+%     \item Identificação de limitações e oportunidades de melhoria.
+% \end{itemize}
+
+% Trabalhos futuros incluem a extensão da metodologia para sistemas multidimensionais e a incorporação de técnicas de otimização avançadas.
+
+% % Agradecimentos
+% \section*{Agradecimentos}
+
+% Os autores agradecem à Faculdade de Tecnologia do Estado de São Paulo (FATEC) e ao Centro Paula Souza (CPS) pelo apoio institucional. Este trabalho foi parcialmente financiado pela FAPESP (proc. 2024/12345-6) e CNPq (proc. 301234/2024-0).
 
 % Referências
 \bibliographystyle{IEEEtran}
