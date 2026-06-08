@@ -528,6 +528,8 @@ INPUT .\imgs\base\cps-logo.png
 INPUT .\imgs\base\cps-logo.png
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\vf\google\roboto\Roboto-Regular-lf-t1.vf
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\google\roboto\Roboto-Regular-lf-t1--base.tfm
+INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\vf\google\roboto\Roboto-Regular-lf-t1.vf
+INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\google\roboto\Roboto-Regular-lf-t1--base.tfm
 INPUT .\imgs\base\fatec-rgt.png
 INPUT .\imgs\base\fatec-rgt.png
 INPUT .\imgs\base\fatec-rgt.png
@@ -584,8 +586,6 @@ INPUT .\imgs\base\cps-logo.png
 INPUT .\imgs\base\cps-logo.png
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\vf\google\roboto\Roboto-Italic-lf-t1.vf
 INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\google\roboto\Roboto-Italic-lf-t1--base.tfm
-INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\vf\google\roboto\Roboto-Regular-lf-t1.vf
-INPUT C:\Users\guilh\AppData\Local\Programs\MiKTeX\fonts\tfm\google\roboto\Roboto-Regular-lf-t1--base.tfm
 INPUT .\imgs\base\fatec-rgt.png
 INPUT .\imgs\base\fatec-rgt.png
 INPUT .\imgs\base\fatec-rgt.png
