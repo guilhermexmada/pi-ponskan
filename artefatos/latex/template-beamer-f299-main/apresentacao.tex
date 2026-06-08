@@ -85,9 +85,9 @@
 }
 
 % Informações da apresentação
-\title{Modelo Latex Beamer para \\Desenvolvimento de Software Multiplataforma}
+\title{Sistema para Identificação a Pinta Preta na Tangerina \\Ponkan, orientado por Visão Computacional}
 \subtitle{}
-\author[DSM]{SOBRENOME, F.; SOBRENOME, C.; SOBRENOME, B.}
+\author[DSM]{PARRA, A.; FIEL, D.; PEREIRA, G.; KLETELINGER, G.; OLIVEIRA, M.}
 \institute{Desenvolvimento de Software Multiplataforma\\FATEC Registro}
 \date{\today}
 
@@ -136,12 +136,11 @@
   \begin{itemize}
     \item Pitch
     \item Problematização
-    \item Estado da Arte
     \item Objetivo
+    \item Estado da Arte
     \item Ferramental
     \item Metodologia
     \item Apresentação prática
-    \item Resultados e Discussões
   \end{itemize}
   
   \vfill
@@ -152,20 +151,34 @@
 \section{Pitch}
 {
 \usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_001.jpg}%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/wallpaper.jpg}%
 }
 \begin{frame}[b]{Pitch}
-  \begin{itemize}
-    \item \parbox{0.60\textwidth}{Apresentação concisa e objetiva do projeto}
-    \item \parbox{0.60\textwidth}{Destaque do \textbf{problema} que o projeto resolve}
-    \item \parbox{0.60\textwidth}{Proposta de \textbf{valor} e diferenciais da solução}
-    \item \parbox{0.60\textwidth}{Público-alvo e \textbf{impacto} esperado}
-    \item \parbox{0.60\textwidth}{Visão geral das \textbf{tecnologias} utilizadas}
-  \end{itemize}
+
+\vspace*{\fill}
+
+\begin{center}
+
+  \includegraphics[width=4cm, height=2cm]{imgs/thumb.png}
+
+  \vspace{1cm}
+
+  Clique \href{https://www.youtube.com/watch?v=Qy9XhNMbdHU}{aqui} para assistir.
+\end{center}
+
+\vspace*{\fill}
+
+  % \begin{itemize}
+  %   \item \parbox{0.60\textwidth}{Apresentação concisa e objetiva do projeto}
+  %   \item \parbox{0.60\textwidth}{Destaque do \textbf{problema} que o projeto resolve}
+  %   \item \parbox{0.60\textwidth}{Proposta de \textbf{valor} e diferenciais da solução}
+  %   \item \parbox{0.60\textwidth}{Público-alvo e \textbf{impacto} esperado}
+  %   \item \parbox{0.60\textwidth}{Visão geral das \textbf{tecnologias} utilizadas}
+  % \end{itemize}
   
-  \vfill
+  % \vfill
   
-  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+  % {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
 \end{frame}
 }
 
@@ -173,15 +186,40 @@
 
 {
 \usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_002.jpg}%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/wallpaper.jpg}%
 }
 \begin{frame}[b]{Problematização}
   \begin{itemize}
-    \item \parbox{0.60\textwidth}{Contextualização do \textbf{problema} identificado}
-    \item \parbox{0.60\textwidth}{Análise das \textbf{causas} e consequências}
-    \item \parbox{0.60\textwidth}{Impacto no público-alvo ou na área de atuação}
-    \item \parbox{0.60\textwidth}{Justificativa da \textbf{relevância} do projeto}
-    \item \parbox{0.60\textwidth}{Lacunas nas soluções existentes}
+    \item \parbox{0.65\textwidth}{Brasil é o \textbf{maior produtor} de laranja do mundo \break (aprox. \textcolor{orange}{\textbf{75\%}} das exportações mundiais de suco)}
+    \break
+    \item \parbox{0.65\textwidth}{Citricultura é essencial para \textbf{agricultura familiar} \break (\textcolor{orange}{\textbf{+60\%}} dos estabelecimentos agrícolas do Vale do Ribeira)} 
+    \break
+    \item \parbox{0.65\textwidth}{\textbf{Pinta Preta} diminui produtividade pois causa quedas prematuras e manchas}
+    \item \parbox{0.65\textwidth}{Inspeção manual da doença ainda é \textbf{difícil} e \textbf{subjetiva}}
+    \item \parbox{0.65\textwidth}{Pequenos produtores não possuem \textbf{acesso adequado} à tecnologia}
+    \item \parbox{0.65\textwidth}{\textbf{Clima quente e úmido} da região favorece o desenvolvimento do fungo}
+  \end{itemize}
+  
+  \vfill
+  
+  {\fontsize{4}{5}\selectfont\textit{Fonte: USDA (2025)}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+\end{frame}
+}
+
+\section{Objetivo}
+
+{
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/wallpaper.jpg}%
+}
+\begin{frame}[b]{Objetivo}
+  \begin{itemize}
+    \item \parbox{0.60\textwidth}{\textbf{Objetivo geral}: desenvolver sistema para detectar pinta preta em tangerinas usando técnicas de visão computacional}
+    \item \parbox{0.60\textwidth}{\textbf{Objetivos específicos}:}
+    \begin{itemize}
+      \item \parbox{0.55\textwidth}{Emitir recomendações de manejo personalizadas consultando \textcolor{orange}{\textbf{dados climáticos}}}
+      \item \parbox{0.55\textwidth}{Gerar mapa dos pontos de infecção e áreas de risco do pomar usando \textcolor{orange}{\textbf{geolocalização}}}
+    \end{itemize}
   \end{itemize}
   
   \vfill
@@ -192,10 +230,13 @@
 
 \section{Estado da Arte}
 
+\definecolor{verdeClaro}{RGB}{0,198,141}
+\definecolor{azulEscuro}{RGB}{0,51,102}
+
 \begin{frame}[t]{Estado da Arte}
   \scriptsize
   
-  Análise de \textbf{soluções existentes} no mercado, comparação de \textbf{tecnologias} e abordagens, identificação de \textbf{gaps} e oportunidades, referências bibliográficas e \textbf{trabalhos relacionados}, tendências e \textbf{inovações} na área.
+  % Análise de \textbf{soluções existentes} no mercado, comparação de \textbf{tecnologias} e abordagens, identificação de \textbf{gaps} e oportunidades, referências bibliográficas e \textbf{trabalhos relacionados}, tendências e \textbf{inovações} na área.
   
   \vspace{0.3cm}
   
@@ -206,55 +247,30 @@
       \hline
       \textbf{Título/Autores} & \textbf{Objetivo} & \textbf{Método} & \textbf{Resultados} & \textbf{Limitações} & \textbf{Gap} \\
       \hline
-      Classificação de discurso de ódio com Transformers — Silva et al. (2024) & Identificar discurso de ódio em português & Fine-tuning de Transformer com validação cruzada 5-fold & F1 = 0,91, superior a SVM/CNN & Baixo desempenho em textos curtos & Sem explicabilidade e sem tempo real \\
+      Diferenciação do Greening de Outras Doenças Foliares em Citros Utilizando Técnicas de Processamento de Imagens \textit{(Ribeiro; Castro Jorge; Paiva, 2012)} & Diferenciar greening de outras doenças em folhas de citros & Scanner, Segmentação de Cores, Descritores de Forma, RNA & \textcolor{red}{\textbf{43\%}} a \textcolor{red}{\textbf{63\%}} de acurácia na classificação global & Similaridade entre sintomas, Dataset restrito & Não integra dados de contorno + cor \\
       \hline
-      Detecção de pragas agrícolas por CNN — Oliveira e Santos (2023) & Reconhecer pragas em imagens de campo & CNN profunda com transferência de aprendizado & Acurácia = 94\% & Sensível à iluminação/oclusão & Não executa em dispositivos de borda \\
+      Identificação de huanglongbing (hlb) em plantações de citros utilizando redes convolucionais profundas \textit{(Marques; Pontelli; Paiva, 2022)} & Identificar greening em folhas de citros utilizando CNN & Câmeras digitais \break Data augmentation \break Transfer Learning \break CNN & \textcolor{verdeClaro}{\textbf{95,99\%}} de acurácia em fundos reais & Necessidade de fine-tuning ocasionada pelo pré-treinamento usando ImageNet & Não considera a análise de frutos \\
       \hline
-      Detecção de intrusão com LSTM Autoencoder — Almeida et al. (2022) & Detectar anomalias no tráfego de rede & Autoencoder LSTM para reconstrução de séries temporais & Detecção = 96\% com menos falsos positivos & Alto custo computacional & Sem resposta automática ou interpretabilidade \\
+      Detection of citrus black spot disease and ripeness level in orange fruit using learning-to-augment incorporated deep networks \textit{(Momeny et al., 2022)} & Identificar blackspot e nível de maturação em laranjas & Câmeras digitais \break Diferentes modelos de CNN \break Learning to augment & \textcolor{verdeClaro}{\textbf{99,5\%}} de acurácia com ResNet50 & Risco de overfitting pela desproporção entre dataset e profundidade do ResNet50 & Não valida em outras variedades de citros \\
       \hline
     \end{tabular}
   \end{table}
 \end{frame}
 
-\section{Objetivo}
-
-{
-\usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_004.jpg}%
-}
-\begin{frame}[b]{Objetivo}
-  \begin{itemize}
-    \item \parbox{0.60\textwidth}{\textbf{Objetivo geral}: meta principal do projeto}
-    \item \parbox{0.60\textwidth}{\textbf{Objetivos específicos}:}
-    \begin{itemize}
-      \item \parbox{0.55\textwidth}{Desenvolver funcionalidade X}
-      \item \parbox{0.55\textwidth}{Implementar recurso Y}
-      \item \parbox{0.55\textwidth}{Validar com público-alvo}
-    \end{itemize}
-    \item \parbox{0.60\textwidth}{Resultados esperados e \textbf{entregas}}
-    \item \parbox{0.60\textwidth}{Métricas de \textbf{sucesso} do projeto}
-  \end{itemize}
-  
-  \vfill
-  
-  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
-\end{frame}
-}
-
 \section{Ferramental}
 
 {
 \usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_005.jpg}%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/wallpaper.jpg}%
 }
 \begin{frame}[b]{Ferramental}
   \begin{itemize}
-    \item \parbox{0.60\textwidth}{\textbf{Linguagens}: Python, JavaScript, etc}
-    \item \parbox{0.60\textwidth}{\textbf{Frameworks}: React, Node.js, Django, etc}
-    \item \parbox{0.60\textwidth}{\textbf{Banco de dados}: PostgreSQL, MongoDB, etc}
-    \item \parbox{0.60\textwidth}{\textbf{Infraestrutura}: AWS, Docker, Kubernetes, etc}
-    \item \parbox{0.60\textwidth}{\textbf{Ferramentas}: Git, VS Code, Figma, etc}
-    \item \parbox{0.60\textwidth}{\textbf{APIs} e integrações utilizadas}
+    \item \parbox{0.60\textwidth}{\textbf{Linguagens}: JavaScript, Python}
+    \item \parbox{0.60\textwidth}{\textbf{Frameworks e Bibliotecas}: React, Next, Node, Express, BullMQ, Sharp}
+    \item \parbox{0.60\textwidth}{\textbf{Banco de dados}: MySQL, Redis}
+    % \item \parbox{0.60\textwidth}{\textbf{Infraestrutura}: AWS, Docker, Kubernetes, etc}
+    \item \parbox{0.60\textwidth}{\textbf{Ferramentas}: Git, GitHub, VS Code, Figma, Jira}
+    % \item \parbox{0.60\textwidth}{\textbf{APIs} e integrações utilizadas}
   \end{itemize}
   
   \vfill
@@ -267,13 +283,54 @@
 
 {
 \usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_006.jpg}%
+  % \includegraphics[width=15cm,height=8cm]{imgs/metodologia01.png}%
 }
 \begin{frame}[t]{Metodologia}
-  
-  \scriptsize
-  Apresentação, em formato de fluxograma, dos principais processos implementados no projeto, evidenciando as tecnologias empregadas, tais como Internet das Coisas (IoT), Inteligência Artificial (IA) e Banco de Dados.
 
+  \begin{center}
+    \includegraphics[width=10cm, height=4cm]{imgs/metodologia01.png}
+  \end{center}
+  
+  \break
+  
+  \scriptsize 
+  (A) O produtor rural captura de 1-4 imagens no app Mobile. As imagens são enviadas para nossa API Rest.
+\end{frame}
+
+\begin{frame}[t]{Metodologia}
+
+  \begin{center}
+    \includegraphics[width=10cm, height=4cm]{imgs/metodologia02.png}
+  \end{center}
+  
+  \break
+  
+  \scriptsize 
+  (B-D) Imagens são redimensionadas, filtradas e convertidas em buffer no padrão de cor “sRGB”, em uma fila assíncrona e paralela ao Node.js.
+\end{frame}
+
+\begin{frame}[t]{Metodologia}
+
+  \begin{center}
+    \includegraphics[width=10cm, height=4cm]{imgs/metodologia03.png}
+  \end{center}
+  
+  \break
+  
+  \scriptsize 
+  (E-F) Buffers são enviados para Fast API e classificados por modelo de CNN. Planejamos usar YOLO para segmentação e EfficientNet para classificação.
+\end{frame}
+
+\begin{frame}[t]{Metodologia}
+
+  \begin{center}
+    \includegraphics[width=10cm, height=4cm]{imgs/metodologia04.png}
+  \end{center}
+  
+  \break
+  
+  \scriptsize 
+  (G) Sistema constrói plano de ação com base no pré-diagnóstico, devolvendo os dados para a interface do cliente.
 \end{frame}
 }
 
@@ -281,15 +338,14 @@
 
 {
 \usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_007.jpg}%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/wallpaper.jpg}%
 }
 \begin{frame}[b]{Apresentação Prática}
   \begin{itemize}
     \item \parbox{0.60\textwidth}{\textbf{Demonstração} ao vivo do sistema}
-    \item \parbox{0.60\textwidth}{Principais \textbf{funcionalidades} implementadas}
     \item \parbox{0.60\textwidth}{\textbf{Interface} e experiência do usuário}
-    \item \parbox{0.60\textwidth}{Fluxos de \textbf{uso} e navegação}
-    \item \parbox{0.60\textwidth}{Casos de uso e \textbf{cenários} práticos}
+    \item \parbox{0.60\textwidth}{Principal \textbf{funcionalidade} implementada: Fluxo da análise de amostras}
+    
   \end{itemize}
   
   \vfill
@@ -298,37 +354,37 @@
 \end{frame}
 }
 
-\section{Resultados e Discussões}
+% \section{Resultados e Discussões}
 
-{
-\usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_008.jpg}%
-}
-\begin{frame}[b]{Resultados e Discussões}
-  \begin{itemize}
-    \item \parbox{0.60\textwidth}{Principais \textbf{resultados} alcançados}
-    \item \parbox{0.60\textwidth}{Análise de \textbf{métricas} e indicadores}
-    \item \parbox{0.60\textwidth}{Feedback dos \textbf{usuários} e testes realizados}
-    \item \parbox{0.60\textwidth}{\textbf{Desafios} encontrados e soluções adotadas}
-    \item \parbox{0.60\textwidth}{Contribuições e \textbf{aprendizados} do projeto}
-    \item \parbox{0.60\textwidth}{\textbf{Trabalhos futuros} e melhorias propostas}
-  \end{itemize}
+% {
+% \usebackgroundtemplate{%
+%   \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_008.jpg}%
+% }
+% \begin{frame}[b]{Resultados e Discussões}
+%   \begin{itemize}
+%     \item \parbox{0.60\textwidth}{Principais \textbf{resultados} alcançados}
+%     \item \parbox{0.60\textwidth}{Análise de \textbf{métricas} e indicadores}
+%     \item \parbox{0.60\textwidth}{Feedback dos \textbf{usuários} e testes realizados}
+%     \item \parbox{0.60\textwidth}{\textbf{Desafios} encontrados e soluções adotadas}
+%     \item \parbox{0.60\textwidth}{Contribuições e \textbf{aprendizados} do projeto}
+%     \item \parbox{0.60\textwidth}{\textbf{Trabalhos futuros} e melhorias propostas}
+%   \end{itemize}
   
-  \vfill
+%   \vfill
   
-  {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
-\end{frame}
-}
+%   {\fontsize{4}{5}\selectfont\textit{Fonte: Seu Nome}\hfill\textcolor{white}{Imagem: Descrição da imagem}}
+% \end{frame}
+% }
 
 % Slide Informações Gerais (clone)
 {
 \usebackgroundtemplate{%
-  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/img_022.jpg}%
+  \includegraphics[width=\paperwidth,height=\paperheight]{imgs/wallpaper.jpg}%
 }
 \begin{frame}[b]{}
   \vspace{0.2cm}
   
-  \hspace*{0.25\paperwidth}{\Large \textbf{Obrigado!}}
+  \hspace*{0.25\paperwidth}{\Large \textbf{Obrigado pela atenção!}}
   
   \vfill
 \end{frame}
